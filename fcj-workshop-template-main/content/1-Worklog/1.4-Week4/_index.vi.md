@@ -1,6 +1,6 @@
 ---
-title: "Worklog Tuần 4"
-date: "`r Sys.Date()`"
+title: "Week 4 Worklog"
+date: "2025-10-06"
 weight: 1
 chapter: false
 pre: " <b> 1.4. </b> "
@@ -14,13 +14,13 @@ pre: " <b> 1.4. </b> "
 
 ### Các công việc cần triển khai trong tuần này:
 
-| Thứ | Công việc                                                                                                                                                                                                                 | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                                                                     |
-| --- |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| ------------ | --------------- | ---------------------------------------------------------------------------------- |
-| 2   | - Tạo được tài khoản AWS <br> - Hoàn thành được **200$ credit free**                                                                                                                                                      | 11/08/2025   | 11/08/2025      |                                                                                    |
-| 3   | - Bước đầu thao tác trên AWS: <br>  + Tạo EC2 Instance <br>  + Làm quen với Billing & Cost Management <br>  + Tìm hiểu Aurora & RDS                                                                                       | 12/08/2025   | 12/08/2025      | [https://cloudjourney.awsstudygroup.com/](https://cloudjourney.awsstudygroup.com/) |
-| 4   | - Tìm hiểu và thực hành với **EC2** <br> - Làm quen với **Billing and Cost Management** <br> - Cài đặt và cấu hình **AWS CLI** để quản lý tài nguyên cơ bản                                                               | 13/08/2025   | 13/08/2025      | [https://cloudjourney.awsstudygroup.com/](https://cloudjourney.awsstudygroup.com/) |
-| 5   | - Nghiên cứu và thao tác với **Aurora & RDS** <br> - Tìm hiểu **AWS Private Certificate Authority** <br> - Làm quen với cách quản lý Database trong AWS                                                                   | 14/08/2025   | 14/08/2025      | [https://cloudjourney.awsstudygroup.com/](https://cloudjourney.awsstudygroup.com/) |
-| 6   | - Tìm hiểu **Lambda** và **Amazon Bedrock** <br> - Thực hành triển khai thử nghiệm dịch vụ không máy chủ (serverless) <br> - Củng cố lại các thao tác cơ bản trên Console & CLI <br> - Push thành công thư mục lên Github | 15/08/2025   | 15/08/2025      | [https://cloudjourney.awsstudygroup.com/](https://cloudjourney.awsstudygroup.com/) |
+| Thứ | Công việc                                                                                                                                                                                                                 | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+| --- |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| ------------ | --------------- | -- |
+| 2   | - Tạo được tài khoản AWS <br> - Hoàn thành được **200$ credit free**                                                                                                                                                      | 11/08/2025   | 11/08/2025      | [https://us-east-2.console.aws.amazon.com/console/home?/]   |
+| 3   | - Bước đầu thao tác trên AWS: + Tạo EC2 Instance <br>  + Làm quen với Billing & Cost Management <br> + Tìm hiểu Aurora & RDS                                                                                              | 12/08/2025   | 12/08/2025      | [https://us-east-2.console.aws.amazon.com/console/home?/] |
+| 4   | - Tìm hiểu và thực hành với **EC2** <br> - Làm quen với **Billing and Cost Management** <br> - Cài đặt và cấu hình **AWS CLI** để quản lý tài nguyên cơ bản                                                               | 13/08/2025   | 13/08/2025      | [https://us-east-2.console.aws.amazon.com/console/home?/] |
+| 5   | - Nghiên cứu và thao tác với **Aurora & RDS** <br> - Tìm hiểu **AWS Private Certificate Authority** <br> - Làm quen với cách quản lý Database trong AWS                                                                   | 14/08/2025   | 14/08/2025      | [https://us-east-2.console.aws.amazon.com/console/home?/] |
+| 6   | - Tìm hiểu **Lambda** và **Amazon Bedrock** <br> - Thực hành triển khai thử nghiệm dịch vụ không máy chủ (serverless) <br> - Củng cố lại các thao tác cơ bản trên Console & CLI <br> - Push thành công thư mục lên Github | 15/08/2025   | 15/08/2025      | [https://us-east-2.console.aws.amazon.com/console/home?/] |
 
 
 ### Kết quả đạt được tuần 4:

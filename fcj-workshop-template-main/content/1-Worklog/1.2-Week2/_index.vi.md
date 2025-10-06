@@ -1,10 +1,11 @@
 ---
-title: "Worklog Tuần 2"
-date: "`r Sys.Date()`"
+title: "Week 2 Worklog"
+date: "2025-10-06"
 weight: 1
 chapter: false
 pre: " <b> 1.2. </b> "
 ---
+
 
 
 ### Mục tiêu tuần 2:

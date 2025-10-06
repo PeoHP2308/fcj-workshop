@@ -1,13 +1,11 @@
 ---
-title: "Worklog Tuần 11"
-date: "`r Sys.Date()`"
+title: "Week 11 Worklog"
+date: "2025-10-06"
 weight: 2
 chapter: false
 pre: " <b> 1.11. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
+
 
 
 ### Mục tiêu tuần 11:
