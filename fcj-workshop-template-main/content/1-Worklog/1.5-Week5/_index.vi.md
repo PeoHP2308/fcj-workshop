@@ -20,7 +20,7 @@ pre: " <b> 1.5. </b> "
 | 3   | - Tiếp tục học Module 03 Amazon Elastic Compute Cloud ( EC2 ): <br>&emsp; + EC2 auto scaling <br>&emsp; + EFS/FSx <br>&emsp; + Lightsail<br>&emsp; + MGN                                                                                                       | 7/10/2025    | 7/10/2025       | Youtube: AWS Cloud Journey  |
 | 4   | - Lên Văn phòng học tập <br> - Dịch và chỉnh sửa blog <br>                                                                                                                                                                                                     | 8/10/2025    | 8/10/2025       | Youtube: AWS Cloud Journey  |
 | 5   | - Tìm hiểu Dịch vụ Lưu trữ trên AWS: <br>&emsp; + Amazon SImple Storgae Service - S3 <br>&emsp; + Amazon Storage Gateway <br>&emsp; + Snow Family <br>&emsp; + Disaster Recovery on AWS <br>&emsp; + AWS Backup <br> - Hoàn thành dịch blog và đã kiểm tra lại | 9/10/2025    | 9/10/2025       | Youtube: AWS Cloud Journey  |
-| 6   | - Tiếp tục xem module 04: <br>&emsp; + Access Point <br>&emsp; + Storage Class <br> - Xem S3 Static Website & CORS <br>&emsp; + Control Access <br>&emsp; + Object Key & Performance <br>&emsp; + Glacier                                                      | 15/08/2025   | 15/08/2025      | Youtube: AWS Cloud Journey  |
+| 6   | - Tiếp tục xem module 04: <br>&emsp; + Access Point <br>&emsp; + Storage Class <br> - Xem S3 Static Website & CORS <br>&emsp; + Control Access <br>&emsp; + Object Key & Performance <br>&emsp; + Glacier                                                      | 10/10/2025   | 10/10/2025      | Youtube: AWS Cloud Journey  |
 
 
 ### Kết quả đạt được tuần 5:
