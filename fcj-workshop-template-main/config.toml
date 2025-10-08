@@ -20,18 +20,7 @@ ordersectionsby = "weight"
   showVisitedLinks = true
   disableBreadcrumb = false
   disableNextPrev = false
-  
-[Languages]
-[Languages.en]
-title = "Internship Report"
-weight = 1
-languageName = "English"
-
-[[Languages.en.menu.shortcuts]]
-name = "<i class='fab fa-facebook'></i> AWS Study Group"
-identifier = "AWS Study Group FB"
-url = "https://www.facebook.com/groups/awsstudygroupfcj/"
-weight = 20
+DisableLanguageSwitchingButton = true
 
 [Languages.vi]
 title = "Báo cáo thực tập"

@@ -14,44 +14,38 @@ pre: " <b> 1.5. </b> "
 * Hiểu dịch vụ AWS cơ bản.
 
 ### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                                          | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------|-----------------| ----------------------------------------- |
-| 2   | - Lên văn phòng học tập <br> - Học Module 03 Amazon Elastic Compute Cloud ( EC2 ): <br>&emsp; + AMI / Backup / Key Pair <br>&emsp; +  Elastic block store <br>&emsp; + User data <br>&emsp; + Meta data <br>&emsp; | 6/10/2025    | 6/10/2025       | Youtube: AWS Cloud Journey                |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                                                   | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI                        | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                                         | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                                                | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| Thứ | Công việc                                                                                                                                                                                                                                                      | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu              |
+| --- |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------|-----------------|-----------------------------|
+| 2   | - Lên văn phòng học tập <br> - Học Module 03 Amazon Elastic Compute Cloud ( EC2 ): <br>&emsp; + AMI / Backup / Key Pair <br>&emsp; +  Elastic block store <br>&emsp; + User data <br>&emsp; + Meta data <br> - Đưa thành công dự án lên Static web             | 6/10/2025    | 6/10/2025       | Youtube: AWS Cloud Journey  |
+| 3   | - Tiếp tục học Module 03 Amazon Elastic Compute Cloud ( EC2 ): <br>&emsp; + EC2 auto scaling <br>&emsp; + EFS/FSx <br>&emsp; + Lightsail<br>&emsp; + MGN                                                                                                       | 7/10/2025    | 7/10/2025       | Youtube: AWS Cloud Journey  |
+| 4   | - Lên Văn phòng học tập <br> - Dịch và chỉnh sửa blog <br>                                                                                                                                                                                                     | 8/10/2025    | 8/10/2025       | Youtube: AWS Cloud Journey  |
+| 5   | - Tìm hiểu Dịch vụ Lưu trữ trên AWS: <br>&emsp; + Amazon SImple Storgae Service - S3 <br>&emsp; + Amazon Storage Gateway <br>&emsp; + Snow Family <br>&emsp; + Disaster Recovery on AWS <br>&emsp; + AWS Backup <br> - Hoàn thành dịch blog và đã kiểm tra lại | 9/10/2025    | 9/10/2025       | Youtube: AWS Cloud Journey  |
+| 6   | - Tiếp tục xem module 04: <br>&emsp; + Access Point <br>&emsp; + Storage Class <br> - Xem S3 Static Website & CORS <br>&emsp; + Control Access <br>&emsp; + Object Key & Performance <br>&emsp; + Glacier                                                      | 15/08/2025   | 15/08/2025      | Youtube: AWS Cloud Journey  |
 
 
 ### Kết quả đạt được tuần 5:
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+* **Nắm vững kiến thức về Amazon EC2**, bao gồm:
+    * Khởi tạo và quản lý EC2 Instance
+    * Cấu hình **AMI**, **Elastic Block Store (EBS)**, **User Data** và **Meta Data**
+    * Tạo và quản lý **Key Pair** để đăng nhập bảo mật vào máy ảo
+    * Thực hành **EC2 Auto Scaling** và hiểu cơ chế tự động mở rộng quy mô
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
+* **Hiểu về các dịch vụ lưu trữ trên AWS**, bao gồm:
+    * **Amazon Simple Storage Service (S3)** – lưu trữ đối tượng, quản lý bucket, ACL và CORS
+    * **Amazon Elastic File System (EFS)** và **FSx** – lưu trữ chia sẻ cho nhiều EC2 Instance
+    * **Amazon Storage Gateway** – kết nối hệ thống on-premises với đám mây
+    * **Snow Family** – giải pháp di chuyển dữ liệu quy mô lớn
+    * **AWS Backup** – dịch vụ sao lưu và khôi phục dữ liệu tập trung
 
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
+* **Thực hành triển khai dự án web tĩnh (Static Website)** lên **S3 hoặc EC2**, kiểm tra hoạt động thành công.
 
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
+* **Nắm được cách tối ưu hiệu suất và bảo mật cho S3**, gồm:
+    * Sử dụng **Access Point** và **Storage Class** phù hợp với từng nhu cầu
+    * Hiểu cơ chế **Glacier** cho lưu trữ chi phí thấp, truy cập ít
 
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
+* **Hiểu nguyên lý hoạt động của Disaster Recovery (DR) trên AWS** và các chiến lược sao lưu phục hồi.
 
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
+* **Củng cố kỹ năng dịch và chỉnh sửa blog kỹ thuật AWS**, giúp hiểu sâu hơn về EC2, S3 và Lambda.  
 
 
