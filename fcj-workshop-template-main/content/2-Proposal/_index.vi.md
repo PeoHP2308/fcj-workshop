@@ -7,21 +7,52 @@ pre: " <b> 2. </b> "
 ---
 
 
-Tại phần này, bạn cần tóm tắt các nội dung trong workshop mà bạn **dự tính** sẽ làm.
 
-# IoT Weather Platform for Lab Research  
-## Giải pháp AWS Serverless hợp nhất cho giám sát thời tiết thời gian thực  
 
-### 1. Tóm tắt điều hành  
-IoT Weather Platform được thiết kế dành cho nhóm *ITea Lab* tại TP. Hồ Chí Minh nhằm nâng cao khả năng thu thập và phân tích dữ liệu thời tiết. Nền tảng hỗ trợ tối đa 5 trạm thời tiết, có khả năng mở rộng lên 10–15 trạm, sử dụng thiết bị biên Raspberry Pi kết hợp cảm biến ESP32 để truyền dữ liệu qua MQTT. Nền tảng tận dụng các dịch vụ AWS Serverless để cung cấp giám sát thời gian thực, phân tích dự đoán và tiết kiệm chi phí, với quyền truy cập giới hạn cho 5 thành viên phòng lab thông qua Amazon Cognito.  
+# AWS Cloud Health Dashboard 
+## Comprehensive AWS Infrastructure Monitoring and Optimization Solution  
 
-### 2. Tuyên bố vấn đề  
-*Vấn đề hiện tại*  
-Các trạm thời tiết hiện tại yêu cầu thu thập dữ liệu thủ công, khó quản lý khi có nhiều trạm. Không có hệ thống tập trung cho dữ liệu hoặc phân tích thời gian thực, và các nền tảng bên thứ ba thường tốn kém và quá phức tạp.  
+### 1. Executive Summary 
+AWS Cloud Health Dashboard is a monitoring and optimization platform designed to help businesses and individuals effectively manage the cost, security, and performance of their cloud systems. The platform uses a simple architecture with EC2 and DynamoDB, combined with AWS services such as CloudWatch, Cost Explorer, and Security Hub to provide real-time monitoring and data analysis.
 
-*Giải pháp*  
-Nền tảng sử dụng AWS IoT Core để tiếp nhận dữ liệu MQTT, AWS Lambda và API Gateway để xử lý, Amazon S3 để lưu trữ (bao gồm data lake), và AWS Glue Crawlers cùng các tác vụ ETL để trích xuất, chuyển đổi, tải dữ liệu từ S3 data lake sang một S3 bucket khác để phân tích. AWS Amplify với Next.js cung cấp giao diện web, và Amazon Cognito đảm bảo quyền truy cập an toàn. Tương tự như Thingsboard và CoreIoT, người dùng có thể đăng ký thiết bị mới và quản lý kết nối, nhưng nền tảng này hoạt động ở quy mô nhỏ hơn và phục vụ mục đích sử dụng nội bộ. Các tính năng chính bao gồm bảng điều khiển thời gian thực, phân tích xu hướng và chi phí vận hành thấp.  
+**Key Highlights:** - Operating cost: $12-18/month (leveraging Free Tier) - CloudWatch metrics and AWS cost monitoring - Cost analysis and optimization recommendations based on AWS APIs - Real-time dashboard with data caching - Simple architecture, easy to maintain and scale
+### 2. Problem Statement  
+*Current Problems:*  
+Many businesses and individuals using AWS face the following challenges:
 
+**1. Uncontrolled costs:** Lack of centralized cost monitoring tools leads to unexpectedly high AWS bills. <br>
+**2. Security visibility gaps:** No consolidated dashboard for security findings. <br>
+**3. Scattered metrics:** Must switch between multiple AWS consoles. <br>
+**4. Lack of historical data:** CloudWatch only retains metrics for 15 days (free tier). <br>
+**5. No custom alerting:** Difficult to set up complex alerts. <br>
+*Solution* <br> 
+Cloud Health Dashboard provides a centralized platform with the following features:
+
+**Centralized monitoring:** Single dashboard for CloudWatch, Cost Explorer, Security Hub
+**Data persistence with DynamoDB:**
+4 specialized tables: CloudHealthMetrics, CloudHealthCosts, SecurityFindings, Recommendations
+Automatic TTL to delete old data (30 days for metrics, 365 days for costs, 90 days for security, 180 days for recommendations)
+On-demand pricing for cost savings
+Optimized query patterns with GSI for each data type
+Cost analysis:
+Historical cost trends
+Service breakdown
+AWS Cost Explorer recommendations integration
+Budget alerts
+Security monitoring:
+Security Hub findings aggregation
+GuardDuty threat detection display
+Compliance status tracking
+Severity-based filtering
+Intelligent recommendations:
+Cost optimization suggestions
+Performance improvements
+Security enhancements
+Impact-based prioritization
+Performance:
+Redis caching to reduce AWS API calls
+Pre-collected data in DynamoDB
+WebSocket for real-time updates
 *Lợi ích và hoàn vốn đầu tư (ROI)*  
 Giải pháp tạo nền tảng cơ bản để các thành viên phòng lab phát triển một nền tảng IoT lớn hơn, đồng thời cung cấp nguồn dữ liệu cho những người nghiên cứu AI phục vụ huấn luyện mô hình hoặc phân tích. Nền tảng giảm bớt báo cáo thủ công cho từng trạm thông qua hệ thống tập trung, đơn giản hóa quản lý và bảo trì, đồng thời cải thiện độ tin cậy dữ liệu. Chi phí hàng tháng ước tính 0,66 USD (theo AWS Pricing Calculator), tổng cộng 7,92 USD cho 12 tháng. Tất cả thiết bị IoT đã được trang bị từ hệ thống trạm thời tiết hiện tại, không phát sinh chi phí phát triển thêm. Thời gian hoàn vốn 6–12 tháng nhờ tiết kiệm đáng kể thời gian thao tác thủ công.  
 

@@ -25,27 +25,41 @@ pre: " <b> 1.05. </b> "
 
 ### Kết quả đạt được tuần 5:
 
+### Kết quả đạt được tuần 5:
+
 * **Nắm vững kiến thức về Amazon EC2**, bao gồm:
-    * Khởi tạo và quản lý EC2 Instance
-    * Cấu hình **AMI**, **Elastic Block Store (EBS)**, **User Data** và **Meta Data**
-    * Tạo và quản lý **Key Pair** để đăng nhập bảo mật vào máy ảo
-    * Thực hành **EC2 Auto Scaling** và hiểu cơ chế tự động mở rộng quy mô
+    * Cấu trúc và vai trò của EC2 trong nhóm dịch vụ **Compute**
+    * Thực hành tạo, cấu hình và quản lý **EC2 Instance**
+    * Làm quen với **AMI (Amazon Machine Image)**, **Elastic Block Store (EBS)**, **User Data**, và **Meta Data**
+    * Tạo và sử dụng **Key Pair** để đăng nhập bảo mật vào máy ảo
+    * Hiểu và thực hành **EC2 Auto Scaling** để tự động điều chỉnh số lượng máy chủ theo tải
+    * Tìm hiểu thêm các tùy chọn lưu trữ và triển khai như **EFS**, **FSx**, **Lightsail**, và **MGN**
 
-* **Hiểu về các dịch vụ lưu trữ trên AWS**, bao gồm:
-    * **Amazon Simple Storage Service (S3)** – lưu trữ đối tượng, quản lý bucket, ACL và CORS
-    * **Amazon Elastic File System (EFS)** và **FSx** – lưu trữ chia sẻ cho nhiều EC2 Instance
-    * **Amazon Storage Gateway** – kết nối hệ thống on-premises với đám mây
-    * **Snow Family** – giải pháp di chuyển dữ liệu quy mô lớn
-    * **AWS Backup** – dịch vụ sao lưu và khôi phục dữ liệu tập trung
+* **Tìm hiểu sâu về nhóm dịch vụ lưu trữ (Storage Services)** trên AWS:
+    * **Amazon Simple Storage Service (S3)** – hiểu cấu trúc bucket, object, key; thực hành tạo S3 bucket và upload file
+    * Thực hành cấu hình **Access Control List (ACL)**, **Bucket Policy**, **CORS**, và **Static Website Hosting** trên S3
+    * **Amazon Storage Gateway** – học cách kết nối dữ liệu giữa môi trường on-premises và AWS Cloud
+    * **AWS Snow Family** – tìm hiểu giải pháp di chuyển dữ liệu quy mô lớn
+    * **AWS Backup** – hiểu quy trình sao lưu và khôi phục dữ liệu tập trung
+    * Tìm hiểu **Disaster Recovery (DR)** trên AWS, bao gồm các mô hình sao lưu và khôi phục dữ liệu quan trọng
 
-* **Thực hành triển khai dự án web tĩnh (Static Website)** lên **S3 hoặc EC2**, kiểm tra hoạt động thành công.
+* **Thực hành triển khai dự án web tĩnh (Static Website):**
+    * Đưa thành công dự án web lên **S3 hoặc EC2** để chạy như một static web
+    * Cấu hình CORS và Public Access để website có thể truy cập từ Internet
+    * Kiểm tra và xác nhận trang web hoạt động ổn định trên môi trường cloud
 
-* **Nắm được cách tối ưu hiệu suất và bảo mật cho S3**, gồm:
-    * Sử dụng **Access Point** và **Storage Class** phù hợp với từng nhu cầu
-    * Hiểu cơ chế **Glacier** cho lưu trữ chi phí thấp, truy cập ít
+* **Tìm hiểu nâng cao về quản lý dữ liệu và hiệu suất lưu trữ trên S3:**
+    * Nắm rõ **Storage Class** (Standard, Intelligent-Tiering, Glacier, Deep Archive)
+    * Hiểu **Access Point**, **Object Key**, và các yếu tố ảnh hưởng đến hiệu năng lưu trữ
+    * Thực hành tạo chính sách quyền truy cập phù hợp với từng lớp dữ liệu
 
-* **Hiểu nguyên lý hoạt động của Disaster Recovery (DR) trên AWS** và các chiến lược sao lưu phục hồi.
+* **Củng cố kỹ năng về nghiên cứu và biên tập nội dung kỹ thuật AWS:**
+    * Dịch và chỉnh sửa bài blog liên quan đến **AWS EC2** và **AWS Storage**
+    * Học cách tổng hợp kiến thức từ tài liệu chính thức và video hướng dẫn để áp dụng vào thực hành thực tế
 
-* **Củng cố kỹ năng dịch và chỉnh sửa blog kỹ thuật AWS**, giúp hiểu sâu hơn về EC2, S3 và Lambda.  
+* **Tổng kết:**
+    * Đã hoàn thiện kiến thức nền tảng về hai nhóm dịch vụ cốt lõi của AWS: **Compute** và **Storage**
+    * Có thể **triển khai, quản lý và giám sát** tài nguyên cơ bản trên AWS Console và thông qua AWS CLI
+    * Hiểu cách vận hành và mở rộng ứng dụng trên môi trường đám mây một cách linh hoạt và an toàn
 
 
