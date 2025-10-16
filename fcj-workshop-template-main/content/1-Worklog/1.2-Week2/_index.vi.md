@@ -14,30 +14,35 @@ pre: " <b> 1.2. </b> "
 * Hiểu dịch vụ AWS cơ bản.
 
 ### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                      | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- |--------------------------------------------------------------------------------|--------------|-----------------| ----------------------------------------- |
-| 2   | - Tiếp tục học AWS trên Youtube <br> - Xem và tìm hiểu những công nghệ của AWS | 15/09/2025   | 15/09/2025      |
-| 3   | - Họp nhóm, đưa ra ý tưởng, ngôn ngữ và công nghệ sẽ sử dụng trong dự án       | 16/09/2025   | 16/09/2025      |  |
-| 4   | - Học AWS trên Youtube                                                         | 17/09/2025   | 17/09/2025      | <Youtube: AWS Study Group> |
-| 5   | - Lên Văn phòng dự Event AWS Cloud Day VietNam                                 | 18/09/2025   | 18/09/2025      | <Youtube: AWS Study Group> |
-| 6   | - Học cách sủ dụng các công nghệ của AWS                                       | 19/09/2025   | 19/09/2025      | <Youtube: AWS Study Group> |
+| Thứ | Công việc                                                                        | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
+| --- |----------------------------------------------------------------------------------|--------------|-----------------| ----------------------------------------- |
+| 2   | - Tiếp tục học AWS trên Youtube. <br> - Xem và tìm hiểu những công nghệ của AWS. | 15/09/2025   | 15/09/2025      |
+| 3   | - Họp nhóm, đưa ra ý tưởng, ngôn ngữ và công nghệ sẽ sử dụng trong dự án.        | 16/09/2025   | 16/09/2025      |  |
+| 4   | - Học AWS trên Youtube.                                                          | 17/09/2025   | 17/09/2025      | <Youtube: AWS Study Group> |
+| 5   | - Lên Văn phòng dự Event AWS Cloud Day VietNam .                                 | 18/09/2025   | 18/09/2025      | <Youtube: AWS Study Group> |
+| 6   | - Học cách sủ dụng các công nghệ của AWS.                                        | 19/09/2025   | 19/09/2025      | <Youtube: AWS Study Group> |
 
 
 ### Kết quả đạt được tuần 2
 
-| Thứ | Kết quả đạt được                                                                                                                       |
-| --- |----------------------------------------------------------------------------------------------------------------------------------------|
-| 2   | Tiếp tục học AWS qua Youtube, củng cố khái niệm cơ bản và làm quen thêm các dịch vụ phổ biến.                                          |
-| 3   | Họp nhóm, thảo luận và thống nhất ý tưởng, ngôn ngữ lập trình và công nghệ AWS sẽ sử dụng cho dự án.                                   |
-| 4   | Tiếp thu những kiến thức mới từ AWS                                                                                                    |
-| 5   | Tham dự sự kiện **AWS Cloud Day Vietnam**, lắng nghe chia sẻ từ chuyên gia AWS và cập nhật xu hướng ứng dụng Cloud trong doanh nghiệp. |
-| 6   | Học cách sử dụng các công nghệ của AWS, bước đầu làm quen với việc thao tác và triển khai dịch vụ trên nền tảng này.                   |
+* **Thứ 2 (15/09/2025)**
+    - Tiếp tục học **AWS** trên Youtube, củng cố các khái niệm cơ bản về điện toán đám mây.
+    - Tìm hiểu thêm về **các công nghệ và dịch vụ cốt lõi của AWS**, như Compute, Storage, Database, Networking.
 
----
+* **Thứ 3 (16/09/2025)**
+    - Tham gia **họp nhóm** để thảo luận ý tưởng dự án.
+    - Thống nhất **ngôn ngữ lập trình**, **công nghệ** và **dịch vụ AWS** sẽ sử dụng trong quá trình phát triển sản phẩm.
 
-#### Tổng kết
-- Ngày 2: Học thêm kiến thức về AWS qua Youtube, mở rộng hiểu biết về các công nghệ và dịch vụ cơ bản.
-- Ngày 3: Thảo luận nhóm, đưa ra ý tưởng và lựa chọn công nghệ sẽ dùng trong dự án.
-- Ngày 4: Học hỏi được những thứ mới mẻ từ AWS
-- Ngày 5: Tham gia sự kiện AWS Cloud Day Vietnam, học hỏi kiến thức thực tiễn và xu hướng công nghệ từ chuyên gia.
-- Ngày 6: Học cách sử dụng các công nghệ của AWS, bước đầu làm quen với môi trường thực hành.  
+* **Thứ 4 (17/09/2025)**
+    - Tiếp tục học các nội dung mới về AWS qua video hướng dẫn.
+    - Làm quen với **giao diện AWS Management Console** và cách truy cập dịch vụ.
+
+* **Thứ 5 (18/09/2025)**
+    - Lên văn phòng tham dự **sự kiện AWS Cloud Day Vietnam 2025**.
+    - Lắng nghe chia sẻ từ chuyên gia AWS về **xu hướng Cloud Computing**, **AI/ML**, và **chuyển đổi số** trong doanh nghiệp.
+    - Ghi chú những kiến thức thực tiễn có thể áp dụng cho dự án nhóm.
+
+* **Thứ 6 (19/09/2025)**
+    - Học cách sử dụng và thao tác với **các công nghệ của AWS**.
+    - Bắt đầu làm quen với việc **triển khai và quản lý dịch vụ cơ bản** trên AWS.
+
