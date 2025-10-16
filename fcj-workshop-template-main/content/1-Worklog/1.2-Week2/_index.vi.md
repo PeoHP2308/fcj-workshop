@@ -3,14 +3,14 @@ title: "Week 2 Worklog"
 date: "2025-10-06"
 weight: 1
 chapter: false
-pre: " <b> 1.02. </b> "
+pre: " <b> 1.2. </b> "
 ---
 
 
 
 ### Mục tiêu tuần 2:
 
-* Tập sử dụng các công ngh của AWS
+* Tập sử dụng các công nghệ của AWS
 * Hiểu dịch vụ AWS cơ bản.
 
 ### Các công việc cần triển khai trong tuần này:
