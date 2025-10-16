@@ -138,6 +138,9 @@ pre: " <b> 4.1. </b> "
 - AI Agents là xu hướng tất yếu trong tương lai gần.
 
 #### Một số hình ảnh khi tham gia sự kiện
-* Thêm các hình ảnh của các bạn tại đây
+![](/images/4-Events/Event1.1.jpg)
+![](/images/4-Events/Event1.2.jpg)
+![](/images/4-Events/Event1.3.jpg)
+![](/images/4-Events/Event1.4.jpg)
 
 > Tổng thể, sự kiện không chỉ mang lại kiến thức về công nghệ GenAI mà còn giúp tôi thay đổi cách nhìn về vai trò của lãnh đạo, bảo mật và ứng dụng AI vào thực tế kinh doanh.

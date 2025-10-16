@@ -32,8 +32,10 @@ Công ty có hỗ trợ phụ cấp thực tập và tạo điều kiện về t
 
 ### Một số câu hỏi khác
 - Điều bạn **hài lòng nhất** trong thời gian thực tập?  
+  → Đó là các mentors và team admin luôn luôn sẵn sàng giúp đỡ.
 - Điều bạn nghĩ công ty **cần cải thiện** cho các thực tập sinh sau?  
 - Nếu giới thiệu cho bạn bè, bạn có **khuyên họ thực tập ở đây không**? Vì sao?  
+  → Nếu e giới thiệu cho bạn bè tới đây thực tập thì em sẵn sàng khuyên họ đến đây bởi vì có rất nhiều kiến thức mới để tiếp thu với một môi trường học tập và làm việc chuẩn chỉnh.
 
 
 ### Đề xuất & mong muốn

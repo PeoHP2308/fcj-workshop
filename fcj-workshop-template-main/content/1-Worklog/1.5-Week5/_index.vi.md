@@ -46,7 +46,7 @@ pre: " <b> 1.5. </b> "
         - **AWS Snow Family**: giải pháp di chuyển dữ liệu quy mô lớn.
         - **AWS Backup**: sao lưu và khôi phục dữ liệu tập trung.
         - **Disaster Recovery (DR)** trên AWS.
-    - Hoàn thành và kiểm tra blog.
+    - Hoàn thành dịch và kiểm tra blog.
 
 * **Thứ 6 (10/10/2025)**
     - Tiếp tục học Module 04: **Access Point** và **Storage Class** trên S3.

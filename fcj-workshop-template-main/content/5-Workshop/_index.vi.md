@@ -7,18 +7,23 @@ pre: " <b> 5. </b> "
 ---
 
 
-# Đảm bảo truy cập Hybrid an toàn đến S3 bằng cách sử dụng VPC endpoint
+# Triển khai Bảo mật và Kiểm soát Truy cập Chi tiết cho Truy cập S3 Hybrid
 
 #### Tổng quan
 
-**AWS PrivateLink** cung cấp kết nối riêng tư đến các dịch vụ aws từ VPCs hoặc trung tâm dữ liệu (on-premise) mà không làm lộ lưu lượng truy cập ra ngoài public internet.
+Ý Tưởng Lab Mở Rộng:
+Bài lab này sẽ tập trung vào việc áp dụng các lớp bảo mật chồng chéo (Defense-in-Depth) để đảm bảo chỉ những nguồn được 
+xác thực và cho phép mới có thể truy cập các tài nguyên S3 qua kết nối riêng tư (PrivateLink/VPC Endpoint).<br>
+**Mục Tiêu Lab:** <br>
+Sau khi hoàn thành bài lab này, bạn sẽ có thể:
 
-Trong bài lab này, chúng ta sẽ học cách tạo, cấu hình, và kiểm tra VPC endpoints để cho phép workload của bạn tiếp cận các dịch vụ AWS mà không cần đi qua Internet công cộng.
+Cấu hình Interface VPC Endpoint để mở rộng kết nối riêng tư S3 đến môi trường On-Premise (giả lập).
 
-Chúng ta sẽ tạo hai loại endpoints để truy cập đến Amazon S3: gateway vpc endpoint và interface vpc endpoint. Hai loại vpc endpoints này mang đến nhiều lợi ích tùy thuộc vào việc bạn truy cập đến S3 từ môi trường cloud hay từ trung tâm dữ liệu (on-premise).
-+ **Gateway** - Tạo gateway endpoint để gửi lưu lượng đến Amazon S3 hoặc DynamoDB using private IP addresses. Bạn điều hướng lưu lượng từ VPC của bạn đến gateway endpoint bằng các bảng định tuyến (route tables)
-+ **Interface** - Tạo interface endpoint để gửi lưu lượng đến các dịch vụ điểm cuối (endpoints) sử dụng Network Load Balancer để phân phối lưu lượng. Lưu lượng dành cho dịch vụ điểm cuối được resolved bằng DNS.
+Thực thi Chính sách Endpoint (Endpoint Policy) để chỉ cho phép truy cập một bucket S3 cụ thể.
 
+Áp dụng Chính sách S3 Bucket để giới hạn truy cập dựa trên Địa chỉ IP nguồn của trung tâm dữ liệu On-Premise.
+
+Chứng minh rằng việc truy cập S3 qua các endpoint được bảo mật và giới hạn nghiêm ngặt theo nguyên tắc Least Privilege (Quyền tối thiểu).
 #### Nội dung
 
 1. [Tổng quan về workshop](5.1-Workshop-overview/)

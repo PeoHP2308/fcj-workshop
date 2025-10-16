@@ -37,7 +37,7 @@ pre: " <b> 1.4. </b> "
 * **Thứ 4:**
     - Thực hành chi tiết hơn với **EC2**.
     - Hiểu và sử dụng các tính năng trong **Billing and Cost Management**.
-    - Cài đặt và cấu hình thành công **AWS CLI** để quản lý tài nguyên cơ bản.
+    - Cài đặt và cấu hình **AWS CLI** để quản lý tài nguyên cơ bản.
 
 * **Thứ 5:**
     - Nghiên cứu và thao tác với **Aurora & RDS**.
@@ -47,6 +47,6 @@ pre: " <b> 1.4. </b> "
 * **Thứ 6:**
     - Tìm hiểu và thực hành với **AWS Lambda** và **Amazon Bedrock**.
     - Thử nghiệm triển khai dịch vụ **serverless**.
-    - Củng cố lại các thao tác cơ bản trên **Console & CLI**. 
+    - Thực hành các thao tác cơ bản trên **Console & CLI**. 
     - Push thành công thư mục lên **Github**.
 

@@ -20,8 +20,8 @@ pre: " <b> 1.6. </b> "
 | 2   | - Xem Module 5 - Share Resposibility Model. <br> - Xem Amazon Identity and access management.                                                   | 13/10/2025   | 13/10/2025      | <Youtube: AWS Study Group>  |
 | 3   | - Tiếp tục xem Module 5: <br>&emsp; +Xem Amazon Identity and access management. <br>&emsp; + Xem Amazon Cognito. <br>&emsp; + AWS Organization. | 14/10/2025   | 14/10/2025      | <Youtube: AWS Study Group>  |
 | 4   | - Xem AWS Identity Center. <br> - Xem Amazon Key Management Service. <br> - AWS Security Hub.                                                   | 15/10/2025   | 15/10/2025      | <Youtube: AWS Study Group>  |
-| 5   | - Lên VP học tập. <br> - Xem labs của module 5. <br> - Chỉnh sửa và tối ưu code của Project.                                                    | 16/10/2025   | 16/10/2025      | <Youtube: AWS Study Group>  |
-| 6   | - Tiếp tục xem labs của module 5 <br> - Xem lại các module 1-5 để chuẩn bị cho midterm                                                          | 17/10/2025   | 17/10/2025      | <Youtube: AWS Study Group>  |
+| 5   | - Lên VP học tập. <br> - Xem labs của module 5. <br> - Chỉnh sửa và tối ưu code của Project. <br> - Kiểm tra kĩ lại các bài dịch blogs          | 16/10/2025   | 16/10/2025      | <Youtube: AWS Study Group>  |
+| 6   | - Tiếp tục xem labs của module 5 <br> - Xem lại các module 1-5 để chuẩn bị cho midterm.                                                         | 17/10/2025   | 17/10/2025      | <Youtube: AWS Study Group>  |
 
 
 ### Kết quả đạt được tuần 6
@@ -44,6 +44,7 @@ pre: " <b> 1.6. </b> "
     - Lên văn phòng học tập để thực hành.
     - Xem các labs của Module 5.
     - Chỉnh sửa và tối ưu code của Project.
+    - Kiểm tra kĩ càng lại các bài dịch blogs.
 
 * Thứ 6 (17/10/2025)
     - Tiếp tục xem các labs của Module 5.

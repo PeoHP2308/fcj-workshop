@@ -40,26 +40,31 @@ Nhiều doanh nghiệp và cá nhân sử dụng AWS đang gặp phải các th�
 Cloud Health Dashboard cung cấp một nền tảng tập trung với các tính năng:
 
 - **Centralized monitoring**: Dashboard duy nhất cho CloudWatch, Cost Explorer, Security Hub
+
 - **Data persistence với DynamoDB**:
     - 4 bảng chuyên biệt: CloudHealthMetrics, CloudHealthCosts, SecurityFindings, Recommendations
     - TTL tự động để xóa dữ liệu cũ (30 ngày cho metrics, 365 ngày cho costs, 90 ngày cho security, 180 ngày cho recommendations)
     - On-demand pricing để tiết kiệm chi phí
     - Optimized query patterns với GSI cho từng loại data
+
 - **Cost analysis**:
     - Historical cost trends
     - Service breakdown
     - AWS Cost Explorer recommendations integration
     - Budget alerts
+
 - **Security monitoring**:
     - Security Hub findings aggregation
     - GuardDuty threat detection display
     - Compliance status tracking
     - Severity-based filtering
+
 - **Intelligent recommendations**:
     - Cost optimization suggestions
     - Performance improvements
     - Security enhancements
     - Impact-based prioritization
+
 - **Performance**:
     - Redis caching để giảm AWS API calls
     - Pre-collected data trong DynamoDB
@@ -92,8 +97,11 @@ Cloud Health Dashboard cung cấp một nền tảng tập trung với các tín
 Nền tảng sử dụng kiến trúc Single EC2 Instance + DynamoDB để tối ưu chi phí. EC2 instance chạy tất cả application components, trong khi DynamoDB lưu trữ historical data với 4 tables chuyên biệt.
 
 ![Architecture Diagram](/images/2-Proposal/AM.png)
+
  Dưới đây là sơ đồ thô:
+
 ![None Diagram](/images/2-Proposal/Raw.drawio.png)
+
 **Dịch vụ AWS sử dụng:**
 
 1. **Amazon EC2** (Compute):
@@ -154,6 +162,7 @@ EC2 instance được đặt trong public subnet với các biện pháp bảo m
     - GuardDuty threat detection
 
 **Architecture Decision:**
+
 Private subnet architecture được cân nhắc nhưng không implement vì:
 - Tăng chi phí 100% ($33/tháng cho NAT Gateway hoặc $14/tháng cho VPC Endpoints)
 - Không phù hợp với learning/portfolio project scope
@@ -202,6 +211,7 @@ Kiến trúc này phù hợp cho development/demo environment. Production deploy
 Sử dụng 4 tables chuyên biệt để tối ưu performance và separation of concerns:
 
 **Table 1: CloudHealthMetrics**
+
 ```python
 {
     "TableName": "CloudHealthMetrics",
@@ -280,6 +290,7 @@ Sử dụng 4 tables chuyên biệt để tối ưu performance và separation o
 ```
 
 **Table 3: SecurityFindings**
+
 ```python
 {
     "TableName": "SecurityFindings",
@@ -333,6 +344,7 @@ Sử dụng 4 tables chuyên biệt để tối ưu performance và separation o
 ```
 
 **Table 4: Recommendations**
+
 ```python
 {
     "TableName": "Recommendations",
@@ -483,6 +495,7 @@ Tách thành 4 tables chuyên biệt thay vì 2 tables tổng hợp vì:
     - Track implementation status
 
 5. **API Endpoints**
+
     - `GET /api/v1/metrics` - Retrieve metrics from DynamoDB
     - `GET /api/v1/costs` - Cost data và trends
     - `GET /api/v1/security` - Security findings
@@ -491,6 +504,7 @@ Tách thành 4 tables chuyên biệt thay vì 2 tables tổng hợp vì:
     - `WS /ws` - WebSocket cho real-time updates (optional)
 
 6. **Caching Strategy**
+
     - Redis cache cho frequent queries
     - 5-minute TTL cho metrics data
     - 1-hour TTL cho cost data
@@ -499,6 +513,7 @@ Tách thành 4 tables chuyên biệt thay vì 2 tables tổng hợp vì:
     - Cache invalidation on data refresh
 
 7. **Security Measures**
+
     - HTTPS only với Let's Encrypt
     - IAM roles với least privilege
     - Security groups restrictive rules
@@ -605,6 +620,7 @@ Post-deployment: Maintenance & Enhancements
 ```
 
 **Phase 2 (Future Enhancements - 3-6 tháng sau):**
+
 - Machine Learning cost prediction models
 - Multi-account support
 - Advanced analytics
@@ -632,23 +648,29 @@ Post-deployment: Maintenance & Enhancements
 **Chi phí trung bình 12 tháng: $12-18/tháng**
 
 **DynamoDB Cost Breakdown (4 tables):**
+
 - **Lưu trữ**: ~5GB total = $1.25/tháng
     - CloudHealthMetrics: 2GB ($0.50)
     - CloudHealthCosts: 1GB ($0.25)
     - SecurityFindings: 1GB ($0.25)
     - Recommendations: 1GB ($0.25)
+    - 
 - **Writes**: ~800K requests/tháng = $1.00/tháng
+
     - Metrics: 500K writes ($0.625)
     - Costs: 100K writes ($0.125)
     - Security: 100K writes ($0.125)
     - Recommendations: 100K writes ($0.125)
+  
 - **Reads**: ~4M requests/tháng = $2.00/tháng
     - Distributed across 4 tables
+
 - **GSI**: Included in on-demand pricing
 - **Backup**: Free (Point-in-time recovery)
 - **Tổng DynamoDB**: $4-7/tháng
 
 **Note:** Chi phí có thể tăng nếu:
+
 - Thu thập metrics frequency cao hơn
 - Nhiều AWS services được monitor
 - Retention period dài hơn
@@ -656,6 +678,7 @@ Post-deployment: Maintenance & Enhancements
 - Nhiều security findings và recommendations
 
 **Cost Optimization Strategies:**
+
 - Sử dụng Free Tier tối đa (12 tháng)
 - DynamoDB on-demand thay vì provisioned
 - TTL tự động xóa data cũ cho từng table
@@ -736,9 +759,13 @@ Post-deployment: Maintenance & Enhancements
 **Kế hoạch dự phòng:**
 
 1. **Service Failure**: Systemd auto-restart, documented manual recovery
+
 2. **Data Loss**: Daily S3 backups, DynamoDB PITR enabled
+
 3. **Cost Spike**: Immediate notification, manual review, throttle data collection
+
 4. **Behind Schedule**: Cut Phase 2 features, focus on MVP only
+
 5. **DynamoDB Issues**: Fallback to direct API calls, reduce write frequency
 
 ### 8. Kết quả kỳ vọng
@@ -823,6 +850,7 @@ Post-deployment: Maintenance & Enhancements
 **Portfolio Value:**
 
 Project này demonstrate:
+
 - Real AWS production experience
 - Advanced DynamoDB data modeling (4 tables, GSI)
 - Full-stack development skills
@@ -835,6 +863,7 @@ Project này demonstrate:
 **Limitations & Trade-offs:**
 
 Documented limitations:
+
 - Single instance (không high availability)
 - Public subnet (không private network isolation)
 - Rule-based recommendations (không ML-powered initially)
@@ -842,6 +871,7 @@ Documented limitations:
 - Limited to AWS (không multi-cloud)
 
 Documented trade-offs:
+
 - 4 tables tăng complexity và cost ($2-3/tháng) nhưng cải thiện performance và maintainability
 - Public subnet giảm security nhưng tiết kiệm $33/tháng
 - Single instance giảm availability nhưng phù hợp với budget constraint
