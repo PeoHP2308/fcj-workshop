@@ -6,8 +6,6 @@ chapter: false
 pre: " <b> 1.2. </b> "
 ---
 
-
-
 ### Mục tiêu tuần 2:
 
 * Tập sử dụng các công nghệ của AWS
@@ -21,7 +19,6 @@ pre: " <b> 1.2. </b> "
 | 4   | - Học AWS trên Youtube.                                                          | 17/09/2025   | 17/09/2025      | <Youtube: AWS Study Group> |
 | 5   | - Lên Văn phòng dự Event AWS Cloud Day VietNam .                                 | 18/09/2025   | 18/09/2025      | <Youtube: AWS Study Group> |
 | 6   | - Học cách sủ dụng các công nghệ của AWS.                                        | 19/09/2025   | 19/09/2025      | <Youtube: AWS Study Group> |
-
 
 ### Kết quả đạt được tuần 2
 

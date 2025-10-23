@@ -6,7 +6,6 @@ chapter: false
 pre: " <b> 1.4. </b> "
 ---
 
-
 ### Week 4 Objectives:
 
 * Create an **AWS account**.
@@ -21,7 +20,6 @@ pre: " <b> 1.4. </b> "
 | 4   | - Explore and practice with **EC2**. <br> - Get familiar with **Billing and Cost Management**. <br> - Install and configure **AWS CLI** for basic resource management.                                              | 13/08/2025   | 13/08/2025      | [https://us-east-2.console.aws.amazon.com/console/home?/] |
 | 5   | - Research and practice with **Aurora & RDS**. <br> - Learn about **AWS Private Certificate Authority**. <br> -  Understand how to manage Databases on AWS.                                                         | 14/08/2025   | 14/08/2025      | [https://us-east-2.console.aws.amazon.com/console/home?/] |
 | 6   | - Study **AWS Lambda** and **Amazon Bedrock**. <br> - Practice deploying **serverless services**. <br> -  Review basic operations on **Console & CLI**. <br> - Successfully push the project folder to **GitHub**.  | 15/08/2025   | 15/08/2025      | [https://us-east-2.console.aws.amazon.com/console/home?/] |
-
 
 ### Week 4 Achievements
 

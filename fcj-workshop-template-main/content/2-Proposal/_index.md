@@ -123,7 +123,7 @@ All application components (backend, API, and dashboard) run on a single EC2 ins
 
 Raw Design Draft:
 
-![None Diagram](/images/2-Proposal/Raw.drawio.png)
+![None Diagram](/images/2-Proposal/AR.png)
 
 **AWS Services Used:**
 

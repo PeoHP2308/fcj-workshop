@@ -6,9 +6,6 @@ chapter: false
 pre: " <b> 2. </b> "
 ---
 
-
-
-
 # AWS Cloud Health Dashboard
 
 ## Giải pháp giám sát và tối ưu hóa hạ tầng AWS toàn diện
@@ -105,7 +102,7 @@ Nền tảng sử dụng kiến trúc Single EC2 Instance + DynamoDB để tối
 
  Dưới đây là sơ đồ thô:
 
-![None Diagram](/images/2-Proposal/Raw.drawio.png)
+![None Diagram](/images/2-Proposal/AR.png)
 
 **Dịch vụ AWS sử dụng:**
 

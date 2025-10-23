@@ -6,8 +6,6 @@ chapter: false
 pre: " <b> 1.3. </b> "
 ---
 
-
-
 ### Mục tiêu tuần 3:
 
 * Hiểu được cách sử dụng các công nghệ của AWS
@@ -21,7 +19,6 @@ pre: " <b> 1.3. </b> "
 | 4   | - Tìm hiểu Compute VM on AWS <br> - Tìm hiểu Instance type của EC2 <br> - Bao gồm: <br>&emsp;  + Amazon Elastic Compute Cloud (EC2) <br>&emsp + Amazon Lightsail | 24/09/2025   | 24/09/2025        | <https://aws.amazon.com/ec2/instance-types/?ncl=h_is/> |
 | 5   | - Tìm hiểu EC2 cơ bản: + Amazon EFS/FSX  <br> + AWS Application Migration Service (MGN)                                                                          | 25/09/2025   | 25/09/2025        | <https://aws.amazon.com/ec2/instance-types/?ncl=h_is/> |
 | 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance. <br>&emsp; + Tạo database.                                                                                       | 26/09/2025   | 26/09/2025        |                                                        |
-
 
 ### Kết quả đạt được tuần 3:
 

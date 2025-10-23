@@ -6,8 +6,6 @@ chapter: false
 pre: " <b> 3. </b> "
 ---
 
-
-
 Tại đây sẽ là phần liệt kê, giới thiệu các blogs mà tôi đã dịch.
 
 ###  Blog 1 - AWS DMS validation: A custom serverless architecture

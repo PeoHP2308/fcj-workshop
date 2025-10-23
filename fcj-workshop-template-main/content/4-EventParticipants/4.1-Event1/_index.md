@@ -6,141 +6,143 @@ chapter: false
 pre: " <b> 4.1. </b> "
 ---
 
+# Reflection Report: “AWS Cloud Day Vietnam 2025 & GenAI Track”
 
-# Bài thu hoạch “AWS Cloud Day Vietnam 2025 & GenAI Track”
+### Purpose of the Event
 
-### Mục Đích Của Sự Kiện
+- Introduce the latest technology trends from AWS, especially Generative AI.
+- Share case studies from major enterprises in Vietnam and across the region.
+- Discuss leadership strategies and organizational management in the AI era.
+- Explore best practices for security and real-world applications of AI Agents.
 
-- Giới thiệu các xu hướng công nghệ mới nhất từ AWS, đặc biệt là Generative AI.
-- Chia sẻ case study từ doanh nghiệp lớn tại Việt Nam và khu vực.
-- Thảo luận về chiến lược lãnh đạo, quản trị tổ chức trong kỷ nguyên AI.
-- Tìm hiểu best practices về bảo mật và ứng dụng AI Agents trong thực tế.
+### Speaker List
 
-### Danh Sách Diễn Giả
-
-- **Hon. Government speaker** – Phát biểu khai mạc.
+- **Hon. Government Speaker** – Opening remarks.
 - **Eric Yeo** – Country General Manager, Vietnam, Cambodia, Laos & Myanmar, AWS.
 - **Dr. Jens Lottner** – CEO, Techcombank.
 - **Ms. Trang Phung** – CEO & Co-Founder, U2U Network.
 - **Jaime Valles** – Vice President, General Manager Asia Pacific and Japan, AWS.
 - **Jeff Johnson** – Managing Director, ASEAN, AWS (Moderator).
 - **Panelists:**
-    - Vu Van, Co-founder & CEO, ELSA Corp
-    - Nguyen Hoa Binh, Chairman, Nexttech Group
-    - Dieter Botha, CEO, TymeX
+    - Vu Van – Co-founder & CEO, ELSA Corp
+    - Nguyen Hoa Binh – Chairman, Nexttech Group
+    - Dieter Botha – CEO, TymeX
 - **Kien Nguyen** – Solutions Architect, AWS.
 - **Michael Armentano** – Principal WW GTM Specialist, AWS.
-- **Jun Kai Loke** - AI/ML Specialist SA, AWS.
-- **Tamelly Lim** - Storage Specialist SA, AWS.
-- **Binh Tran** - Senior Solutions Architect, AWS.
-- **Taiki Dang** - Solutions Architect, AWS.
+- **Jun Kai Loke** – AI/ML Specialist SA, AWS.
+- **Tamelly Lim** – Storage Specialist SA, AWS.
+- **Binh Tran** – Senior Solutions Architect, AWS.
+- **Taiki Dang** – Solutions Architect, AWS.
 
-### Nội Dung Nổi Bật
-#### Phần 1: Main Sessions (AWS Cloud Day Vietnam)
+### Key Contents
 
-- **Opening & Keynote (Eric Yeo, AWS)**: Giới thiệu tầm nhìn AWS tại Việt Nam và Đông Nam Á.
-- **Customer Keynote 1 (Techcombank)**: Ứng dụng AI trong tài chính – tăng hiệu quả vận hành, cải thiện trải nghiệm khách hàng.
-- **Customer Keynote 2 (U2U Network)**: Kết hợp blockchain và AI để xây dựng hệ sinh thái phi tập trung.
-- **AWS Keynote (Jaime Valles)**: Xu hướng công nghệ khu vực, chiến lược hỗ trợ doanh nghiệp đổi mới.
-- **Panel Discussion (Jeff Johnson + các CEO)**:
-    - Lãnh đạo cần định hướng văn hóa đổi mới.
-    - GenAI là công cụ chiến lược chứ không chỉ là công nghệ.
-    - Quản trị thay đổi là yếu tố then chốt khi tích hợp AI.
+#### Part 1: Main Sessions (AWS Cloud Day Vietnam)
 
-#### Phần 2: GenAI Track
+- **Opening & Keynote (Eric Yeo, AWS):** Overview of AWS’s vision in Vietnam and Southeast Asia.
+- **Customer Keynote 1 (Techcombank):** Applying AI in finance to enhance operational efficiency and customer experience.
+- **Customer Keynote 2 (U2U Network):** Combining blockchain and AI to build a decentralized ecosystem.
+- **AWS Keynote (Jaime Valles):** Regional tech trends and AWS’s strategies to empower innovation.
+- **Panel Discussion (Jeff Johnson + CEOs):**
+    - Leadership must drive a culture of innovation.
+    - GenAI as a strategic enabler, not just a tool.
+    - Change management is critical when integrating AI.
 
-- **Building a Unified Data Foundation on AWS for AI and Analytics Workloads (Kien Nguyen)**:
-    - Chiến lược xây dựng nền tảng dữ liệu thống nhất, mở rộng và tối ưu cho AI & phân tích.
-    - Tận dụng các dịch vụ AWS để quản lý ingestion, lưu trữ, xử lý và quản trị dữ liệu hiệu quả.
+#### Part 2: GenAI Track
 
-- **Building the Future: GenAI Adoption and Roadmap on AWS (Jun Kai Loke & Tamelly Lim)**:
-    - Trình bày tầm nhìn, xu hướng và lộ trình phát triển công nghệ GenAI trên AWS.
-    - Giới thiệu các dịch vụ và sáng kiến giúp doanh nghiệp ứng dụng GenAI để đổi mới và nâng cao hiệu suất.
+- **Building a Unified Data Foundation on AWS for AI and Analytics Workloads (Kien Nguyen):**
+    - Strategies to build scalable and unified data foundations for AI & analytics.
+    - Utilizing AWS services for ingestion, storage, processing, and governance.
 
-- **AI-Driven Development Lifecycle (AI-DLC) Shaping the Future of Software Implementation (Binh Tran)**:
-    - Cách tiếp cận mới tích hợp AI vào toàn bộ vòng đời phát triển phần mềm.
-    - Kết hợp thực thi do AI hỗ trợ với giám sát con người để tăng tốc, nâng cao chất lượng và đổi mới phần mềm.
+- **Building the Future: GenAI Adoption and Roadmap on AWS (Jun Kai Loke & Tamelly Lim):**
+    - Overview of the vision, trends, and development roadmap of GenAI on AWS.
+    - Introduction to AWS services and initiatives supporting enterprise adoption.
 
-- **Securing Generative AI Applications (Taiki Dang)**:
-    - Thách thức bảo mật trong GenAI stack: hạ tầng, mô hình, ứng dụng.
-    - Biện pháp: encryption, zero-trust architecture, continuous monitoring, fine-grained access control.
+- **AI-Driven Development Lifecycle (AI-DLC) Shaping the Future of Software Implementation (Binh Tran):**
+    - Integrating AI into the entire software development lifecycle.
+    - Combining AI-assisted execution with human oversight to improve speed and quality.
 
-- **Beyond Automation: AI Agents (Michael Armentano)**:
-    - AI Agents không chỉ là automation mà là “đối tác thông minh”.
-    - Có khả năng học, thích ứng, thực thi tác vụ phức tạp → tăng năng suất vượt bậc.
-    - Mở ra tương lai nơi AI nhân lên năng suất lao động thay vì chỉ tối ưu hóa.
+- **Securing Generative AI Applications (Taiki Dang):**
+    - Addressing GenAI security challenges: infrastructure, models, applications.
+    - Solutions: encryption, zero-trust architecture, continuous monitoring, fine-grained access control.
 
-#### Keynotes
+- **Beyond Automation: AI Agents (Michael Armentano):**
+    - AI Agents as “intelligent partners” beyond simple automation.
+    - Capable of learning, adapting, and executing complex tasks → driving exponential productivity.
 
-- **Eric Yeo (AWS)**: Giới thiệu tầm nhìn AWS về GenAI và tiềm năng ứng dụng tại Đông Nam Á.
-- **Techcombank (Dr. Jens Lottner)**: Chia sẻ kinh nghiệm ứng dụng AI trong dịch vụ tài chính.
-- **U2U Network (Trang Phung)**: Trình bày cách blockchain & AI kết hợp để xây dựng hệ sinh thái mới.
-- **AWS (Jaime Valles)**: Phân tích xu hướng khu vực và chiến lược hỗ trợ doanh nghiệp chuyển đổi.
+### Keynotes
 
-#### Panel Discussion: *Navigating the GenAI Revolution*
+- **Eric Yeo (AWS):** Vision for GenAI and its applications in Southeast Asia.
+- **Techcombank (Dr. Jens Lottner):** Real-world AI adoption in financial services.
+- **U2U Network (Trang Phung):** Synergy between blockchain and AI to build next-gen ecosystems.
+- **AWS (Jaime Valles):** Regional innovation trends and enterprise transformation strategies.
 
-- Vai trò lãnh đạo trong việc định hướng tổ chức với GenAI.
-- Cách nuôi dưỡng văn hóa đổi mới, thúc đẩy AI initiatives.
-- Quản lý sự thay đổi tổ chức đi kèm với AI integration.
+### Panel Discussion: *Navigating the GenAI Revolution*
 
-#### Kỹ thuật & Best Practices
+- The leadership role in aligning organizations with GenAI.
+- Nurturing a culture of innovation and driving AI initiatives.
+- Managing organizational change during AI integration.
 
-- **Securing Generative AI Applications (Taiki Dang)**:
-    - Các thách thức bảo mật trong GenAI stack (infrastructure, model, application).
-    - Biện pháp bảo mật: encryption, zero-trust, continuous monitoring, fine-grained access.
-- **Beyond Automation: AI Agents (Michael Armentano)**:
-    - AI Agents như đối tác thông minh, vượt xa automation truyền thống.
-    - Khả năng học hỏi, thích ứng, thực thi tác vụ phức tạp → tăng năng suất vượt bậc.
+### Technical Insights & Best Practices
 
-### Những Gì Học Được
+- **Securing Generative AI Applications (Taiki Dang):**
+    - Security challenges in GenAI stacks (infrastructure, model, application).
+    - Key practices: encryption, zero-trust, continuous monitoring, fine-grained access.
 
-#### Tư Duy Chiến Lược
+- **Beyond Automation: AI Agents (Michael Armentano):**
+    - AI Agents as intelligent collaborators beyond traditional automation.
+    - Self-learning and adaptive capabilities → significant productivity gains.
 
-- GenAI không chỉ là công nghệ mà là động lực thay đổi văn hóa doanh nghiệp.
-- Vai trò lãnh đạo: tạo môi trường đổi mới, quản lý sự thay đổi tổ chức.
-- Sự kết hợp AI + Blockchain + Cloud mở ra cơ hội mới.
+### Key Takeaways
 
-#### Kỹ Thuật & Bảo Mật
+#### Strategic Thinking
 
-- Bảo mật là yếu tố sống còn trong mọi ứng dụng GenAI.
-- Zero-trust architecture và continuous monitoring giúp duy trì integrity.
-- Hiểu rõ các tầng bảo mật từ hạ tầng → mô hình → ứng dụng.
+- GenAI is not just a technology—it’s a catalyst for organizational transformation.
+- Leadership must foster innovation and manage change effectively.
+- The convergence of AI + Blockchain + Cloud opens new opportunities.
 
-#### Khai Thác AI Agents
+#### Technical & Security Knowledge
 
-- AI Agents có thể thay thế automation truyền thống bằng khả năng tự học và ra quyết định.
-- Tiềm năng tăng năng suất gấp nhiều lần khi tích hợp vào quy trình kinh doanh.
+- Security is fundamental for all GenAI applications.
+- Zero-trust architecture and continuous monitoring ensure integrity.
+- Understanding security from infrastructure → model → application level is critical.
 
-### Ứng Dụng Vào Công Việc
+#### Leveraging AI Agents
 
-- Đề xuất workshop nội bộ về **AI strategy & change management** cho team.
-- Thử nghiệm **AI Agents** trong các quy trình thủ công lặp lại để nâng cao hiệu suất.
-- Rà soát lại **bảo mật AI workloads** theo hướng zero-trust và encryption.
-- Tích hợp **AI-driven insights** vào phân tích dữ liệu kinh doanh.
+- AI Agents surpass traditional automation through learning and decision-making.
+- Integration can significantly boost productivity and efficiency.
 
-### Trải nghiệm trong event
+### Applications to Work
 
-#### Học hỏi từ lãnh đạo doanh nghiệp
-- Case study từ Techcombank, U2U, ELSA, Nexttech cho thấy ứng dụng AI đa ngành.
-- Cách các CEO đối mặt với thách thức quản lý thay đổi.
+- Propose internal workshops on **AI Strategy & Change Management**.
+- Pilot **AI Agents** in repetitive workflows to increase efficiency.
+- Review **AI workload security** following zero-trust and encryption principles.
+- Integrate **AI-driven insights** into business data analytics.
 
-#### Trải nghiệm kỹ thuật thực tế
-- Hiểu rõ kiến trúc bảo mật khi triển khai GenAI.
-- Nhận thức được tiềm năng của AI Agents trong tự động hóa nâng cao.
+### Event Experience
 
-#### Kết nối & Trao đổi
-- Có cơ hội trao đổi với chuyên gia AWS và lãnh đạo doanh nghiệp.
-- Thấy rõ sự cần thiết của **hợp tác giữa business & technology** trong kỷ nguyên GenAI.
+#### Learning from Business Leaders
+- Case studies from Techcombank, U2U, ELSA, and Nexttech showcased multi-industry AI adoption.
+- Insights into how CEOs handle organizational change and innovation.
 
-#### Bài học rút ra
-- Lãnh đạo cần đi đầu trong việc đưa GenAI vào tổ chức.
-- Kết hợp bảo mật + hiệu quả vận hành + đổi mới sáng tạo để khai thác tối đa AI.
-- AI Agents là xu hướng tất yếu trong tương lai gần.
+#### Hands-on Technical Insights
+- Gained understanding of security architecture in GenAI deployments.
+- Realized the transformative potential of AI Agents in next-level automation.
 
-#### Một số hình ảnh khi tham gia sự kiện
-![](/images/4-Events/Event1.1.jpg)
-![](/images/4-Events/Event1.2.jpg)
-![](/images/4-Events/Event1.3.jpg)
+#### Networking & Collaboration
+- Engaged with AWS experts and industry executives.
+- Recognized the importance of **collaboration between business and technology** in the GenAI era.
+
+#### Lessons Learned
+- Leadership plays a key role in enabling GenAI adoption.
+- Balancing **security**, **operational efficiency**, and **innovation** is crucial.
+- AI Agents will become an inevitable part of future workflows.
+
+
+### Event Photos
+
+![](/images/4-Events/Event1.1.jpg)  
+![](/images/4-Events/Event1.2.jpg)  
+![](/images/4-Events/Event1.3.jpg)  
 ![](/images/4-Events/Event1.4.jpg)
 
-> Tổng thể, sự kiện không chỉ mang lại kiến thức về công nghệ GenAI mà còn giúp tôi thay đổi cách nhìn về vai trò của lãnh đạo, bảo mật và ứng dụng AI vào thực tế kinh doanh.
+> Overall, the event not only expanded my understanding of Generative AI technology but also reshaped my perspective on leadership, security, and practical AI integration in business.

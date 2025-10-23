@@ -6,7 +6,6 @@ chapter: false
 pre: " <b> 5. </b> "
 ---
 
-
 # Triển khai Bảo mật và Kiểm soát Truy cập Chi tiết cho Truy cập S3 Hybrid
 
 #### Tổng quan

@@ -6,8 +6,6 @@ chapter: false
 pre: " <b> 1.5. </b> "
 ---
 
-
-
 ### Week 5 Objectives:
 
 * Continue learning **AWS** on YouTube.
@@ -21,7 +19,6 @@ pre: " <b> 1.5. </b> "
 | 4   | - Study at the office. <br> - Translate and edit AWS blog content.                                                                                                                                                                                           | 8/10/2025    | 8/10/2025       | Youtube: AWS Cloud Journey  |
 | 5   | - Study **AWS Storage Services**: <br>&emsp; + Amazon Simple Storgae Service - S3 <br>&emsp; + Amazon Storage Gateway <br>&emsp; + Snow Family <br>&emsp; + Disaster Recovery on AWS <br>&emsp; + AWS Backup <br> - Complete and review translated blog. | 9/10/2025    | 9/10/2025       | Youtube: AWS Cloud Journey  |
 | 6   | - Continue Module 04: <br>&emsp; + Access Point <br>&emsp; + Storage Class <br> - Xem S3 Static Website & CORS <br>&emsp; + Control Access <br>&emsp; + Object Key & Performance <br>&emsp; + Glacier                                            | 10/10/2025   | 10/10/2025      | Youtube: AWS Cloud Journey  |
-
 
 ### Week 5 Achievements
 

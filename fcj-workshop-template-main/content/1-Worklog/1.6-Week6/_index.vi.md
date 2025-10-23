@@ -6,9 +6,6 @@ chapter: false
 pre: " <b> 1.6. </b> "
 ---
 
-
-
-
 ### Mục tiêu tuần 6:
 
 * Tiếp tục xem các dịch vụ của AWS trên Youtube.
@@ -22,7 +19,6 @@ pre: " <b> 1.6. </b> "
 | 4   | - Xem AWS Identity Center. <br> - Xem Amazon Key Management Service. <br> - AWS Security Hub.                                                   | 15/10/2025   | 15/10/2025      | <Youtube: AWS Study Group>  |
 | 5   | - Lên VP học tập. <br> - Xem labs của module 5. <br> - Chỉnh sửa và tối ưu code của Project. <br> - Kiểm tra kĩ lại các bài dịch blogs          | 16/10/2025   | 16/10/2025      | <Youtube: AWS Study Group>  |
 | 6   | - Tiếp tục xem labs của module 5 <br> - Xem lại các module 1-5 để chuẩn bị cho midterm.                                                         | 17/10/2025   | 17/10/2025      | <Youtube: AWS Study Group>  |
-
 
 ### Kết quả đạt được tuần 6
 

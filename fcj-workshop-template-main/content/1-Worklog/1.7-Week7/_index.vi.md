@@ -6,9 +6,6 @@ chapter: false
 pre: " <b> 1.7. </b> "
 ---
 
-
-
-
 ### Mục tiêu tuần 7:
 
 * Xem các module lab.
@@ -23,36 +20,25 @@ pre: " <b> 1.7. </b> "
 | 5   | - Xem module 3,4 và labs                               | 23/10/2025   | 23/10/2025      | <https://cloudjourney.awsstudygroup.com/> |
 | 6   | - Xem module 5 và labs                                 | 24/10/2025   | 24/10/2025      | <https://cloudjourney.awsstudygroup.com/> |
 
+## Thành Tựu Tuần 7
 
-### Kết quả đạt được tuần 7:
+* **Thứ Hai (20/10/2025)**
+    - Xem lại **Labs Module 1** để củng cố các khái niệm thực tế về AWS.
+    - Ôn tập nội dung **thi giữa kỳ**.
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+* **Thứ Ba (21/10/2025)**
+    - Tiếp tục xem **Module 1** và **Labs  1**.
+    - Đạt được hiểu biết sâu sắc hơn về **các kiến thức cơ bản của AWS**, bao gồm cơ sở hạ tầng toàn cầu và mô hình shared responsibility.
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
+* **Thứ Tư (22/10/2025)**
+    - Xem lại **Module 2** và **Labs 2**.
+    - Thực hành các bài tập liên quan đến **VPC**, **subnets**, và các phiên bản **EC2** (instances).
 
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
+* **Thứ Năm (23/10/2025)**
+    - Ôn tập **Module 3 & 4** và **Labs 3 & 4**.
+    - Củng cố sự hiểu biết về các khái niệm **S3**, **EBS**, và **Disaster Recovery**.
 
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
+* **Thứ Sáu (24/10/2025)**
+    - Xem lại **Module 5** và **Labs 5**.
+    - Tổng hợp kiến thức từ **Module 1 đến 5** để chuẩn bị cho **bài thi giữa kỳ**.
 

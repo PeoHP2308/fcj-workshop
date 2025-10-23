@@ -6,8 +6,6 @@ chapter: false
 pre: " <b> 1.2. </b> "
 ---
 
-
-
 ### Week 2 Objectives:
 
 * Practice using **AWS technologies**.
@@ -21,7 +19,6 @@ pre: " <b> 1.2. </b> "
 | 4   | - Learn AWS through YouTube videos.                                                                               | 17/09/2025   | 17/09/2025      | <Youtube: AWS Study Group> |
 | 5   | - Attend the **AWS Cloud Day Vietnam** event at the office.                                                     | 18/09/2025   | 18/09/2025      | <Youtube: AWS Study Group> |
 | 6   | - Learn how to use AWS technologies.                                                             | 19/09/2025   | 21/09/2025      | <Youtube: AWS Study Group> |
-
 
 ### Week 2 Achievements:
 

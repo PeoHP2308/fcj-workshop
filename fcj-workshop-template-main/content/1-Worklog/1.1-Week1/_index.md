@@ -6,7 +6,6 @@ chapter: false
 pre: " <b> 1.1. </b> "
 ---
 
-
 ### Week 1 Objectives:
 
 * Connect and get acquainted with members of the First Cloud Journey (FCJ).
@@ -20,7 +19,6 @@ pre: " <b> 1.1. </b> "
 | 4   | - Go to the office for study. <br> - Continue learning about Cloud Computing. <br> - Try translating the first blog.                       | 11/09/2025 | 12/09/2025      | <Youtube: AWS Study Group>  |
 | 5   | - Learn about basic VPC concepts: <br>&emsp; + Subnet <br>&emsp; + Route Table <br>&emsp; + Security <br>&emsp; + Xem video Lab 1 của AWS  | 12/09/2025 | 13/09/2025      | <Youtube: AWS Study Group>  |
 | 6   | - Continue learning about Cloud Computing on YouTube.                                                                                      | 14/09/2025 | 15/09/2025      | <Youtube: AWS Study Group>  |
-
 
 ### Week 1 Achievements
 

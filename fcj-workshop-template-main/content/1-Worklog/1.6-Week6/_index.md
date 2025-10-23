@@ -6,9 +6,6 @@ chapter: false
 pre: " <b> 1.6. </b> "
 ---
 
-
-
-
 ### Week 6 Objectives:
 
 * Continue watching AWS service tutorials on YouTube.
@@ -22,7 +19,6 @@ pre: " <b> 1.6. </b> "
 | 4   | - Watch AWS Identity Center. <br> - Watch Amazon Key Management Service. <br> - AWS Security Hub.                                                | 15/10/2025   | 15/10/2025      | <Youtube: AWS Study Group>  |
 | 5   | - Study at the office. <br> - Review **labs of Module 5**. <br> - Optimize the project code. <br> - Double-check translated blog articles.       | 16/10/2025   | 16/10/2025      | <Youtube: AWS Study Group>  |
 | 6   | - Continue reviewing **Module 5 labs**. <br> - Revise **Modules 1–5** to prepare for the midterm exam.                                                          | 17/10/2025   | 17/10/2025      | <Youtube: AWS Study Group>  |
-
 
 ### Week 6 Achievements
 

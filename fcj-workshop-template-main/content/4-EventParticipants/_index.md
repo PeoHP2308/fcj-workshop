@@ -7,15 +7,17 @@ pre: " <b> 4. </b> "
 ---
 
 
-During my internship, I had the opportunity to participate in two events, each offering valuable experiences filled with new, insightful, and practical knowledge — along with great moments and memorable gifts.
+During my internship, I participated in two events. Each one was a memorable experience that provided new, interesting, 
+and useful knowledge, along with gifts and wonderful moments.
+
 ### [Event 1](4.1-Event1/)
 &emsp;**Event Name:** AWS Cloud Day Vietnam 2025 & GenAI Track
 
 &emsp;**Time:** 09:00 - 18/09/2025
 
-&emsp;**Location:** 26th floors, Bitexco Tower, 02 Hải Triều Street, Saigon Ward, Ho Chi Minh City
+&emsp;**Location:** 26th Floor, Bitexco Tower, 02 Hai Trieu Street, Saigon Ward, Ho Chi Minh City
 
-&emsp;**Role in Event:** Attendee
+&emsp;**Role:** Attendee
 
 
 
@@ -24,7 +26,7 @@ During my internship, I had the opportunity to participate in two events, each o
 
 &emsp;**Time:** 09:00 ngày 13/08/2025
 
-&emsp;**Location:** 26th Floor, Bitexco Tower, 02 Hải Triều Street, Saigon Ward, Ho Chi Minh City
+&emsp;**Location:** 26th Floor, Bitexco Tower, 02 Hai Trieu Street, Saigon Ward, Ho Chi Minh City
 
-&emsp;**Role in Event:** Attendee
+&emsp;**Role:** Attendee 
 

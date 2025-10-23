@@ -6,7 +6,6 @@ chapter: false
 pre: " <b> 4.1. </b> "
 ---
 
-
 # Bài thu hoạch “AWS Cloud Day Vietnam 2025 & GenAI Track”
 
 ### Mục Đích Của Sự Kiện

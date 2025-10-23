@@ -6,7 +6,6 @@ chapter: false
 pre: " <b> 1.4. </b> "
 ---
 
-
 ### Mục tiêu tuần 4:
 
 * Tạo được tài khoản AWS
@@ -21,7 +20,6 @@ pre: " <b> 1.4. </b> "
 | 4   | - Tìm hiểu và thực hành với **EC2** <br> - Làm quen với **Billing and Cost Management** <br> - Cài đặt và cấu hình **AWS CLI** để quản lý tài nguyên cơ bản                                                               | 13/08/2025   | 13/08/2025      | [https://us-east-2.console.aws.amazon.com/console/home?/] |
 | 5   | - Nghiên cứu và thao tác với **Aurora & RDS** <br> - Tìm hiểu **AWS Private Certificate Authority** <br> - Làm quen với cách quản lý Database trong AWS                                                                   | 14/08/2025   | 14/08/2025      | [https://us-east-2.console.aws.amazon.com/console/home?/] |
 | 6   | - Tìm hiểu **Lambda** và **Amazon Bedrock** <br> - Thực hành triển khai thử nghiệm dịch vụ không máy chủ (serverless) <br> - Củng cố lại các thao tác cơ bản trên Console & CLI <br> - Push thành công thư mục lên Github | 15/08/2025   | 15/08/2025      | [https://us-east-2.console.aws.amazon.com/console/home?/] |
-
 
 ### Kết quả đạt được tuần 4:
 

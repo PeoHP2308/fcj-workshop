@@ -6,8 +6,6 @@ chapter: false
 pre: " <b> 1.3. </b> "
 ---
 
-
-
 ### Week 3 Objectives:
 
 * Understand how to use **AWS technologies**.
@@ -21,7 +19,6 @@ pre: " <b> 1.3. </b> "
 | 4   | - Learn about **Compute VM on AWS**. <br> - Study **EC2 Instance Types** <br> - Including: <br>&emsp;  + Amazon Elastic Compute Cloud (EC2) <br>&emsp + Amazon Lightsail | 24/09/2025   | 24/09/2025        | <https://aws.amazon.com/ec2/instance-types/?ncl=h_is/> |
 | 5   | - Study **Basic EC2 Concepts**: + Amazon EFS/FSX  <br> + AWS Application Migration Service (MGN)                                                                         | 25/09/2025   | 25/09/2025        | <https://aws.amazon.com/ec2/instance-types/?ncl=h_is/> |
 | 6   | - **Practice:** <br>&emsp; + Create an EC2 instance. <br>&emsp; + Create a database.                                                                                                | 26/09/2025   | 26/09/2025        |                                                        |
-
 
 ### Week 3 Achievements:
 
