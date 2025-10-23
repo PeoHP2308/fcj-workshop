@@ -1,40 +1,40 @@
 ---
-title: "Báo cáo thực tập"
+title: "Internship Report"
 date: "2025-10-06"
 weight: 1
 chapter: false
 ---
 
-# Báo cáo thực tập
-### Thông tin sinh viên:
-&emsp; **Họ và tên:** Nguyễn Trường Huy
+# Internship Report
+### Student Information:
+&emsp; **Full Name:** Nguyen Truong Huy
 
-&emsp; **Số điện thoại:** 0827338992
+&emsp; **Phone Number:** 0827338992
 
 &emsp; **Email:** truonghuy20203@gmail.com
 
-&emsp; **Trường:** Đại học FPT
+&emsp; **University:** FPT University
 
-&emsp; **Ngành:** Hệ thống thông tin
+&emsp; **Major:** Information System
 
-&emsp; **Lớp:** AWS082025
+&emsp; **Class:** AWS082025
 
-&emsp; **Công ty thực tập:** Công ty TNHH Amazon Web Services Vietnam
+&emsp; **Internship Company:** Amazon Web Services Vietnam Co., Ltd.
 
-&emsp; **Vị trí thực tập:** FCJ Cloud Intern
+&emsp; **Internship Position:** FCJ Cloud Intern
 
-&emsp; **Thời gian thực tập:** Từ tháng 09/2025 đến tháng 12/2025
+&emsp; **Internship Duration:** From September to December 2025
 
-![Ảnh đại diện của bạn](/images/avatar.new.png)
+![Your profile picture](/images/avatar.new.png)
 
 
 
-### Nội dung báo cáo
+### Report Content
 
 1.  [Worklog](1-Worklog/)
 2.  [Proposal](2-Proposal/)
-3.  [Các bài blogs đã dịch](3-TranslatedBlog/)
-4.  [Các events đã tham gia](4-EventParticipants/)
+3.  [Translated Blogs](3-TranslatedBlog/)
+4.  [Events Participated](4-EventParticipants/)
 5.  [Workshop](5-Workshop/)
-6.  [Tự đánh giá](6-Self-evaluation/)
-7.  [Chia sẻ, đóng góp ý kiến](7-Feedback/)
+6.  [Self-evaluation](6-Self-evaluation/)
+7.  [Sharing and Feedback](7-Feedback/)

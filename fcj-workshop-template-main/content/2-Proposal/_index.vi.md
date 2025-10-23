@@ -10,13 +10,18 @@ pre: " <b> 2. </b> "
 
 
 # AWS Cloud Health Dashboard
+
 ## Giải pháp giám sát và tối ưu hóa hạ tầng AWS toàn diện
 
 ### 1. Tóm tắt điều hành
 
-AWS Cloud Health Dashboard là nền tảng giám sát và tối ưu hóa hạ tầng AWS được thiết kế nhằm giúp các doanh nghiệp và cá nhân quản lý hiệu quả chi phí, bảo mật, và hiệu suất của hệ thống cloud. Nền tảng sử dụng kiến trúc đơn giản với EC2 và DynamoDB, kết hợp các dịch vụ AWS như CloudWatch, Cost Explorer, Security Hub để cung cấp giám sát thời gian thực và phân tích dữ liệu.
+AWS Cloud Health Dashboard là nền tảng giám sát và tối ưu hóa hạ tầng AWS được thiết kế nhằm giúp các doanh nghiệp và 
+cá nhân quản lý hiệu quả chi phí, bảo mật, và hiệu suất của hệ thống cloud. Nền tảng sử dụng kiến trúc đơn giản với EC2 
+và DynamoDB, kết hợp các dịch vụ AWS như CloudWatch, Cost Explorer, Security Hub để cung cấp giám sát thời gian thực và 
+phân tích dữ liệu.
 
 **Điểm nổi bật:**
+
 - Chi phí vận hành: $12-18/tháng (tận dụng Free Tier)
 - Giám sát CloudWatch metrics và AWS costs
 - Phân tích chi phí và đề xuất tối ưu hóa dựa trên AWS APIs
@@ -256,6 +261,7 @@ Sử dụng 4 tables chuyên biệt để tối ưu performance và separation o
 ```
 
 **Table 2: CloudHealthCosts**
+
 ```python
 {
     "TableName": "CloudHealthCosts",
@@ -406,6 +412,7 @@ Sử dụng 4 tables chuyên biệt để tối ưu performance và separation o
     "updated_at": "2025-09-22T14:30:00Z",
     "ttl": 1685894400  # Unix timestamp (180 days)
 }
+
 ```
 
 **Design Rationale:**
