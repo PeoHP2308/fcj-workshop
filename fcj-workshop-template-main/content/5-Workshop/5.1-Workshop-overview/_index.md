@@ -79,7 +79,6 @@ In this workshop, we will:
 
 #### Phase 4: Enforce S3 Bucket Policy (Source Control)
 
-
 | Step | Active                                                                                                                                                                          | Purpose                                                                                   |
 |------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|
 | 4.1  | Configure the **S3 Bucket Policy** for `s3://hybrid-secure-data-prod.`                                                                                                          | **Security Layer 3**: The final control layer, ensuring only trusted sources are allowed. |

@@ -6,9 +6,6 @@ chapter: false
 pre: " <b> 2. </b> "
 ---
 
-
-
-
 # AWS Cloud Health Dashboard
 
 ## Comprehensive AWS Infrastructure Monitoring and Optimization Solution
