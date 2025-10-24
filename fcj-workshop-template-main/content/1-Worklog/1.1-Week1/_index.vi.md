@@ -31,7 +31,7 @@ pre: " <b> 1.1. </b> "
     - Học và hiểu khái niệm cơ bản về **Điện toán đám mây (Cloud Computing)**.
 
 * **Thứ 4 (13/08/2025)**
-    - Lên văn phòng thực tập, làm quen môi trường làm việc.
+    - Lên văn phòng học tập, làm quen môi trường làm việc.
     - Xem thêm nội dung về **Cloud Computing**.
     - Thử dịch blog đầu tiên liên quan đến AWS.
 

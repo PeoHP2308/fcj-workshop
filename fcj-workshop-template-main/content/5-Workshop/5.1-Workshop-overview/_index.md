@@ -17,7 +17,7 @@ In this workshop, we will:
 
 - Learn how to **create, configure, and test** two types of **VPC Endpoints** (Gateway and Interface).
 - Set up a **Hybrid Access** model, where workloads in the VPC and On-Premises systems can both access **Amazon S3 securely, privately, and without going over the Internet.**
-- Áp dụng **các lớp chính sách bảo mật (Security Layers)** gồm:
+-Applying the following **security policy layers (Security Layers)**:
   - **Endpoint Policy**: Controls access permissions at the Endpoint level.
   - **Bucket Policy**: Restricts access based on the source IP and the allowed network range.
 - Perform **access testing (Positive & Negative Testing)** to verify the operation of each security layer and ensure that only valid sources can access data in S3.

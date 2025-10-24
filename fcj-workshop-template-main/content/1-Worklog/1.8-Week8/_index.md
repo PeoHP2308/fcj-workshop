@@ -6,49 +6,50 @@ chapter: false
 pre: " <b> 1.8. </b> "
 ---
 
-### Mục tiêu tuần 8:
+### Week 8 Objectives:
 
-* Kết nối, làm quen với các thành viên trong First Cloud Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+* Midterm Exam Review this week.
+* Project Code Refactoring.
 
-### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+### Tasks to be carried out this week:
+| Day | Task                                     | Start Date | Completion Date | Reference Material         |
+| --- |------------------------------------------|------------|-----------------|----------------------------|
+| 2   | - Review theory for Module 1-2.          | 27/10/2025 | 27/10/2025      | <Youtube: AWS Study Group> |
+| 3   | - Review theory for Module 3-4.          | 28/10/2025 | 29/10/2025      | <Youtube: AWS Study Group> |
+| 4   | - Review theory for Module 5.            | 29/10/2025 | 29/10/2025      | <Youtube: AWS Study Group> |
+| 5   | - Review all theory from 5 modules.      | 30/10/2025 | 30/10/2025      | <Youtube: AWS Study Group> |
+| 6   | - Go to the office for the Midterm Exam. | 31/10/2025 | 31/10/2025      |                            |
 
-### Kết quả đạt được tuần 8:
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+### Week 8 Achievements:
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
+* Understood what AWS is and mastered the basic service groups:
+    * Compute
+    * Storage
+    * Networking
+    * Database
+    * ...
 
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
+* Successfully created and configured an AWS Free Tier account.
 
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
+* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
 
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
+* Installed and configured AWS CLI on the computer, including:
+    * Access Key
+    * Secret Key
+    * Default Region
+    * ...
 
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
+* Used AWS CLI to perform basic operations such as:
 
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
+    * Check account & configuration information
+    * Retrieve the list of regions
+    * View EC2 service
+    * Create and manage key pairs
+    * Check information about running services
+    * ...
+
+* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
 * ...
 
 

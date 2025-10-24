@@ -44,8 +44,6 @@ Many organizations and individual AWS users face several common issues:
 5. **No Custom Alerting:**  
    Complex or multi-condition alert configurations are difficult to implement.
 
----
-
 **Proposed Solution:**
 
 **Cloud Health Dashboard** delivers a centralized monitoring and optimization platform with the following key features:
@@ -85,8 +83,6 @@ Many organizations and individual AWS users face several common issues:
     - **Redis Caching** to minimize AWS API calls and improve response time
     - **Pre-Collected Data** stored in DynamoDB for quick retrieval
     - **WebSocket Integration** for real-time data updates on the dashboard
-
----
 
 ### Benefits and ROI
 
@@ -434,8 +430,6 @@ To optimize **performance**, **data scalability**, and **separation of concerns*
 
 The decision to use **4 specialized tables** instead of 2 aggregated tables is based on clear architectural and operational benefits:
 
----
-
 #### **1. Query Performance**
 Each table is optimized for a **specific access pattern**:
 - **Metrics** → Time-series queries with high write throughput.
@@ -445,28 +439,20 @@ Each table is optimized for a **specific access pattern**:
 
 This design minimizes query latency and avoids unnecessary data scans.
 
----
-
 #### **2. Separation of Concerns**
 - Clear **data ownership** and **lifecycle management**.
 - Different **TTL (Time to Live)** policies for each data type.
 - Easier to maintain, debug, and evolve over time.
-
----
 
 #### **3. Scalability**
 - Each table scales **independently** as workloads grow.
 - Avoids **hot partitions** caused by data spikes in one category.
 - GSIs (Global Secondary Indexes) tailored to specific query needs.
 
----
-
 #### **4. Cost Management**
 - Enables **granular cost tracking** per data category.
 - Flexible TTLs reduce storage cost for short-lived data.
 - Uses **on-demand billing**, ideal for variable workloads.
-
----
 
 #### **Trade-offs**
 - Slightly higher cost (~$2–3/month) compared to 2-table setup.
@@ -500,8 +486,6 @@ This design minimizes query latency and avoids unnecessary data scans.
 - **systemd** for service management
 - **CloudWatch Agent** for monitoring
 - **Bash scripts** for automation
-
----
 
 **Core Features Implementation**
 
@@ -722,7 +706,6 @@ Post-deployment: Maintenance & Enhancements
 - Disable monitoring for unused AWS services
 - Perform **batch writes** where possible
 - Design **efficient query patterns** with GSIs
-
 
 ### 7. Risk Assessment
 

@@ -12,17 +12,18 @@ pre: " <b> 1.5. </b> "
 * Understand core **AWS services**.
 
 ### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                                                            | Start Date | Completion Date | Reference Source              |
-| --- |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------|-----------------|-----------------------------|
+| Day | Task                                                                                                                                                                                                                                                     | Start Date   | Completion Date | Reference Material          |
+| --- |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------|-----------------|-----------------------------|
 | 2   | - Study at the office. <br> - Learn **Module 03: Amazon Elastic Compute Cloud (EC2)**: <br>&emsp; + AMI / Backup / Key Pair <br>&emsp; +  Elastic block store <br>&emsp; + User data <br>&emsp; + Meta data                                              | 6/10/2025    | 6/10/2025       | Youtube: AWS Cloud Journey  |
-| 3   | - Continue studying **Amazon EC2**: <br>&emsp; + EC2 auto scaling <br>&emsp; + EFS/FSx <br>&emsp; + Lightsail<br>&emsp; + MGN                                                                                                       | 7/10/2025    | 7/10/2025       | Youtube: AWS Cloud Journey  |
-| 4   | - Study at the office. <br> - Translate and edit AWS blog content.                                                                                                                                                                                           | 8/10/2025    | 8/10/2025       | Youtube: AWS Cloud Journey  |
+| 3   | - Continue studying **Amazon EC2**: <br>&emsp; + EC2 auto scaling <br>&emsp; + EFS/FSx <br>&emsp; + Lightsail<br>&emsp; + MGN                                                                                                                            | 7/10/2025    | 7/10/2025       | Youtube: AWS Cloud Journey  |
+| 4   | - Study at the office. <br> - Translate and edit AWS blog content.                                                                                                                                                                                       | 8/10/2025    | 8/10/2025       | Youtube: AWS Cloud Journey  |
 | 5   | - Study **AWS Storage Services**: <br>&emsp; + Amazon Simple Storgae Service - S3 <br>&emsp; + Amazon Storage Gateway <br>&emsp; + Snow Family <br>&emsp; + Disaster Recovery on AWS <br>&emsp; + AWS Backup <br> - Complete and review translated blog. | 9/10/2025    | 9/10/2025       | Youtube: AWS Cloud Journey  |
-| 6   | - Continue Module 04: <br>&emsp; + Access Point <br>&emsp; + Storage Class <br> - Xem S3 Static Website & CORS <br>&emsp; + Control Access <br>&emsp; + Object Key & Performance <br>&emsp; + Glacier                                            | 10/10/2025   | 10/10/2025      | Youtube: AWS Cloud Journey  |
+| 6   | - Continue Module 04: <br>&emsp; + Access Point <br>&emsp; + Storage Class <br> - Xem S3 Static Website & CORS <br>&emsp; + Control Access <br>&emsp; + Object Key & Performance <br>&emsp; + Glacier                                                    | 10/10/2025   | 10/10/2025      | Youtube: AWS Cloud Journey  |
 
 ### Week 5 Achievements
 
 **Monday (06/10/2025)**
+- Go to the office for studying.
 - Learned and practiced with **Amazon EC2**: created and configured EC2 instances.
 - Practiced **AMI**, **EBS**, **User Data**, and **Meta Data**.
 - Generated and used **Key Pairs** for secure access to instances.
@@ -33,7 +34,7 @@ pre: " <b> 1.5. </b> "
 - Explored **Lightsail** and **MGN** for lightweight and migration use cases.
 
 **Wednesday (08/10/2025)**
-- Attended in-office study session.
+- Go to the office for studying.
 - Translated and edited an **AWS blog** for better understanding.
 
 **Thursday (09/10/2025)**

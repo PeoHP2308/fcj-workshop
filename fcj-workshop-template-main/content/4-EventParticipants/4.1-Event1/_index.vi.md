@@ -35,6 +35,7 @@ pre: " <b> 4.1. </b> "
 - **Taiki Dang** - Solutions Architect, AWS.
 
 ### Nội Dung Nổi Bật
+
 #### Phần 1: Main Sessions (AWS Cloud Day Vietnam)
 
 - **Opening & Keynote (Eric Yeo, AWS)**: Giới thiệu tầm nhìn AWS tại Việt Nam và Đông Nam Á.
@@ -87,6 +88,7 @@ pre: " <b> 4.1. </b> "
 - **Securing Generative AI Applications (Taiki Dang)**:
     - Các thách thức bảo mật trong GenAI stack (infrastructure, model, application).
     - Biện pháp bảo mật: encryption, zero-trust, continuous monitoring, fine-grained access.
+
 - **Beyond Automation: AI Agents (Michael Armentano)**:
     - AI Agents như đối tác thông minh, vượt xa automation truyền thống.
     - Khả năng học hỏi, thích ứng, thực thi tác vụ phức tạp → tăng năng suất vượt bậc.
@@ -120,23 +122,28 @@ pre: " <b> 4.1. </b> "
 ### Trải nghiệm trong event
 
 #### Học hỏi từ lãnh đạo doanh nghiệp
+
 - Case study từ Techcombank, U2U, ELSA, Nexttech cho thấy ứng dụng AI đa ngành.
 - Cách các CEO đối mặt với thách thức quản lý thay đổi.
 
 #### Trải nghiệm kỹ thuật thực tế
+
 - Hiểu rõ kiến trúc bảo mật khi triển khai GenAI.
 - Nhận thức được tiềm năng của AI Agents trong tự động hóa nâng cao.
 
 #### Kết nối & Trao đổi
+
 - Có cơ hội trao đổi với chuyên gia AWS và lãnh đạo doanh nghiệp.
 - Thấy rõ sự cần thiết của **hợp tác giữa business & technology** trong kỷ nguyên GenAI.
 
 #### Bài học rút ra
+
 - Lãnh đạo cần đi đầu trong việc đưa GenAI vào tổ chức.
 - Kết hợp bảo mật + hiệu quả vận hành + đổi mới sáng tạo để khai thác tối đa AI.
 - AI Agents là xu hướng tất yếu trong tương lai gần.
 
 #### Một số hình ảnh khi tham gia sự kiện
+
 ![](/images/4-Events/Event1.1.jpg)
 ![](/images/4-Events/Event1.2.jpg)
 ![](/images/4-Events/Event1.3.jpg)

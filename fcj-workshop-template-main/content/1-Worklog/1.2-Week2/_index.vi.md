@@ -12,10 +12,10 @@ pre: " <b> 1.2. </b> "
 * Hiểu dịch vụ AWS cơ bản.
 
 ### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                        | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- |----------------------------------------------------------------------------------|--------------|-----------------| ----------------------------------------- |
-| 2   | - Tiếp tục học AWS trên Youtube. <br> - Xem và tìm hiểu những công nghệ của AWS. | 15/09/2025   | 15/09/2025      |
-| 3   | - Họp nhóm, đưa ra ý tưởng, ngôn ngữ và công nghệ sẽ sử dụng trong dự án.        | 16/09/2025   | 16/09/2025      |  |
+| Thứ | Công việc                                                                        | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu             |
+| --- |----------------------------------------------------------------------------------|--------------|-----------------|----------------------------|
+| 2   | - Tiếp tục học AWS trên Youtube. <br> - Xem và tìm hiểu những công nghệ của AWS. | 15/09/2025   | 15/09/2025      |                            |
+| 3   | - Họp nhóm, đưa ra ý tưởng, ngôn ngữ và công nghệ sẽ sử dụng trong dự án.        | 16/09/2025   | 16/09/2025      |                            |
 | 4   | - Học AWS trên Youtube.                                                          | 17/09/2025   | 17/09/2025      | <Youtube: AWS Study Group> |
 | 5   | - Lên Văn phòng dự Event AWS Cloud Day VietNam .                                 | 18/09/2025   | 18/09/2025      | <Youtube: AWS Study Group> |
 | 6   | - Học cách sủ dụng các công nghệ của AWS.                                        | 19/09/2025   | 19/09/2025      | <Youtube: AWS Study Group> |
