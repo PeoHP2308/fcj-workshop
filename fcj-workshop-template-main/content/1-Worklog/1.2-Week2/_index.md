@@ -12,13 +12,13 @@ pre: " <b> 1.2. </b> "
 * Understand basic **AWS services**.
 
 ### Tasks to be carried out this week
-| Day | Task                                                                                                      | Start Date   | Completion Date | Reference Material         |
-| --- |-----------------------------------------------------------------------------------------------------------|--------------|-----------------|----------------------------|
-| 2   | - Continue learning AWS on YouTube. <br> - Explore and understand AWS technologies.                       | 15/09/2025   | 15/09/2025      |                            |
-| 3   | - Attend a team meeting to discuss project ideas, programming languages, and technologies to be used.     | 16/09/2025   | 16/09/2025      |                            |
-| 4   | - Learn AWS through YouTube videos.                                                                       | 17/09/2025   | 17/09/2025      | <Youtube: AWS Study Group> |
-| 5   | - Attend the **AWS Cloud Day Vietnam** event at the office.                                               | 18/09/2025   | 18/09/2025      | <Youtube: AWS Study Group> |
-| 6   | - Learn how to use AWS technologies.                                                                      | 19/09/2025   | 21/09/2025      | <Youtube: AWS Study Group> |
+| Day | Task                                                                                                  | Start Date   | Completion Date | Reference Material         |
+| --- |-------------------------------------------------------------------------------------------------------|--------------|-----------------|----------------------------|
+| 2   | - Continue learning **AWS** on YouTube. <br> - Explore and understand AWS technologies.               | 15/09/2025   | 15/09/2025      |                            |
+| 3   | - Attend a team meeting to discuss project ideas, programming languages, and technologies to be used. | 16/09/2025   | 16/09/2025      |                            |
+| 4   | - Learn **AWS** through YouTube videos.                                                               | 17/09/2025   | 17/09/2025      | <Youtube: AWS Study Group> |
+| 5   | - Attend the **AWS Cloud Day Vietnam** event at the office.                                           | 18/09/2025   | 18/09/2025      | <Youtube: AWS Study Group> |
+| 6   | - Learn how to use **AWS** technologies.                                                              | 19/09/2025   | 21/09/2025      | <Youtube: AWS Study Group> |
 
 ### Week 2 Achievements:
 

@@ -32,7 +32,7 @@ pre: " <b> 1.7. </b> "
 
 * **Wednesday (22/10/2025):**
     - Reviewed **Module 2** and **Lab 2**.
-    - Practiced hands-on exercises related to **VPC**, **subnets**, and **EC2** instances.
+    - Practiced hands-on exercises related to **VPC**, **subnets**, and **EC2 instances**.
 
 * **Thursday (23/10/2025):**
     - Go to the office for studying.

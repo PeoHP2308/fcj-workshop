@@ -14,10 +14,10 @@ pre: " <b> 1.3. </b> "
 ### Tasks to be carried out this week:
 | Day | Task                                                                                                                                                                     | Start Date   | Completion Date | Reference Material                                     |
 | --- |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------|-----------------|--------------------------------------------------------|
-| 2   | - Learn AWS through YouTube.                                                                                                                                             | 22/09/2025   | 22/09/2025      |                                                        |
-| 3   | - Try to translate the second blog.                                                                                                                                      | 23/09/2025   | 23/09/2025      | Youtube: AWS Cloud Journey                             |
+| 2   | - Learn AWS through **YouTube**.                                                                                                                                         | 22/09/2025   | 22/09/2025      |                                                        |
+| 3   | - Try to translate **the second blog**.                                                                                                                                  | 23/09/2025   | 23/09/2025      | Youtube: AWS Cloud Journey                             |
 | 4   | - Learn about **Compute VM on AWS**. <br> - Study **EC2 Instance Types** <br> - Including: <br>&emsp;  + Amazon Elastic Compute Cloud (EC2) <br>&emsp + Amazon Lightsail | 24/09/2025   | 24/09/2025      | <https://aws.amazon.com/ec2/instance-types/?ncl=h_is/> |
-| 5   | - Study **Basic EC2 Concepts**: + Amazon EFS/FSX  <br> + AWS Application Migration Service (MGN)                                                                         | 25/09/2025   | 27/09/2025      | <https://aws.amazon.com/ec2/instance-types/?ncl=h_is/> |
+| 5   | - Study **Basic EC2 Concepts**: + **Amazon EFS/FSX**  <br> + **AWS Application Migration Service (MGN)**                                                                 | 25/09/2025   | 27/09/2025      | <https://aws.amazon.com/ec2/instance-types/?ncl=h_is/> |
 | 6   | - **Practice:** <br>&emsp; + Create an EC2 instance. <br>&emsp; + Create a database.                                                                                     | 26/09/2025   | 28/09/2025      |                                                        |
 
 ### Week 3 Achievements:
@@ -41,7 +41,7 @@ pre: " <b> 1.3. </b> "
 - Gained deeper understanding of **Basic EC2 concepts**.
 - Learned how to choose the right **instance type**.
 - Studied the following services:
-    - **Amazon EFS / FSx**
+    - **Amazon EFS / FSX**
     - **AWS Application Migration Service (MGN)**  
       → Gained comprehensive knowledge of **EC2 instance types**.
 

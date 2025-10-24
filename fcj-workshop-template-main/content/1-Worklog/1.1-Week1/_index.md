@@ -12,13 +12,13 @@ pre: " <b> 1.1. </b> "
 * Understand basic AWS services.
 
 ### Tasks to be carried out this week:
-| Day | Task                                                                                                                                      | Start Date | Completion Date | Reference Material          |
-| --- |-------------------------------------------------------------------------------------------------------------------------------------------|------------|-----------------|-----------------------------|
-| 2   | - Get to know FCJ members. <br> - Read and note the rules and regulations of the internship unit.                                         | 08/09/2025 | 09/09/2025      |
-| 3   | - Learn about Cloud Computing.                                                                                                            | 09/09/2025 | 10/09/2025      | <Youtube: AWS Study Group>  |
-| 4   | - Study at the office. <br> - Continue learning about Cloud Computing. <br> - Try translating the first blog.                             | 10/09/2025 | 11/09/2025      | <Youtube: AWS Study Group>  |
-| 5   | - Learn about basic VPC concepts: <br>&emsp; + Subnet <br>&emsp; + Route Table <br>&emsp; + Security <br>&emsp; + Xem video Lab 1 của AWS | 11/09/2025 | 13/09/2025      | <Youtube: AWS Study Group>  |
-| 6   | - Continue learning about Cloud Computing on YouTube.                                                                                     | 12/09/2025 | 14/09/2025      | <Youtube: AWS Study Group>  |
+| Day | Task                                                                                                                            | Start Date | Completion Date | Reference Material          |
+| --- |---------------------------------------------------------------------------------------------------------------------------------|------------|-----------------|-----------------------------|
+| 2   | - Get to know **FCJ members**. <br> - Read and note the rules and regulations of the internship unit.                           | 08/09/2025 | 09/09/2025      |
+| 3   | - Learn about **Cloud Computing**.                                                                                              | 09/09/2025 | 10/09/2025      | <Youtube: AWS Study Group>  |
+| 4   | - Study at the office. <br> - Continue learning about Cloud Computing. <br> - Try translating the first blog.                   | 10/09/2025 | 11/09/2025      | <Youtube: AWS Study Group>  |
+| 5   | - Learn about basic VPC concepts: <br>&emsp; + Subnet <br>&emsp; + Route Table <br>&emsp; + Security <br> - Watch labs 1 on AWS | 11/09/2025 | 13/09/2025      | <Youtube: AWS Study Group>  |
+| 6   | - Continue learning about Cloud Computing on YouTube.                                                                           | 12/09/2025 | 14/09/2025      | <Youtube: AWS Study Group>  |
 
 ### Week 1 Achievements
 

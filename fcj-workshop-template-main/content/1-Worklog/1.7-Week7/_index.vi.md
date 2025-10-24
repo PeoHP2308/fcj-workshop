@@ -12,13 +12,13 @@ pre: " <b> 1.7. </b> "
 * Xem bài cho midterm.
 
 ### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                              | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                |
-| --- |--------------------------------------------------------|--------------|-----------------|-------------------------------|
-| 2   | - Xem module lab 1 <br> - Xem các nội dung của midterm | 20/10/2025   | 21/10/2025      | <Youtube: AWS Study Group>    |
-| 3   | - Xem module 1 và lab 1                                | 21/10/2025   | 21/10/2025      | <Youtube: AWS Study Group>    |
-| 4   | - Xem module 2 và lab 2                                | 22/10/2025   | 22/10/2025      | <Youtube: AWS Study Group>    |
-| 5   | - Xem module 3,4 và labs <br> - Lên Văn phòng học tập  | 23/10/2025   | 25/10/2025      | <Youtube: AWS Study Group>    |
-| 6   | - Xem module 5,6 và labs <br> - Lên Văn phòng học tập  | 24/10/2025   | 26/10/2025      | <Youtube: AWS Study Group>    |
+| Thứ | Công việc                                                       | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                |
+| --- |-----------------------------------------------------------------|--------------|-----------------|-------------------------------|
+| 2   | - Xem **module lab 1**. <br> - Xem các nội dung của **midterm** | 20/10/2025   | 21/10/2025      | <Youtube: AWS Study Group>    |
+| 3   | - Xem **module 1 và lab 1**.                                    | 21/10/2025   | 21/10/2025      | <Youtube: AWS Study Group>    |
+| 4   | - Xem **module 2 và lab 2**.                                    | 22/10/2025   | 22/10/2025      | <Youtube: AWS Study Group>    |
+| 5   | - Xem **module 3,4 và labs**. <br> - Lên Văn phòng học tập      | 23/10/2025   | 25/10/2025      | <Youtube: AWS Study Group>    |
+| 6   | - Xem **module 5,6 và labs**. <br> - Lên Văn phòng học tập      | 24/10/2025   | 26/10/2025      | <Youtube: AWS Study Group>    |
 
 ## Thành Tựu Tuần 7
 
@@ -32,7 +32,7 @@ pre: " <b> 1.7. </b> "
 
 * **Thứ Tư (22/10/2025):**
     - Xem lại **Module 2** và **Labs 2**.
-    - Thực hành các bài tập liên quan đến **VPC**, **subnets**, và các phiên bản **EC2** (instances).
+    - Thực hành các bài tập liên quan đến **VPC**, **subnets**, và các phiên bản **EC2 (instances)**.
 
 * **Thứ Năm (23/10/2025):**
     - Lên Văn phòng học tập.
