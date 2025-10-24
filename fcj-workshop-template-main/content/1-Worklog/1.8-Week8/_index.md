@@ -16,8 +16,8 @@ pre: " <b> 1.8. </b> "
 | --- |------------------------------------------|------------|-----------------|----------------------------|
 | 2   | - Review theory for Module 1-2.          | 27/10/2025 | 27/10/2025      | <Youtube: AWS Study Group> |
 | 3   | - Review theory for Module 3-4.          | 28/10/2025 | 29/10/2025      | <Youtube: AWS Study Group> |
-| 4   | - Review theory for Module 5.            | 29/10/2025 | 29/10/2025      | <Youtube: AWS Study Group> |
-| 5   | - Review all theory from 5 modules.      | 30/10/2025 | 30/10/2025      | <Youtube: AWS Study Group> |
+| 4   | - Review theory for Module 5-6.          | 29/10/2025 | 29/10/2025      | <Youtube: AWS Study Group> |
+| 5   | - Review all theory from 6 modules.      | 30/10/2025 | 30/10/2025      | <Youtube: AWS Study Group> |
 | 6   | - Go to the office for the Midterm Exam. | 31/10/2025 | 31/10/2025      |                            |
 
 

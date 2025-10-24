@@ -23,6 +23,7 @@ Thực thi Chính sách Endpoint (Endpoint Policy) để chỉ cho phép truy c�
 Áp dụng Chính sách S3 Bucket để giới hạn truy cập dựa trên Địa chỉ IP nguồn của trung tâm dữ liệu On-Premise.
 
 Chứng minh rằng việc truy cập S3 qua các endpoint được bảo mật và giới hạn nghiêm ngặt theo nguyên tắc Least Privilege (Quyền tối thiểu).
+
 #### Nội dung
 
 1. [Tổng quan về workshop](5.1-Workshop-overview/)
