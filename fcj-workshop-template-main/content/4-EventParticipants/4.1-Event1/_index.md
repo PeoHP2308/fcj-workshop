@@ -8,14 +8,14 @@ pre: " <b> 4.1. </b> "
 
 # Reflection Report: “AWS Cloud Day Vietnam 2025 & GenAI Track”
 
-### Purpose of the Event
+### Purpose of the Event.
 
 - Introduce the latest technology trends from AWS, especially Generative AI.
 - Share case studies from major enterprises in Vietnam and across the region.
 - Discuss leadership strategies and organizational management in the AI era.
 - Explore best practices for security and real-world applications of AI Agents.
 
-### Speaker List
+### Speaker List.
 
 - **Hon. Government Speaker** – Opening remarks.
 - **Eric Yeo** – Country General Manager, Vietnam, Cambodia, Laos & Myanmar, AWS.
@@ -34,9 +34,9 @@ pre: " <b> 4.1. </b> "
 - **Binh Tran** – Senior Solutions Architect, AWS.
 - **Taiki Dang** – Solutions Architect, AWS.
 
-### Key Contents
+### Key Contents.
 
-#### Part 1: Main Sessions (AWS Cloud Day Vietnam)
+#### Part 1: Main Sessions (AWS Cloud Day Vietnam).
 
 - **Opening & Keynote (Eric Yeo, AWS):** Overview of AWS’s vision in Vietnam and Southeast Asia.
 - **Customer Keynote 1 (Techcombank):** Applying AI in finance to enhance operational efficiency and customer experience.
@@ -47,7 +47,7 @@ pre: " <b> 4.1. </b> "
     - GenAI as a strategic enabler, not just a tool.
     - Change management is critical when integrating AI.
 
-#### Part 2: GenAI Track
+#### Part 2: GenAI Track.
 
 - **Building a Unified Data Foundation on AWS for AI and Analytics Workloads (Kien Nguyen):**
     - Strategies to build scalable and unified data foundations for AI & analytics.
@@ -69,20 +69,20 @@ pre: " <b> 4.1. </b> "
     - AI Agents as “intelligent partners” beyond simple automation.
     - Capable of learning, adapting, and executing complex tasks → driving exponential productivity.
 
-### Keynotes
+### Keynotes.
 
 - **Eric Yeo (AWS):** Vision for GenAI and its applications in Southeast Asia.
 - **Techcombank (Dr. Jens Lottner):** Real-world AI adoption in financial services.
 - **U2U Network (Trang Phung):** Synergy between blockchain and AI to build next-gen ecosystems.
 - **AWS (Jaime Valles):** Regional innovation trends and enterprise transformation strategies.
 
-### Panel Discussion: *Navigating the GenAI Revolution*
+### Panel Discussion: *Navigating the GenAI Revolution*.
 
 - The leadership role in aligning organizations with GenAI.
 - Nurturing a culture of innovation and driving AI initiatives.
 - Managing organizational change during AI integration.
 
-### Technical Insights & Best Practices
+### Technical Insights & Best Practices.
 
 - **Securing Generative AI Applications (Taiki Dang):**
     - Security challenges in GenAI stacks (infrastructure, model, application).
@@ -92,53 +92,52 @@ pre: " <b> 4.1. </b> "
     - AI Agents as intelligent collaborators beyond traditional automation.
     - Self-learning and adaptive capabilities → significant productivity gains.
 
-### Key Takeaways
+### Key Takeaways.
 
-#### Strategic Thinking
+#### Strategic Thinking.
 
 - GenAI is not just a technology—it’s a catalyst for organizational transformation.
 - Leadership must foster innovation and manage change effectively.
 - The convergence of AI + Blockchain + Cloud opens new opportunities.
 
-#### Technical & Security Knowledge
+#### Technical & Security Knowledge.
 
 - Security is fundamental for all GenAI applications.
 - Zero-trust architecture and continuous monitoring ensure integrity.
 - Understanding security from infrastructure → model → application level is critical.
 
-#### Leveraging AI Agents
+#### Leveraging AI Agents.
 
 - AI Agents surpass traditional automation through learning and decision-making.
 - Integration can significantly boost productivity and efficiency.
 
-### Applications to Work
+### Applications to Work.
 
 - Propose internal workshops on **AI Strategy & Change Management**.
 - Pilot **AI Agents** in repetitive workflows to increase efficiency.
 - Review **AI workload security** following zero-trust and encryption principles.
 - Integrate **AI-driven insights** into business data analytics.
 
-### Event Experience
+### Event Experience.
 
-#### Learning from Business Leaders
+#### Learning from Business Leaders.
 - Case studies from Techcombank, U2U, ELSA, and Nexttech showcased multi-industry AI adoption.
 - Insights into how CEOs handle organizational change and innovation.
 
-#### Hands-on Technical Insights
+#### Hands-on Technical Insights.
 - Gained understanding of security architecture in GenAI deployments.
 - Realized the transformative potential of AI Agents in next-level automation.
 
-#### Networking & Collaboration
+#### Networking & Collaboration.
 - Engaged with AWS experts and industry executives.
 - Recognized the importance of **collaboration between business and technology** in the GenAI era.
 
-#### Lessons Learned
+#### Lessons Learned.
 - Leadership plays a key role in enabling GenAI adoption.
 - Balancing **security**, **operational efficiency**, and **innovation** is crucial.
 - AI Agents will become an inevitable part of future workflows.
 
-
-### Event Photos
+### Event Photos.
 
 ![](/images/4-Events/Event1.1.jpg)  
 ![](/images/4-Events/Event1.2.jpg)  

@@ -5,24 +5,30 @@ weight : 5
 chapter : false
 pre : " <b> 5.1. </b> "
 ---
-### Introduction to VPC Endpoints
+### Introduction to VPC Endpoints.
 
-- **VPC Endpoint** is a **virtual device** within an Amazon VPC that enables compute resources (such as EC2, Lambda, ECS,...) to **securely communicate** with AWS services **without traversing the public Internet**.
-- These Endpoints are designed to be **horizontally scalable, highly redundant,** and **ensure high availability,** eliminating the risk of connection loss due to reliance on an Internet Gateway or NAT Gateway.
-- Compute resources running within a **VPC** can access **Amazon S3** via a **Gateway Endpoint**, while an **Interface Endpoint (AWS PrivateLink)** can be used for resources **within the VPC or in an On-Premises data center** to access AWS services privately.
+- **VPC Endpoint** is a **virtual device** within an Amazon VPC that enables compute resources 
+- (such as EC2, Lambda, ECS,...) to **securely communicate** with AWS services **without traversing the public Internet**.
+- These Endpoints are designed to be **horizontally scalable, highly redundant,** and 
+- **ensure high availability,** eliminating the risk of connection loss due to reliance on an Internet Gateway or NAT Gateway.
+- Compute resources running within a **VPC** can access **Amazon S3** via a **Gateway Endpoint**, while an 
+- **Interface Endpoint (AWS PrivateLink)** can be used for resources **within the VPC or in an On-Premises data 
+- center** to access AWS services privately.
 
-### Workshop Overview
+### Workshop Overview.
 
 In this workshop, we will:
 
 - Learn how to **create, configure, and test** two types of **VPC Endpoints** (Gateway and Interface).
-- Set up a **Hybrid Access** model, where workloads in the VPC and On-Premises systems can both access **Amazon S3 securely, privately, and without going over the Internet.**
+- Set up a **Hybrid Access** model, where workloads in the VPC and On-Premises systems can both access 
+- **Amazon S3 securely, privately, and without going over the Internet.**
 -Applying the following **security policy layers (Security Layers)**:
   - **Endpoint Policy**: Controls access permissions at the Endpoint level.
   - **Bucket Policy**: Restricts access based on the source IP and the allowed network range.
-- Perform **access testing (Positive & Negative Testing)** to verify the operation of each security layer and ensure that only valid sources can access data in S3.
+- Perform **access testing (Positive & Negative Testing)** to verify the operation of each security layer and 
+- ensure that only valid sources can access data in S3.
 
-### Implementation Steps
+### Implementation Steps.
 
 #### Phase 1: Environment Preparation:
 
@@ -67,7 +73,7 @@ In this workshop, we will:
 }
 ```
 
-#### Phase 3: Configure Gateway Endpoint (For In-VPC Access)
+#### Phase 3: Configure Gateway Endpoint (For In-VPC Access).
 
 | Step | Action                                                                                                                     | Purpose                                                                     |
 |------|----------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------|
@@ -77,7 +83,7 @@ In this workshop, we will:
 
 ---
 
-#### Phase 4: Enforce S3 Bucket Policy (Source Control)
+#### Phase 4: Enforce S3 Bucket Policy (Source Control).
 
 | Step | Active                                                                                                                                                                          | Purpose                                                                                   |
 |------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|
@@ -112,7 +118,7 @@ In this workshop, we will:
 }
 ```
 
-#### Phase 5: Testing and Negative Testing
+#### Phase 5: Testing and Negative Testing.
 
 The goal of this phase is to verify the effectiveness of the security layers applied in the VPC Endpoint configuration and S3 Bucket Policy, ensuring that only valid sources (identified via IP and Endpoint Policy) have access permission.
 
@@ -125,7 +131,7 @@ The goal of this phase is to verify the effectiveness of the security layers app
 
 ---
 
-### Analysis of Test Results
+### Analysis of Test Results.
 
 - **Valid Access (5.1 & 5.3):**
   Sources within the allowed IP list or from the Private Subnet were able to access normally through the secure Endpoints.
@@ -134,7 +140,7 @@ The goal of this phase is to verify the effectiveness of the security layers app
 
 ---
 
-### Conclusion
+### Conclusion.
 
 The testing confirmed that:
 

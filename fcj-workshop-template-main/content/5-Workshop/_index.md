@@ -8,10 +8,11 @@ pre: " <b> 5. </b> "
 
 # Implementing Detailed Security and Access Control for Hybrid S3 Access
 
-#### Overview
+#### Overview.
 
 **Extended Lab Idea:**  
-This lab focuses on applying **Defense-in-Depth** security layers to ensure that only authenticated and authorized sources can access S3 resources through private connections (PrivateLink/VPC Endpoint).
+This lab focuses on applying **Defense-in-Depth** security layers to ensure that only authenticated and authorized
+sources can access S3 resources through private connections **(PrivateLink/VPC Endpoint)**.
 
 **Lab Objectives:**  
 After completing this lab, you will be able to:
@@ -19,7 +20,7 @@ After completing this lab, you will be able to:
 - Configure an **Interface VPC Endpoint** to extend private S3 connectivity to an on-premises (simulated) environment.
 - Implement an **Endpoint Policy** to allow access to a specific S3 bucket only.
 - Apply an **S3 Bucket Policy** to restrict access based on the source IP address of the on-premises data center.
-- Demonstrate that S3 access through endpoints is secured and strictly limited following the **Least Privilege** principle.
+- Demonstrate that **S3** access through endpoints is secured and strictly limited following the **Least Privilege** principle.
 
 ---
 

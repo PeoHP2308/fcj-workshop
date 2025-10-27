@@ -13,13 +13,13 @@ pre: " <b> 1.4. </b> "
 
 ### Các công việc cần triển khai trong tuần này:
 
-| Thứ | Công việc                                                                                                                                                                                                         | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                                            |
-| --- |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------|-----------------|-----------------------------------------------------------|
-| 2   | - Tạo được **tài khoản AWS** <br> - Hoàn thành được **200$ credit free**                                                                                                                                          | 29/09/2025   | 29/09/2025      | [https://us-east-2.console.aws.amazon.com/console/home?/] |
-| 3   | - Bước đầu thao tác trên AWS: + Tạo **EC2 Instance** <br>  + Làm quen với **Billing & Cost Management**                                                                                                           | 30/09/2025   | 01/10/2025      | [https://us-east-2.console.aws.amazon.com/console/home?/] |
-| 4   | - Tìm hiểu và thực hành với **EC2** <br> - Làm quen với **Billing and Cost Management** <br> - Cài đặt và cấu hình **AWS CLI** để quản lý tài nguyên cơ bản                                                       | 01/10/2025   | 02/10/2025      | [https://us-east-2.console.aws.amazon.com/console/home?/] |
-| 5   | - Tìm hiểu **AWS Private Certificate Authority** <br> - Làm quen với cách quản lý Database trong AWS                                                                                                              | 02/10/2025   | 02/10/2025      | [https://us-east-2.console.aws.amazon.com/console/home?/] |
-| 6   | - Tìm hiểu **Lambda** và **Amazon Bedrock** <br> - Thực hành triển khai thử nghiệm dịch vụ không máy chủ (serverless) <br> - Thao tác cơ bản trên **Console & CLI** <br> - Push thành công thư mục lên **Github** | 03/10/2025   | 05/10/2025      | [https://us-east-2.console.aws.amazon.com/console/home?/] |
+| Thứ | Công việc                                                                                                                                                                                                             | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                                            |
+| --- |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------|-----------------|-----------------------------------------------------------|
+| 2   | - Tạo được **tài khoản AWS**. <br> - Hoàn thành được **200$ credit free**.                                                                                                                                            | 29/09/2025   | 29/09/2025      | [https://us-east-2.console.aws.amazon.com/console/home?/] |
+| 3   | - Bước đầu thao tác trên AWS: + Tạo **EC2 Instance**. <br>  + Làm quen với **Billing & Cost Management**.                                                                                                             | 30/09/2025   | 01/10/2025      | [https://us-east-2.console.aws.amazon.com/console/home?/] |
+| 4   | - Tìm hiểu và thực hành với **EC2**. <br> - Làm quen với **Billing and Cost Management**. <br> - Cài đặt và cấu hình **AWS CLI** để quản lý tài nguyên cơ bản.                                                        | 01/10/2025   | 02/10/2025      | [https://us-east-2.console.aws.amazon.com/console/home?/] |
+| 5   | - Tìm hiểu **AWS Private Certificate Authority**. <br> - Làm quen với cách quản lý Database trong AWS. <br> - Dịch 3 bài blog được giao.                                                                              | 02/10/2025   | 02/10/2025      | [https://us-east-2.console.aws.amazon.com/console/home?/] |
+| 6   | - Tìm hiểu **Lambda** và **Amazon Bedrock**. <br> - Thực hành triển khai thử nghiệm dịch vụ không máy chủ (serverless). <br> - Thao tác cơ bản trên **Console & CLI**. <br> - Push thành công thư mục lên **Github**. | 03/10/2025   | 05/10/2025      | [https://us-east-2.console.aws.amazon.com/console/home?/] |
 
 ### Kết quả đạt được tuần 4:
 
@@ -39,6 +39,7 @@ pre: " <b> 1.4. </b> "
 * **Thứ 5 (02/10/2025):**
     - Tìm hiểu **AWS Private Certificate Authority**.
     - Làm quen với cách **quản lý Database** trong AWS.
+    - Dịch 3 bài blog được giao.
 
 * **Thứ 6 (03/10/2025):**
     - Tìm hiểu và thực hành với **AWS Lambda** và **Amazon Bedrock**.

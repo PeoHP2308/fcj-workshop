@@ -6,8 +6,10 @@ chapter: false
 pre: " <b> 6. </b> "
 ---
 
-During my internship at **[Amazon Web Service]** from **[September]** to **[December]**, I had the opportunity to learn, practice, and apply the knowledge acquired in school to a real-world working environment.  
-I participated in **[briefly describe the main project or task]**, through which I improved my skills in **[list skills: programming, analysis, reporting, communication, etc.]**.
+During my internship at **[Amazon Web Service]** from **[September]** to **[December]**, I had the opportunity to learn, 
+practice, and apply the knowledge acquired in school to a real-world working environment.  
+I participated in **[briefly describe the main project or task]**, through which I improved my skills in 
+**[list skills: programming, analysis, reporting, communication, etc.]**.
 
 In terms of work ethic, I always strived to complete tasks well, complied with workplace regulations, and actively engaged with colleagues to improve work efficiency.
 
@@ -28,8 +30,8 @@ To objectively reflect on my internship period, I would like to evaluate myself 
 | 11  | **Contribution to project/team**    | Work effectiveness, innovative ideas, recognition from the team.                                  | ✅    | ☐    | ☐          |
 | 12  | **Overall**                         | General evaluation of the entire internship period.                                               | ☐    | ✅    | ☐          |
 
-### Needs Improvement
+### Needs Improvement.
 
-* Strengthen discipline and strictly comply with the rules and regulations of the company or any organization
-* Improve problem-solving thinking
-* Enhance communication skills in both daily interactions and professional contexts, including handling situations effectively
+* Strengthen discipline and strictly comply with the rules and regulations of the company or any organization.
+* Improve problem-solving thinking.
+* Enhance communication skills in both daily interactions and professional contexts, including handling situations effectively.

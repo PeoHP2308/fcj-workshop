@@ -7,29 +7,28 @@ chapter: false
 
 # Báo cáo thực tập
 ### Thông tin sinh viên:
-&emsp; **Họ và tên:** Nguyễn Trường Huy
+&emsp; **Họ và tên:** Nguyễn Trường Huy.
 
-&emsp; **Số điện thoại:** 0827338992
+&emsp; **Số điện thoại:** 0827338992.
 
-&emsp; **Email:** truonghuy20203@gmail.com
+&emsp; **Email:** truonghuy20203@gmail.com .
 
-&emsp; **Trường:** Đại học FPT
+&emsp; **Trường:** Đại học FPT.
 
-&emsp; **Ngành:** Hệ thống thông tin
+&emsp; **Ngành:** Hệ thống thông tin.
 
-&emsp; **Lớp:** AWS082025
+&emsp; **Lớp:** AWS082025.
 
-&emsp; **Công ty thực tập:** Công ty TNHH Amazon Web Services Vietnam
+&emsp; **Công ty thực tập:** Công ty TNHH Amazon Web Services Vietnam.
 
-&emsp; **Vị trí thực tập:** FCJ Cloud Intern
+&emsp; **Vị trí thực tập:** FCJ Cloud Intern.
 
-&emsp; **Thời gian thực tập:** Từ tháng 09/2025 đến tháng 12/2025
+&emsp; **Thời gian thực tập:** Từ tháng 09/2025 đến tháng 12/2025.
 
 ![Ảnh đại diện của bạn](/images/avatar.new.png)
 
 
-
-### Nội dung báo cáo
+### Nội dung báo cáo:
 
 1.  [Worklog](1-Worklog/)
 2.  [Proposal](2-Proposal/)

@@ -8,7 +8,7 @@ pre: " <b> 3. </b> "
 
 Tại đây sẽ là phần liệt kê, giới thiệu các blogs mà tôi đã dịch.
 
-###  Blog 1 - AWS DMS validation: A custom serverless architecture
+###  Blog 1 - AWS DMS validation: A custom serverless architecture.
 
 Blog này trình bày cách AWS thiết kế một kiến trúc serverless tùy chỉnh để tự động hóa và tối ưu hóa quy trình xác thực 
 dữ liệu trong AWS Database Migration Service (DMS). Bài viết hướng dẫn cách xây dựng một hệ thống kiểm tra dữ liệu sau 
@@ -18,7 +18,7 @@ giữa nguồn và đích. Ngoài ra, blog còn chia sẻ mẫu kiến trúc tha
 
 [Đọc toàn bộ bài dịch trên Google Docs](https://docs.google.com/document/d/1eUa4NqYlUu_hihcxzo9MVyCQIVNPU3QjUxRnbndxFnI/edit?usp=sharing)
 
-###  Blog 2 - Transforming network operations with AI: How Swisscom built a network assistant using Amazon Bedrock
+###  Blog 2 - Transforming network operations with AI: How Swisscom built a network assistant using Amazon Bedrock.
 
 Blog này mô tả cách Swisscom – một nhà cung cấp viễn thông lớn ở châu Âu – đã ứng dụng Amazon Bedrock để xây dựng 
 một AI Network Assistant hỗ trợ vận hành mạng lưới. Bài viết giải thích cách hệ thống tận dụng mô hình ngôn ngữ lớn 
@@ -28,7 +28,7 @@ mà Swisscom đạt được nhờ Generative AI. <br>
 
 [Đọc toàn bộ bài dịch trên Google Docs](https://docs.google.com/document/d/1ikCKahUFh3PWgHrJwTk6YbUqpJYT9hvcxwubiXc5Nzc/edit?usp=sharing)
 
-###  Blog 3 - Introducing the latest AWS Well-Architected Framework: IoT Lens
+###  Blog 3 - Introducing the latest AWS Well-Architected Framework: IoT Lens.
 
 Blog này giới thiệu AWS Well-Architected IoT Lens, một phần mở rộng mới trong AWS Well-Architected Framework, giúp các 
 doanh nghiệp thiết kế và đánh giá hệ thống IoT theo tiêu chuẩn tốt nhất của AWS. Bài viết trình bày năm trụ cột chính 

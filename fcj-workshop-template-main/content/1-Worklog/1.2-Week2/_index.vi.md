@@ -37,7 +37,6 @@ pre: " <b> 1.2. </b> "
 * **Thứ 5 (18/09/2025):**
     - Lên văn phòng tham dự **sự kiện AWS Cloud Day Vietnam 2025**.
     - Lắng nghe chia sẻ từ chuyên gia AWS về **xu hướng Cloud Computing**, **AI/ML**, và **chuyển đổi số** trong doanh nghiệp.
-    - Ghi chú những kiến thức thực tiễn có thể áp dụng cho dự án nhóm.
 
 * **Thứ 6 (19/09/2025):**
     - Học cách sử dụng và thao tác với **các công nghệ của AWS**.

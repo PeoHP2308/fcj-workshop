@@ -8,7 +8,7 @@ pre: " <b> 5. </b> "
 
 # Triển khai Bảo mật và Kiểm soát Truy cập Chi tiết cho Truy cập S3 Hybrid
 
-#### Tổng quan
+#### Tổng quan.
 
 Ý Tưởng Lab Mở Rộng:
 Bài lab này sẽ tập trung vào việc áp dụng các lớp bảo mật chồng chéo (Defense-in-Depth) để đảm bảo chỉ những nguồn được 
@@ -16,13 +16,13 @@ xác thực và cho phép mới có thể truy cập các tài nguyên S3 qua k�
 **Mục Tiêu Lab:** <br>
 Sau khi hoàn thành bài lab này, bạn sẽ có thể:
 
-Cấu hình Interface VPC Endpoint để mở rộng kết nối riêng tư S3 đến môi trường On-Premise (giả lập).
+Cấu hình **Interface VPC Endpoint** để mở rộng kết nối riêng tư **S3** đến môi trường **On-Premise (giả lập)**.
 
-Thực thi Chính sách Endpoint (Endpoint Policy) để chỉ cho phép truy cập một bucket S3 cụ thể.
+Thực thi **Chính sách Endpoint (Endpoint Policy)** để chỉ cho phép truy cập một bucket S3 cụ thể.
 
-Áp dụng Chính sách S3 Bucket để giới hạn truy cập dựa trên Địa chỉ IP nguồn của trung tâm dữ liệu On-Premise.
+Áp dụng **Chính sách S3 Bucket** để giới hạn truy cập dựa trên Địa chỉ IP nguồn của trung tâm dữ liệu On-Premise.
 
-Chứng minh rằng việc truy cập S3 qua các endpoint được bảo mật và giới hạn nghiêm ngặt theo nguyên tắc Least Privilege (Quyền tối thiểu).
+Chứng minh rằng việc truy cập **S3** qua các endpoint được bảo mật và giới hạn nghiêm ngặt theo nguyên tắc **Least Privilege (Quyền tối thiểu)**.
 
 #### Nội dung
 

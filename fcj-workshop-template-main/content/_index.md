@@ -7,29 +7,29 @@ chapter: false
 
 # Internship Report
 ### Student Information:
-&emsp; **Full Name:** Nguyen Truong Huy
+&emsp; **Full Name:** Nguyen Truong Huy.
 
-&emsp; **Phone Number:** 0827338992
+&emsp; **Phone Number:** 0827338992.
 
-&emsp; **Email:** truonghuy20203@gmail.com
+&emsp; **Email:** truonghuy20203@gmail.com .
 
-&emsp; **University:** FPT University
+&emsp; **University:** FPT University.
 
-&emsp; **Major:** Information System
+&emsp; **Major:** Information System.
 
-&emsp; **Class:** AWS082025
+&emsp; **Class:** AWS082025.
 
 &emsp; **Internship Company:** Amazon Web Services Vietnam Co., Ltd.
 
-&emsp; **Internship Position:** FCJ Cloud Intern
+&emsp; **Internship Position:** FCJ Cloud Intern.
 
-&emsp; **Internship Duration:** From September to December 2025
+&emsp; **Internship Duration:** From September to December 2025.
 
 ![Your profile picture](/images/avatar.new.png)
 
 
 
-### Report Content
+### Report Content:
 
 1.  [Worklog](1-Worklog/)
 2.  [Proposal](2-Proposal/)

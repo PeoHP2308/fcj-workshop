@@ -22,9 +22,9 @@ Thông thường và cũng là tiêu chuẩn, một worklog được thực hi�
 
 **Tuần 6:** [Tiếp tục xem các dịch vụ của AWS trên Youtube](1.6-week6/)
 
-**Tuần 7:** [Làm công việc G...](1.7-week7/)
+**Tuần 7:** [Ôn tập các module và chuẩn bị Midterm](1.7-week7/)
 
-**Tuần 8:** [Làm công việc H...](1.8-week8/)
+**Tuần 8:** [Ôn tập tổng hợp và tham gia thi giữa kỳ](1.8-week8/)
 
 **Tuần 9:** [Làm công việc I...](1.9-week9/)
 

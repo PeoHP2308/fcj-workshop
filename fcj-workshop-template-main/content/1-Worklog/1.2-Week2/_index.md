@@ -24,7 +24,7 @@ pre: " <b> 1.2. </b> "
 
 **Monday (15/09/2025):**
    - Continued learning **AWS** on YouTube, reinforcing basic concepts of cloud computing.
-   - Explored **core AWS technologies and services**, such as Compute, Storage, Database, and Networking.
+   - Explored **core AWS technologies and services**, such as **Compute, Storage, Database, and Networking**.
 
 **Tuesday (16/09/2025):**
    - Participated in a **team meeting** to discuss project ideas.
@@ -37,7 +37,6 @@ pre: " <b> 1.2. </b> "
 **Thursday (18/09/2025):**
    - Attended the **AWS Cloud Day Vietnam 2025** event at the office.
    - Listened to AWS experts discuss **Cloud Computing trends**, **AI/ML**, and **Digital Transformation** in businesses.
-   - Took notes on practical knowledge applicable to the group project.
 
 **Friday (19/09/2025):**
    - Learned how to use and work with **AWS technologies**.

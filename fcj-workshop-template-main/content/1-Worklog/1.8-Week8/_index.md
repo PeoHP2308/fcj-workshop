@@ -8,48 +8,33 @@ pre: " <b> 1.8. </b> "
 
 ### Week 8 Objectives:
 
-* Midterm Exam Review this week.
-* Project Code Refactoring.
+* **Midterm Exam** Review this week.
 
 ### Tasks to be carried out this week:
 | Day | Task                                     | Start Date | Completion Date | Reference Material         |
 | --- |------------------------------------------|------------|-----------------|----------------------------|
-| 2   | - Review theory for Module 1-2.          | 27/10/2025 | 27/10/2025      | <Youtube: AWS Study Group> |
-| 3   | - Review theory for Module 3-4.          | 28/10/2025 | 29/10/2025      | <Youtube: AWS Study Group> |
-| 4   | - Review theory for Module 5-6.          | 29/10/2025 | 29/10/2025      | <Youtube: AWS Study Group> |
-| 5   | - Review all theory from 6 modules.      | 30/10/2025 | 30/10/2025      | <Youtube: AWS Study Group> |
-| 6   | - Go to the office for the Midterm Exam. | 31/10/2025 | 31/10/2025      |                            |
+| 2   | - Review theory for **Module 1-2**.          | 27/10/2025 | 27/10/2025      | <Youtube: AWS Study Group> |
+| 3   | - Review theory for **Module 3-4**.          | 28/10/2025 | 29/10/2025      | <Youtube: AWS Study Group> |
+| 4   | - Review theory for **Module 5-6**.          | 29/10/2025 | 29/10/2025      | <Youtube: AWS Study Group> |
+| 5   | - Review all **theory** from **6 modules**.      | 30/10/2025 | 30/10/2025      | <Youtube: AWS Study Group> |
+| 6   | - Go to the office for the **Midterm Exam**. | 31/10/2025 | 31/10/2025      |                            |
 
 
 ### Week 8 Achievements:
 
-* Understood what AWS is and mastered the basic service groups:
-    * Compute
-    * Storage
-    * Networking
-    * Database
-    * ...
+* **Monday (27/10/2025):**
+    - Review **Module 1–2**.
 
-* Successfully created and configured an AWS Free Tier account.
+* **Tuesday (28/10/2025):**
+    - Review **Module 3–4**.
 
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
+* **Webnesday (29/10/2025):**
+    - Review **Module 5–6**.
 
-* Installed and configured AWS CLI on the computer, including:
-    * Access Key
-    * Secret Key
-    * Default Region
-    * ...
+* **Thursday (30/10/2025):**
+    - Summarize and consolidate all knowledge from **Module 1–6**.
 
-* Used AWS CLI to perform basic operations such as:
-
-    * Check account & configuration information
-    * Retrieve the list of regions
-    * View EC2 service
-    * Create and manage key pairs
-    * Check information about running services
-    * ...
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+* **Friday (31/10/2025):**
+    - **Midterm Exam** at the Office.
 
 
