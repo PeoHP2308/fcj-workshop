@@ -17,7 +17,7 @@ pre: " <b> 1.8. </b> "
 | 3   | - Xem lại lý thuyết của **modules 3-4**.           | 28/10/2025   | 29/10/2025      | <Youtube: AWS Study Group> |
 | 4   | - Xem lại lý thuyết của **modules 5-6**.           | 29/10/2025   | 29/10/2025      | <Youtube: AWS Study Group> |
 | 5   | - Xem lại toàn bộ **lý thuyết** của **6 modules**. | 30/10/2025   | 30/10/2025      | <Youtube: AWS Study Group> |
-| 6   | - Lên văn phòng thi giữa kì.                       | 31/10/2025   | 31/10/2025      |                            |
+| 6   | - Lên văn phòng thi **giữa kì**.                   | 31/10/2025   | 31/10/2025      |                            |
 
 ### Kết quả đạt được tuần 8:
 
