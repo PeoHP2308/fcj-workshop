@@ -8,12 +8,12 @@ pre : " <b> 5.1. </b> "
 ### Introduction to VPC Endpoints.
 
 - **VPC Endpoint** is a **virtual device** within an Amazon VPC that enables compute resources 
-- (such as EC2, Lambda, ECS,...) to **securely communicate** with AWS services **without traversing the public Internet**.
+(such as EC2, Lambda, ECS,...) to **securely communicate** with AWS services **without traversing the public Internet**.
 - These Endpoints are designed to be **horizontally scalable, highly redundant,** and 
-- **ensure high availability,** eliminating the risk of connection loss due to reliance on an Internet Gateway or NAT Gateway.
+**ensure high availability,** eliminating the risk of connection loss due to reliance on an Internet Gateway or NAT Gateway.
 - Compute resources running within a **VPC** can access **Amazon S3** via a **Gateway Endpoint**, while an 
-- **Interface Endpoint (AWS PrivateLink)** can be used for resources **within the VPC or in an On-Premises data 
-- center** to access AWS services privately.
+**Interface Endpoint (AWS PrivateLink)** can be used for resources **within the VPC or in an On-Premises data 
+center** to access AWS services privately.
 
 ### Workshop Overview.
 
@@ -21,10 +21,10 @@ In this workshop, we will:
 
 - Learn how to **create, configure, and test** two types of **VPC Endpoints** (Gateway and Interface).
 - Set up a **Hybrid Access** model, where workloads in the VPC and On-Premises systems can both access 
-- **Amazon S3 securely, privately, and without going over the Internet.**
--Applying the following **security policy layers (Security Layers)**:
-  - **Endpoint Policy**: Controls access permissions at the Endpoint level.
-  - **Bucket Policy**: Restricts access based on the source IP and the allowed network range.
+**Amazon S3 securely, privately, and without going over the Internet.**
+- Applying the following **security policy layers (Security Layers)**:
+  + **Endpoint Policy**: Controls access permissions at the Endpoint level.
+  + **Bucket Policy**: Restricts access based on the source IP and the allowed network range.
 - Perform **access testing (Positive & Negative Testing)** to verify the operation of each security layer and 
 - ensure that only valid sources can access data in S3.
 

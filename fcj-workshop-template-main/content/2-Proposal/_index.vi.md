@@ -19,11 +19,11 @@ phân tích dữ liệu.
 
 **Điểm nổi bật:**
 
-- Chi phí vận hành: $12-18/tháng (tận dụng Free Tier).
-- Giám sát **CloudWatch metrics và AWS costs**.
-- Phân tích chi phí và đề xuất tối ưu hóa dựa trên **AWS APIs**.
-- **Dashboard real-time** với **data caching**.
-- Kiến trúc đơn giản, dễ duy trì và mở rộng quy mô.
+  - Chi phí vận hành: $12-18/tháng (tận dụng Free Tier).
+  - Giám sát **CloudWatch metrics và AWS costs**.
+  - Phân tích chi phí và đề xuất tối ưu hóa dựa trên **AWS APIs**.
+  - **Dashboard real-time** với **data caching**.
+  - Kiến trúc đơn giản, dễ duy trì và mở rộng quy mô.
 
 ### 2. Vấn đề.
 
@@ -31,11 +31,11 @@ phân tích dữ liệu.
 
 Nhiều doanh nghiệp và cá nhân sử dụng AWS đang gặp phải các thách thức:
 
-1. **Chi phí không kiểm soát**: Thiếu công cụ giám sát chi phí tập trung dẫn đến hoá đơn AWS bất ngờ tăng cao.
-2. **Bảo mật thiếu visibility**: Không có dashboard tổng hợp cho security findings.
-3. **Metrics phân tán**: Phải chuyển đổi giữa nhiều console AWS khác nhau.
-4. **Thiếu historical data**: CloudWatch chỉ giữ metrics 15 ngày (free tier).
-5. **Không có alerting tùy chỉnh**: Khó setup alerts phức tạp.
+  1. **Chi phí không kiểm soát**: Thiếu công cụ giám sát chi phí tập trung dẫn đến hoá đơn AWS bất ngờ tăng cao.
+  2. **Bảo mật thiếu visibility**: Không có dashboard tổng hợp cho security findings.
+  3. **Metrics phân tán**: Phải chuyển đổi giữa nhiều console AWS khác nhau.
+  4. **Thiếu historical data**: CloudWatch chỉ giữ metrics 15 ngày (free tier).
+  5. **Không có alerting tùy chỉnh**: Khó setup alerts phức tạp.
 
 **Giải pháp:**
 
@@ -44,33 +44,33 @@ Cloud Health Dashboard cung cấp một nền tảng tập trung với các tín
 - **Centralized monitoring**: Dashboard duy nhất cho **CloudWatch, Cost Explorer, Security Hub**.
 
 - **Data persistence với DynamoDB**:
-    - 4 bảng chuyên biệt: **CloudHealthMetrics, CloudHealthCosts, SecurityFindings, Recommendations**.
-    - **TTL tự động** để xóa dữ liệu cũ (30 ngày cho metrics, 365 ngày cho costs, 90 ngày cho security, 180 ngày cho recommendations).
-    - **On-demand pricing** để tiết kiệm chi phí.
-    - **Optimized query patterns** với **GSI** cho từng loại data.
+    + 4 bảng chuyên biệt: **CloudHealthMetrics, CloudHealthCosts, SecurityFindings, Recommendations**.
+    + **TTL tự động** để xóa dữ liệu cũ (30 ngày cho metrics, 365 ngày cho costs, 90 ngày cho security, 180 ngày cho recommendations).
+    + **On-demand pricing** để tiết kiệm chi phí.
+    + **Optimized query patterns** với **GSI** cho từng loại data.
 
 - **Cost analysis**:
-    - Historical cost trends.
-    - Service breakdown.
-    - AWS Cost Explorer recommendations integration.
-    - Budget alerts.
+    + Historical cost trends.
+    + Service breakdown.
+    + AWS Cost Explorer recommendations integration.
+    + Budget alerts.
 
 - **Security monitoring**:
-    - Security Hub findings aggregation.
-    - GuardDuty threat detection display.
-    - Compliance status tracking.
-    - Severity-based filtering.
+    + Security Hub findings aggregation.
+    + GuardDuty threat detection display.
+    + Compliance status tracking.
+    + Severity-based filtering.
 
 - **Intelligent recommendations**:
-    - Cost optimization suggestions.
-    - Performance improvements.
-    - Security enhancements.
-    - Impact-based prioritization.
+    + Cost optimization suggestions.
+    + Performance improvements.
+    + Security enhancements.
+    + Impact-based prioritization.
 
 - **Performance**:
-    - Redis caching để giảm **AWS API calls**.
-    - Pre-collected data trong **DynamoDB**.
-    - WebSocket cho real-time updates.
+    + Redis caching để giảm **AWS API calls**.
+    + Pre-collected data trong **DynamoDB**.
+    + WebSocket cho real-time updates.
 
 **Lợi ích và ROI:**
 
@@ -167,10 +167,10 @@ EC2 instance được đặt trong public subnet với các biện pháp bảo m
 **Architecture Decision:**
 
 Private subnet architecture được cân nhắc nhưng không implement vì:
-- Tăng chi phí 100% ($33/tháng cho NAT Gateway hoặc $14/tháng cho VPC Endpoints).
-- Không phù hợp với learning/portfolio project scope.
-- Public subnet + security best practices đủ cho use case này.
-- Demonstrate cost-aware decision making.
+   - Tăng chi phí 100% ($33/tháng cho NAT Gateway hoặc $14/tháng cho VPC Endpoints).
+   - Không phù hợp với learning/portfolio project scope.
+   - Public subnet + security best practices đủ cho use case này.
+   - Demonstrate cost-aware decision making.
 
 Kiến trúc này phù hợp cho development/demo environment. Production deployment trong enterprise sẽ cần private subnet 
 với NAT Gateway hoặc VPC Endpoints.
@@ -449,28 +449,28 @@ Tách thành 4 tables chuyên biệt thay vì 2 tables tổng hợp vì:
 **Stack công nghệ:**
 
 **Backend:**
-- Python 3.9+ với FastAPI framework.
-- boto3 cho AWS SDK.
-- Redis cho caching.
-- uvicorn ASGI server.
-- asyncio cho async operations.
+   - Python 3.9+ với FastAPI framework.
+   - boto3 cho AWS SDK.
+   - Redis cho caching.
+   - uvicorn ASGI server.
+   - asyncio cho async operations.
 
 **Frontend:**
-- React 18 với Vite.
-- TanStack Query (React Query) cho data fetching.
-- Recharts cho data visualization.
-- Tailwind CSS cho styling.
-- Axios cho HTTP client.
+   - React 18 với Vite.
+   - TanStack Query (React Query) cho data fetching.
+   - Recharts cho data visualization.
+   - Tailwind CSS cho styling.
+   - Axios cho HTTP client.
 
 **Database:**
-- DynamoDB làm primary database (4 tables).
-- Redis cho caching (in-memory).
+   - DynamoDB làm primary database (4 tables).
+   - Redis cho caching (in-memory).
 
 **DevOps:**
-- Nginx làm reverse proxy.
-- Systemd cho service management.
-- CloudWatch Agent cho monitoring.
-- Bash scripts cho automation.
+   - Nginx làm reverse proxy.
+   - Systemd cho service management.
+   - CloudWatch Agent cho monitoring.
+   - Bash scripts cho automation.
 
 **Core Features Implementation:**
 
@@ -627,15 +627,15 @@ Post-deployment: Maintenance & Enhancements.
 
 **Phase 2 (Future Enhancements - 3-6 tháng sau):**
 
-- Machine Learning cost prediction models.
-- Multi-account support.
-- Advanced analytics.
-- Well-Architected Framework assessment.
-- GuardDuty deep integration.
-- AWS Config compliance tracking.
-- Custom alerting workflows.
-- Mobile responsive improvements.
-- Advanced recommendation algorithms.
+   - Machine Learning cost prediction models.
+   - Multi-account support.
+   - Advanced analytics.
+   - Well-Architected Framework assessment.
+   - GuardDuty deep integration.
+   - AWS Config compliance tracking.
+   - Custom alerting workflows.
+   - Mobile responsive improvements.
+   - Advanced recommendation algorithms.
 
 ### 6. Ước tính ngân sách
 
@@ -656,20 +656,19 @@ Post-deployment: Maintenance & Enhancements.
 **DynamoDB Cost Breakdown (4 tables):**
 
 - **Lưu trữ**: ~5GB total = $1.25/tháng.
-    - CloudHealthMetrics: 2GB ($0.50).
-    - CloudHealthCosts: 1GB ($0.25).
-    - SecurityFindings: 1GB ($0.25).
-    - Recommendations: 1GB ($0.25).
-    - 
-- **Writes**: ~800K requests/tháng = $1.00/tháng.
+    + CloudHealthMetrics: 2GB ($0.50).
+    + CloudHealthCosts: 1GB ($0.25).
+    + SecurityFindings: 1GB ($0.25).
+    + Recommendations: 1GB ($0.25).
 
-    - Metrics: 500K writes ($0.625).
-    - Costs: 100K writes ($0.125).
-    - Security: 100K writes ($0.125).
-    - Recommendations: 100K writes ($0.125).
+- **Writes**: ~800K requests/tháng = $1.00/tháng.
+    + Metrics: 500K writes ($0.625).
+    + Costs: 100K writes ($0.125).
+    + Security: 100K writes ($0.125).
+    + Recommendations: 100K writes ($0.125).
   
 - **Reads**: ~4M requests/tháng = $2.00/tháng.
-    - Distributed across 4 tables.
+    + Distributed across 4 tables.
 
 - **GSI**: Included in on-demand pricing.
 - **Backup**: Free (Point-in-time recovery).
@@ -677,22 +676,22 @@ Post-deployment: Maintenance & Enhancements.
 
 **Note:** Chi phí có thể tăng nếu:
 
-- Thu thập metrics frequency cao hơn.
-- Nhiều AWS services được monitor.
-- Retention period dài hơn.
-- GuardDuty enabled ($4-6/tháng thêm).
-- Nhiều security findings và recommendations.
+   - Thu thập metrics frequency cao hơn.
+   - Nhiều AWS services được monitor.
+   - Retention period dài hơn.
+   - GuardDuty enabled ($4-6/tháng thêm).
+   - Nhiều security findings và recommendations.
 
 **Cost Optimization Strategies:**
 
-- Sử dụng Free Tier tối đa (12 tháng).
-- DynamoDB on-demand thay vì provisioned.
-- TTL tự động xóa data cũ cho từng table.
-- Redis caching giảm DynamoDB reads.
-- CloudWatch log retention 7 ngày.
-- Disable unused AWS services monitoring.
-- Batch writes khi possible.
-- Efficient query patterns với GSI.
+   - Sử dụng Free Tier tối đa (12 tháng).
+   - DynamoDB on-demand thay vì provisioned.
+   - TTL tự động xóa data cũ cho từng table.
+   - Redis caching giảm DynamoDB reads.
+   - CloudWatch log retention 7 ngày.
+   - Disable unused AWS services monitoring.
+   - Batch writes khi possible.
+   - Efficient query patterns với GSI.
 
 ### 7. Đánh giá rủi ro.
 
@@ -857,30 +856,30 @@ Post-deployment: Maintenance & Enhancements.
 
 Project này demonstrate:
 
-- Real AWS production experience.
-- Advanced DynamoDB data modeling (4 tables, GSI).
-- Full-stack development skills.
-- Cost-aware architecture decisions.
-- Security consciousness.
-- Realistic project scoping.
-- Team collaboration.
-- Professional documentation.
+   - Real AWS production experience.
+   - Advanced DynamoDB data modeling (4 tables, GSI).
+   - Full-stack development skills.
+   - Cost-aware architecture decisions.
+   - Security consciousness.
+   - Realistic project scoping.
+   - Team collaboration.
+   - Professional documentation.
 
 **Limitations & Trade-offs:**
 
 Documented limitations:
 
-- Single instance **(không high availability)**.
-- Public subnet **(không private network isolation)**.
-- Rule-based recommendations **(không ML-powered initially)**.
-- Manual AWS service additions.
-- Limited to AWS **(không multi-cloud)**.
+   - Single instance **(không high availability)**.
+   - Public subnet **(không private network isolation)**.
+   - Rule-based recommendations **(không ML-powered initially)**.
+   - Manual AWS service additions.
+   - Limited to AWS **(không multi-cloud)**.
 
 Documented trade-offs:
 
-- 4 tables tăng complexity và cost ($2-3/tháng) nhưng cải thiện performance và maintainability.
-- Public subnet giảm security nhưng tiết kiệm $33/tháng.
-- Single instance giảm availability nhưng phù hợp với budget constraint.
+   - 4 tables tăng complexity và cost ($2-3/tháng) nhưng cải thiện performance và maintainability.
+   - Public subnet giảm security nhưng tiết kiệm $33/tháng.
+   - Single instance giảm availability nhưng phù hợp với budget constraint.
 
 Những limitations và trade-offs này là conscious decisions cho cost efficiency và project timeline, demonstrating 
 real-world engineering judgment.
@@ -891,9 +890,9 @@ real-world engineering judgment.
 - [GitHub Repository](https://github.com/Unvianpetronas/Cloud_health_dashboard)
 
 **B. Liên hệ:**
-- **Project Leader:** Trương Quốc Tuấn
-- **Email:**** unviantruong26@gmail.com
-- **WhatsApp:** 0798806545
+   - **Project Leader:** Trương Quốc Tuấn
+   - **Email:**** unviantruong26@gmail.com
+   - **WhatsApp:** 0798806545
 ```
 
 ---

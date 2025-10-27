@@ -37,9 +37,9 @@ pre: " <b> 1.1. </b> "
 
 * **Thứ 5 (11/09/2025):**
     - Tìm hiểu **VPC (Virtual Private Cloud)** và các thành phần cơ bản:
-        - **Subnet**.
-        - **Route Table**.
-        - **Security Group**.
+        + **Subnet**.
+        + **Route Table**.
+        + **Security Group**.
     - Xem và ghi chú **Lab 1 của AWS** về cấu hình mạng.
 
 * **Thứ 6 (12/09/2025):**

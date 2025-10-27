@@ -10,13 +10,13 @@ pre: " <b> 4.1. </b> "
 
 ### Purpose of the Event.
 
-- Introduce the latest technology trends from AWS, especially Generative AI.
-- Share case studies from major enterprises in Vietnam and across the region.
-- Discuss leadership strategies and organizational management in the AI era.
-- Explore best practices for security and real-world applications of AI Agents.
+   - Introduce the latest technology trends from AWS, especially Generative AI.
+   - Share case studies from major enterprises in Vietnam and across the region.
+   - Discuss leadership strategies and organizational management in the AI era.
+   - Explore best practices for security and real-world applications of AI Agents.
 
 ### Speaker List.
-
+#### Morning:
 - **Hon. Government Speaker** – Opening remarks.
 - **Eric Yeo** – Country General Manager, Vietnam, Cambodia, Laos & Myanmar, AWS.
 - **Dr. Jens Lottner** – CEO, Techcombank.
@@ -24,9 +24,10 @@ pre: " <b> 4.1. </b> "
 - **Jaime Valles** – Vice President, General Manager Asia Pacific and Japan, AWS.
 - **Jeff Johnson** – Managing Director, ASEAN, AWS (Moderator).
 - **Panelists:**
-    - Vu Van – Co-founder & CEO, ELSA Corp
-    - Nguyen Hoa Binh – Chairman, Nexttech Group
-    - Dieter Botha – CEO, TymeX
+    + Vu Van – Co-founder & CEO, ELSA Corp
+    + Nguyen Hoa Binh – Chairman, Nexttech Group
+    + Dieter Botha – CEO, TymeX
+#### Afternoon:
 - **Kien Nguyen** – Solutions Architect, AWS.
 - **Michael Armentano** – Principal WW GTM Specialist, AWS.
 - **Jun Kai Loke** – AI/ML Specialist SA, AWS.
@@ -43,31 +44,31 @@ pre: " <b> 4.1. </b> "
 - **Customer Keynote 2 (U2U Network):** Combining blockchain and AI to build a decentralized ecosystem.
 - **AWS Keynote (Jaime Valles):** Regional tech trends and AWS’s strategies to empower innovation.
 - **Panel Discussion (Jeff Johnson + CEOs):**
-    - Leadership must drive a culture of innovation.
-    - GenAI as a strategic enabler, not just a tool.
-    - Change management is critical when integrating AI.
+    + Leadership must drive a culture of innovation.
+    + GenAI as a strategic enabler, not just a tool.
+    + Change management is critical when integrating AI.
 
 #### Part 2: GenAI Track.
 
 - **Building a Unified Data Foundation on AWS for AI and Analytics Workloads (Kien Nguyen):**
-    - Strategies to build scalable and unified data foundations for AI & analytics.
-    - Utilizing AWS services for ingestion, storage, processing, and governance.
+    + Strategies to build scalable and unified data foundations for AI & analytics.
+    + Utilizing AWS services for ingestion, storage, processing, and governance.
 
 - **Building the Future: GenAI Adoption and Roadmap on AWS (Jun Kai Loke & Tamelly Lim):**
-    - Overview of the vision, trends, and development roadmap of GenAI on AWS.
-    - Introduction to AWS services and initiatives supporting enterprise adoption.
+    + Overview of the vision, trends, and development roadmap of GenAI on AWS.
+    + Introduction to AWS services and initiatives supporting enterprise adoption.
 
 - **AI-Driven Development Lifecycle (AI-DLC) Shaping the Future of Software Implementation (Binh Tran):**
-    - Integrating AI into the entire software development lifecycle.
-    - Combining AI-assisted execution with human oversight to improve speed and quality.
+    + Integrating AI into the entire software development lifecycle.
+    + Combining AI-assisted execution with human oversight to improve speed and quality.
 
 - **Securing Generative AI Applications (Taiki Dang):**
-    - Addressing GenAI security challenges: infrastructure, models, applications.
-    - Solutions: encryption, zero-trust architecture, continuous monitoring, fine-grained access control.
+    + Addressing GenAI security challenges: infrastructure, models, applications.
+    + Solutions: encryption, zero-trust architecture, continuous monitoring, fine-grained access control.
 
 - **Beyond Automation: AI Agents (Michael Armentano):**
-    - AI Agents as “intelligent partners” beyond simple automation.
-    - Capable of learning, adapting, and executing complex tasks → driving exponential productivity.
+    + AI Agents as “intelligent partners” beyond simple automation.
+    + Capable of learning, adapting, and executing complex tasks → driving exponential productivity.
 
 ### Keynotes.
 
@@ -85,12 +86,12 @@ pre: " <b> 4.1. </b> "
 ### Technical Insights & Best Practices.
 
 - **Securing Generative AI Applications (Taiki Dang):**
-    - Security challenges in GenAI stacks (infrastructure, model, application).
-    - Key practices: encryption, zero-trust, continuous monitoring, fine-grained access.
+    + Security challenges in GenAI stacks (infrastructure, model, application).
+    + Key practices: encryption, zero-trust, continuous monitoring, fine-grained access.
 
 - **Beyond Automation: AI Agents (Michael Armentano):**
-    - AI Agents as intelligent collaborators beyond traditional automation.
-    - Self-learning and adaptive capabilities → significant productivity gains.
+    + AI Agents as intelligent collaborators beyond traditional automation.
+    + Self-learning and adaptive capabilities → significant productivity gains.
 
 ### Key Takeaways.
 

@@ -23,28 +23,28 @@ pre: " <b> 1.3. </b> "
 ### Week 3 Achievements:
 
 **Monday (22/09/2025):**
-- Learn the basic concepts of **AWS** through YouTube tutorials.
-- Gained an overview of **AWS** core services.
+   - Learn the basic concepts of **AWS** through YouTube tutorials.
+   - Gained an overview of **AWS** core services.
 
 **Tuesday (23/09/2025):**
-- Completed translation of the **second blog**.
+   - Completed translation of the **second blog**.
 
 **Wednesday (24/09/2025):**
-- Studied **Compute VM on AWS**.
-- Explored the **Compute service group** on AWS, including:
-    - **Amazon EC2**.
-    - **Amazon Lightsail**.
+   - Studied **Compute VM on AWS**.
+   - Explored the **Compute service group** on AWS, including:
+     + **Amazon EC2**.
+     + **Amazon Lightsail**.
 
 **Thursday (25/09/2025):**
-- Understanding of **Basic EC2 concepts**.
-- Learned how to choose the right **instance type**.
-- Studied the following services:
-    - **Amazon EFS / FSX**.
-    - **AWS Application Migration Service (MGN)*.*  
-→ Gained comprehensive knowledge of **EC2 instance types**.
+  - Understanding of **Basic EC2 concepts**.
+  - Learned how to choose the right **instance type**.
+  - Studied the following services:
+    + **Amazon EFS / FSX**.
+    + **AWS Application Migration Service (MGN)*.*  
+  → Gained comprehensive knowledge of **EC2 instance types**.
 
 **Friday (26/09/2025):**
-- Successfully completed hands-on practice:
-    - Created an **EC2 instance**.
-    - Created a **database** on AWS.
-    - Became familiar with using the **AWS Management Console**.
+  - Successfully completed hands-on practice:
+    + Created an **EC2 instance**.
+    + Created a **database** on AWS.
+    + Became familiar with using the **AWS Management Console**.

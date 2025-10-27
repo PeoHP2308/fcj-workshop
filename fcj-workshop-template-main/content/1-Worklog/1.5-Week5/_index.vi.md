@@ -38,11 +38,11 @@ pre: " <b> 1.5. </b> "
 
 * **Thứ 5 (9/10/2025):**
     - Tìm hiểu nhóm **Storage Services**:
-        - **Amazon S3**: tạo bucket, upload file, cấu hình ACL, Bucket Policy, CORS, Static Website Hosting.
-        - **Amazon Storage Gateway**: kết nối dữ liệu on-premises với AWS.
-        - **AWS Snow Family**: giải pháp di chuyển dữ liệu quy mô lớn.
-        - **AWS Backup**: sao lưu và khôi phục dữ liệu tập trung.
-        - **Disaster Recovery (DR)** trên AWS.
+        + **Amazon S3**: tạo bucket, upload file, cấu hình ACL, Bucket Policy, CORS, Static Website Hosting.
+        + **Amazon Storage Gateway**: kết nối dữ liệu on-premises với AWS.
+        + **AWS Snow Family**: giải pháp di chuyển dữ liệu quy mô lớn.
+        + **AWS Backup**: sao lưu và khôi phục dữ liệu tập trung.
+        + **Disaster Recovery (DR)** trên AWS.
     - Hoàn thành dịch và kiểm tra blog.
 
 * **Thứ 6 (10/10/2025):**

@@ -9,12 +9,12 @@ pre : " <b> 5.1. </b> "
 ### Giới thiệu về VPC Endpoint
 
 - **VPC Endpoint** là một **thiết bị ảo** trong Amazon VPC, cho phép các tài nguyên điện toán (như EC2, Lambda, ECS,...) 
-- **giao tiếp an toàn** với các dịch vụ AWS mà **không cần đi qua Internet công cộng**.
+**giao tiếp an toàn** với các dịch vụ AWS mà **không cần đi qua Internet công cộng**.
 - Các Endpoint này được thiết kế **mở rộng theo chiều ngang**, **dự phòng cao**, và **đảm bảo tính sẵn sàng**, 
-- giúp loại bỏ rủi ro mất kết nối do phụ thuộc vào Internet Gateway hoặc NAT Gateway.
+giúp loại bỏ rủi ro mất kết nối do phụ thuộc vào Internet Gateway hoặc NAT Gateway.
 - Tài nguyên điện toán chạy trong **VPC** có thể truy cập **Amazon S3** thông qua **Gateway Endpoint**, 
-- trong khi **Interface Endpoint (AWS PrivateLink)** có thể được sử dụng cho các tài nguyên **trong VPC hoặc 
-- tại Trung tâm dữ liệu (On-Premises)** để truy cập các dịch vụ AWS một cách riêng tư.
+trong khi **Interface Endpoint (AWS PrivateLink)** có thể được sử dụng cho các tài nguyên **trong VPC hoặc 
+tại Trung tâm dữ liệu (On-Premises)** để truy cập các dịch vụ AWS một cách riêng tư.
 
 ---
 
@@ -23,10 +23,10 @@ pre : " <b> 5.1. </b> "
 Trong workshop này, chúng ta sẽ:
 - Tìm hiểu cách **tạo, cấu hình và kiểm tra** hai loại **VPC Endpoint** (Gateway và Interface).
 - Thiết lập mô hình **Hybrid Access**, nơi workload trong VPC và hệ thống On-Premises đều có thể truy cập 
-- **Amazon S3** một cách **bảo mật, riêng tư và không qua Internet**.
+**Amazon S3** một cách **bảo mật, riêng tư và không qua Internet**.
 - Áp dụng **các lớp chính sách bảo mật (Security Layers)** gồm:
-    - **Endpoint Policy**: Kiểm soát quyền truy cập tại cấp độ Endpoint.
-    - **Bucket Policy**: Giới hạn quyền truy cập dựa trên IP nguồn và phạm vi mạng cho phép.
+    + **Endpoint Policy**: Kiểm soát quyền truy cập tại cấp độ Endpoint.
+    + **Bucket Policy**: Giới hạn quyền truy cập dựa trên IP nguồn và phạm vi mạng cho phép.
 - Thực hiện **kiểm thử truy cập (Positive & Negative Testing)** để xác minh hoạt động của từng lớp bảo mật và 
 - đảm bảo chỉ các nguồn hợp lệ mới có thể truy cập dữ liệu trong S3.
 

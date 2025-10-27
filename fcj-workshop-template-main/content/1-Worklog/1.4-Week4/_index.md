@@ -24,25 +24,25 @@ pre: " <b> 1.4. </b> "
 ### Week 4 Achievements
 
 **Monday (29/09/2025):**
-- Successfully created an **AWS Free Tier account**.
-- Completed activation of the **$200 free credit**.
+   - Successfully created an **AWS Free Tier account**.
+   - Completed activation of the **$200 free credit**.
 
 **Tuesday (30/09/2025):**
-- Launched and operated an **EC2 Instance**.
-- Became familiar with **Billing & Cost Management**.
+   - Launched and operated an **EC2 Instance**.
+   - Became familiar with **Billing & Cost Management**.
 
 **Wednesday (01/10/2025):**
-- Practiced more deeply with **EC2**.
-- Understood and used key features in **Billing and Cost Management**.
-- Installed and configured **AWS CLI** for managing basic resources.
+   - Practiced more deeply with **EC2**.
+   - Understood and used key features in **Billing and Cost Management**.
+   - Installed and configured **AWS CLI** for managing basic resources.
 
 **Thursday (02/10/2025):**
-- Learned about **AWS Private Certificate Authority**.
-- Became familiar with **database management** in AWS.
-- Translate 3 assigned blog post.
+   - Learned about **AWS Private Certificate Authority**.
+   - Became familiar with **database management** in AWS.
+   - Translate 3 assigned blog post.
 
 **Friday (03/10/2025):**
-- Studied and practiced with **AWS Lambda** and **Amazon Bedrock**.
-- Experimented with **serverless deployment**.
-- Practiced essential operations on **Console & CLI**.
-- Successfully pushed the project folder to **GitHub**.
+   - Studied and practiced with **AWS Lambda** and **Amazon Bedrock**.
+   - Experimented with **serverless deployment**.
+   - Practiced essential operations on **Console & CLI**.
+   - Successfully pushed the project folder to **GitHub**.

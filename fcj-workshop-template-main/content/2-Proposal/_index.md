@@ -20,11 +20,11 @@ and **cost analytics**.
 
 **Key Highlights:**
 
-- **Operational Cost:** $12–18/month (leveraging AWS Free Tier).
-- **CloudWatch Integration:** Real-time metrics tracking and alerting.
-- **Cost Analysis:** Insights and optimization recommendations via **AWS APIs**.
-- **Real-Time Dashboard:** Efficient data caching for fast performance.
-- **Scalable & Maintainable:** Simple architecture for easy maintaining and scaling.
+   - **Operational Cost:** $12–18/month (leveraging AWS Free Tier).
+   - **CloudWatch Integration:** Real-time metrics tracking and alerting.
+   - **Cost Analysis:** Insights and optimization recommendations via **AWS APIs**.
+   - **Real-Time Dashboard:** Efficient data caching for fast performance.
+   - **Scalable & Maintainable:** Simple architecture for easy maintaining and scaling.
 
 ### 2. Problem Statement.
 
@@ -57,35 +57,35 @@ Many organizations and individual AWS users face several common issues:
 - **Data Persistence with DynamoDB:**
     - Four dedicated tables: `CloudHealthMetrics`, `CloudHealthCosts`, `SecurityFindings`, and `Recommendations`.
     - Automatic **TTL policies** for efficient data lifecycle management:
-        - Metrics: 30 days.
-        - Costs: 365 days.
-        - Security: 90 days.
-        - Recommendations: 180 days.
+        + Metrics: 30 days.
+        + Costs: 365 days.
+        + Security: 90 days.
+        + Recommendations: 180 days.
     - **On-Demand pricing** to minimize cost.
     - **Optimized query patterns** using GSIs for efficient access across data types.
 
 - **Cost analysis**:
-    - Historical cost trends.
-    - Service breakdown.
-    - AWS Cost Explorer recommendations integration.
-    - Budget alerts.
+    + Historical cost trends.
+    + Service breakdown.
+    + AWS Cost Explorer recommendations integration.
+    + Budget alerts.
 
 - **Security monitoring**:
-    - Security Hub findings aggregation.
-    - GuardDuty threat detection display.
-    - Compliance status tracking.
-    - Severity-based filtering.
+    + Security Hub findings aggregation.
+    + GuardDuty threat detection display.
+    + Compliance status tracking.
+    + Severity-based filtering.
 
 - **Intelligent recommendations**:
-    - Cost optimization suggestions.
-    - Performance improvements.
-    - Security enhancements.
-    - Impact-based prioritization.
+    + Cost optimization suggestions.
+    + Performance improvements.
+    + Security enhancements.
+    + Impact-based prioritization.
 
 - **Performance Enhancements:**
-    - **Redis Caching** to minimize AWS API calls and improve response time.
-    - **Pre-Collected Data** stored in DynamoDB for quick retrieval.
-    - **WebSocket Integration** for real-time data updates on the dashboard.
+    + **Redis Caching** to minimize AWS API calls and improve response time.
+    + **Pre-Collected Data** stored in DynamoDB for quick retrieval.
+    + **WebSocket Integration** for real-time data updates on the dashboard.
 
 ### Benefits and ROI.
 
@@ -185,10 +185,10 @@ The **EC2 instance** is deployed in a **public subnet** with the following **sec
 
 A **private subnet architecture** was considered but **not implemented** due to:
 
-- **Increased cost:** Additional $33/month for NAT Gateway or ~$14/month for VPC Endpoints.
-- **Not suitable for a learning/portfolio project scope**.
-- **Public subnet with proper security best practices** is sufficient for this use case.
-- Demonstrates **cost-aware decision making**.
+   - **Increased cost:** Additional $33/month for NAT Gateway or ~$14/month for VPC Endpoints.
+   - **Not suitable for a learning/portfolio project scope**.
+   - **Public subnet with proper security best practices** is sufficient for this use case.
+   - Demonstrates **cost-aware decision making**.
 
 This architecture is **appropriate for development or demo environments**.  
 For **production deployments**, private subnets with NAT Gateways or VPC Endpoints should be used to enhance network 
@@ -440,64 +440,64 @@ The decision to use **4 specialized tables** instead of 2 aggregated tables is b
 #### **1. Query Performance**
 
 Each table is optimized for a **specific access pattern**:
-- **Metrics** → Time-series queries with high write throughput.
-- **Costs** → Aggregation queries by service and date range.
-- **Security** → Real-time filtering by severity level.
-- **Recommendations** → Impact-based sorting and status tracking.
+   - **Metrics** → Time-series queries with high write throughput.
+   - **Costs** → Aggregation queries by service and date range.
+   - **Security** → Real-time filtering by severity level.
+   - **Recommendations** → Impact-based sorting and status tracking.
 
 This design minimizes query latency and avoids unnecessary data scans.
 
 #### **2. Separation of Concerns**
 
-- Clear **data ownership** and **lifecycle management**.
-- Different **TTL (Time to Live)** policies for each data type.
-- Easier to maintain, debug, and evolve over time.
+   - Clear **data ownership** and **lifecycle management**.
+   - Different **TTL (Time to Live)** policies for each data type.
+   - Easier to maintain, debug, and evolve over time.
 
 #### **3. Scalability**
 
-- Each table scales **independently** as workloads grow.
-- Avoids **hot partitions** caused by data spikes in one category.
-- GSIs (Global Secondary Indexes) tailored to specific query needs.
+   - Each table scales **independently** as workloads grow.
+   - Avoids **hot partitions** caused by data spikes in one category.
+   - GSIs (Global Secondary Indexes) tailored to specific query needs.
 
 #### **4. Cost Management**
 
-- Enables **granular cost tracking** per data category.
-- Flexible TTLs reduce storage cost for short-lived data.
-- Uses **on-demand billing**, ideal for variable workloads.
+   - Enables **granular cost tracking** per data category.
+   - Flexible TTLs reduce storage cost for short-lived data.
+   - Uses **on-demand billing**, ideal for variable workloads.
 
 #### **Trade-offs**
 
-- Slightly higher cost (~$2–3/month) compared to 2-table setup.
-- Slightly more complexity in deployment and maintenance.
-- However, gains include **better performance**, **cleaner architecture**, and **simpler scalability**.
+   - Slightly higher cost (~$2–3/month) compared to 2-table setup.
+   - Slightly more complexity in deployment and maintenance.
+   - However, gains include **better performance**, **cleaner architecture**, and **simpler scalability**.
 
 ### 4. Technical Implementation.
 
 **Technology Stack**.
 
 **Backend**.
-- Python 3.9+ with **FastAPI**.
-- **boto3** for AWS SDK.
-- **Redis** for caching.
-- **uvicorn** ASGI server.
-- **asyncio** for asynchronous operations.
+   - Python 3.9+ with **FastAPI**.
+   - **boto3** for AWS SDK.
+   - **Redis** for caching.
+   - **uvicorn** ASGI server.
+   - **asyncio** for asynchronous operations.
 
 **Frontend**.
-- **React 18** with Vite.
-- **TanStack Query (React Query)** for data fetching.
-- **Recharts** for data visualization.
-- **Tailwind CSS** for styling.
-- **Axios** as HTTP client.
+   - **React 18** with Vite.
+   - **TanStack Query (React Query)** for data fetching.
+   - **Recharts** for data visualization.
+   - **Tailwind CSS** for styling.
+   - **Axios** as HTTP client.
 
 **Database**.
-- **DynamoDB** as the primary database (4 specialized tables).
-- **Redis** as in-memory cache.
+   - **DynamoDB** as the primary database (4 specialized tables).
+   - **Redis** as in-memory cache.
 
 **DevOps**.
-- **Nginx** as reverse proxy.
-- **systemd** for service management.
-- **CloudWatch Agent** for monitoring.
-- **Bash scripts** for automation.
+   - **Nginx** as reverse proxy.
+   - **systemd** for service management.
+   - **CloudWatch Agent** for monitoring.
+   - **Bash scripts** for automation.
 
 **Core Features Implementation**.
 
@@ -655,15 +655,15 @@ Post-deployment: Maintenance & Enhancements.
 
 **Phase 2 (Future Enhancements - 3-6 months after):**
 
-- **Machine Learning** cost prediction models.
-- Multi-account support.
-- Advanced analytics.
-- **Well-Architected Framework** assessment.
-- **GuardDuty** deep integration.
-- **AWS Config** compliance tracking.
-- Custom alerting workflows.
-- **Mobile** responsive improvements.
-- Advanced recommendation algorithms.
+   - **Machine Learning** cost prediction models.
+   - Multi-account support.
+   - Advanced analytics.
+   - **Well-Architected Framework** assessment.
+   - **GuardDuty** deep integration.
+   - **AWS Config** compliance tracking.
+   - Custom alerting workflows.
+   - **Mobile** responsive improvements.
+   - Advanced recommendation algorithms.
 
 ### 6. Budget Estimation.
 
@@ -684,40 +684,40 @@ Post-deployment: Maintenance & Enhancements.
 **DynamoDB Cost Breakdown (4 Tables):**
 
 - **Storage:** ~5GB total = $1.25/month.
-    - CloudHealthMetrics: 2GB ($0.50).
-    - CloudHealthCosts: 1GB ($0.25).
-    - SecurityFindings: 1GB ($0.25).
-    - Recommendations: 1GB ($0.25).
+    + CloudHealthMetrics: 2GB ($0.50).
+    + CloudHealthCosts: 1GB ($0.25).
+    + SecurityFindings: 1GB ($0.25).
+    + Recommendations: 1GB ($0.25).
 
 - **Writes:** ~800K requests/month = $1.00/month.
-    - Metrics: 500K writes ($0.625).
-    - Costs: 100K writes ($0.125).
-    - Security: 100K writes ($0.125).
-    - Recommendations: 100K writes ($0.125).
+    + Metrics: 500K writes ($0.625).
+    + Costs: 100K writes ($0.125).
+    + Security: 100K writes ($0.125).
+    + Recommendations: 100K writes ($0.125).
 
 - **Reads:** ~4M requests/month = $2.00/month.
-    - Evenly distributed across 4 tables.
+    + Evenly distributed across 4 tables.
 
 - **GSI:** Included in on-demand pricing.
 - **Backup:** Free (Point-in-time recovery).
 - **Total DynamoDB Cost:** $4–7/month.
 
 **Note:** Costs may increase if:
-- Higher metric collection frequency.
-- More AWS services being monitored.
-- Longer data retention periods.
-- GuardDuty enabled (+$4–6/month).
-- Increased security findings and recommendations.
+   - Higher metric collection frequency.
+   - More AWS services being monitored.
+   - Longer data retention periods.
+   - GuardDuty enabled (+$4–6/month).
+   - Increased security findings and recommendations.
 
 **Cost Optimization Strategies:**
-- Fully utilize **AWS Free Tier** (first 12 months).
-- Use **on-demand mode** instead of provisioned capacity.
-- Apply **TTL** for automatic data expiration per table.
-- Use **Redis caching** to reduce DynamoDB reads.
-- Set **CloudWatch log retention** to 7 days.
-- Disable monitoring for unused AWS services.
-- Perform **batch writes** where possible.
-- Design **efficient query patterns** with GSIs.
+   - Fully utilize **AWS Free Tier** (first 12 months).
+   - Use **on-demand mode** instead of provisioned capacity.
+   - Apply **TTL** for automatic data expiration per table.
+   - Use **Redis caching** to reduce DynamoDB reads.
+   - Set **CloudWatch log retention** to 7 days.
+   - Disable monitoring for unused AWS services.
+   - Perform **batch writes** where possible.
+   - Design **efficient query patterns** with GSIs.
 
 ### 7. Risk Assessment.
 
@@ -892,30 +892,30 @@ Post-deployment: Maintenance & Enhancements.
 
 Project này demonstrate:
 
-- Real **AWS production experience**.
-- Advanced DynamoDB data modeling **(4 tables, GSI)**.
-- Full-stack development skills.
-- Cost-aware architecture decisions.
-- Security consciousness.
-- Realistic project scoping.
-- Team collaboration.
-- Professional documentation.
+   - Real **AWS production experience**.
+   - Advanced DynamoDB data modeling **(4 tables, GSI)**.
+   - Full-stack development skills.
+   - Cost-aware architecture decisions.
+   - Security consciousness.
+   - Realistic project scoping.
+   - Team collaboration.
+   - Professional documentation.
 
 **Limitations & Trade-offs:**
 
 Documented limitations:
 
-- Single instance **(no high availability)**.
-- Public subnet **(no private network isolation)**.
-- Rule-based recommendations **(no ML-powered initially)**.
-- Manual **AWS service** additions.
-- Limited to **AWS (no multi-cloud)**.
+   - Single instance **(no high availability)**.
+   - Public subnet **(no private network isolation)**.
+   - Rule-based recommendations **(no ML-powered initially)**.
+   - Manual **AWS service** additions.
+   - Limited to **AWS (no multi-cloud)**.
 
 Documented trade-offs:
 
-- Using **4 tables** increases complexity and cost **($2–3/month)** but improves performance and maintainability.
-- Hosting the **EC2 instance** in a public subnet reduces security but saves approximately **$33/month**.
-- Operating with a single instance lowers availability but aligns with the project's budget constraints.
+   - Using **4 tables** increases complexity and cost **($2–3/month)** but improves performance and maintainability.
+   - Hosting the **EC2 instance** in a public subnet reduces security but saves approximately **$33/month**.
+   - Operating with a single instance lowers availability but aligns with the project's budget constraints.
 
 These limitations and trade-offs are **conscious decisions** made for **cost efficiency** and **timeline feasibility**, demonstrating **real-world engineering judgment** and prioritization under resource constraints.
 
@@ -923,9 +923,9 @@ These limitations and trade-offs are **conscious decisions** made for **cost eff
 - [GitHub Repository](https://github.com/Unvianpetronas/Cloud_health_dashboard)
 
 **B. Contact:**
-- **Project Leader:** Truong Quoc Tuan .
-- **Email:** unviantruong26@gmail.com .
-- **WhatsApp:** 0798806545 .
+   - **Project Leader:** Truong Quoc Tuan .
+   - **Email:** unviantruong26@gmail.com .
+   - **WhatsApp:** 0798806545 .
 ```
 
 ---
