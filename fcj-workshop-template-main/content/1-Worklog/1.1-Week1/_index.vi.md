@@ -9,6 +9,7 @@ pre: " <b> 1.1. </b> "
 ### Mục tiêu tuần 1:
 
 * Kết nối và làm quen với các thành viên trong **First Cloud Journey (FCJ)**.
+
 * Hiểu dịch vụ **AWS** cơ bản
 
 ### Các công việc cần triển khai trong tuần này:
@@ -24,26 +25,39 @@ pre: " <b> 1.1. </b> "
 ### Kết quả đạt được tuần 1
 
 * **Thứ 2 (08/09/2025):**
+
     - Làm quen và kết nối với các thành viên trong **First Cloud Journey (FCJ)**.
+  
     - Đọc, ghi chú và nắm rõ **nội quy – quy định** tại đơn vị thực tập.
 
 * **Thứ 3 (09/09/2025):**
+
     - Học và hiểu khái niệm cơ bản về **Điện toán đám mây (Cloud Computing)**.
 
 * **Thứ 4 (10/09/2025):**
+
     - Lên văn phòng học tập, làm quen môi trường làm việc.
+  
     - Xem thêm nội dung về **Cloud Computing**.
+  
     - Thử dịch blog (ngẫu nhiên) đầu tiên liên quan đến AWS.
 
 * **Thứ 5 (11/09/2025):**
+
     - Tìm hiểu **VPC (Virtual Private Cloud)** và các thành phần cơ bản:
+  
         + **Subnet**.
+      
         + **Route Table**.
+      
         + **Security Group**.
+      
     - Xem và ghi chú **Lab 1 của AWS** về cấu hình mạng.
 
 * **Thứ 6 (12/09/2025):**
+
     - Tiếp tục học **Điện toán đám mây** trên Youtube để củng cố kiến thức.
+  
     - Hiểu thêm về cách hoạt động của **hạ tầng đám mây và các lợi ích của AWS**.
 
 

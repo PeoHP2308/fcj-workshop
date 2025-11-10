@@ -19,11 +19,19 @@ hay và bổ ích, cùng với đó là nhứng món quà và những khoảnh k
 &emsp;**Vai trò trong sự kiện:** Người tham dự.
 
 ### [Event 2](4.2-Event2/)
-&emsp;**Tên sự kiện:** GenAI-powered App-DB Modernization workshop.
+&emsp;**Tên sự kiện:** AI/ML/GenAI on AWS
 
-&emsp;**Thời gian:** 09:00 ngày 13/08/2025
+&emsp;**Thời gian:** 8:30 AM – 5:00 PM ngày 15/11/2025
 
 &emsp;**Địa điểm:** Tầng 26, tòa nhà Bitexco, số 02 đường Hải Triều, phường Sài Gòn, thành phố Hồ Chí Minh
 
 &emsp;**Vai trò trong sự kiện:** Người tham dự 
 
+### [Event 3](4.3-Event3/)
+&emsp;**Tên sự kiện:** Building Agentic AI & Context Optimization with Amazon Bedrock
+
+&emsp;**Thời gian:** 9:00 AM - 12:00 PM ngày 05/12/2025
+
+&emsp;**Địa điểm:** Tầng 26, tòa nhà Bitexco, số 02 đường Hải Triều, phường Sài Gòn, thành phố Hồ Chí Minh
+
+&emsp;**Vai trò trong sự kiện:** Người tham dự 

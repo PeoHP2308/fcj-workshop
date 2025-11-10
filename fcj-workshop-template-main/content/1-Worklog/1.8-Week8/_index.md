@@ -23,18 +23,23 @@ pre: " <b> 1.8. </b> "
 ### Week 8 Achievements:
 
 * **Monday (27/10/2025):**
+
     - Review **Module 1–2**.
 
 * **Tuesday (28/10/2025):**
+
     - Review **Module 3–4**.
 
-* **Webnesday (29/10/2025):**
+* **Wednesday (29/10/2025):**
+
     - Review **Module 5–6**.
 
 * **Thursday (30/10/2025):**
+
     - Summarize and consolidate all knowledge from **Module 1–6**.
 
 * **Friday (31/10/2025):**
+
     - **Midterm Exam** at the Office.
 
 

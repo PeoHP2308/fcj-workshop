@@ -527,9 +527,7 @@ This design minimizes query latency and avoids unnecessary data scans.
     - Prioritizes recommendations by **impact** and **confidence**.
     - Tracks implementation status.
 
-
 5. **API Endpoints**.
-
     - `GET /api/v1/metrics` - Retrieve metrics from DynamoDB.
     - `GET /api/v1/costs` - Cost data and trends.
     - `GET /api/v1/security` - Security findings.
@@ -538,7 +536,6 @@ This design minimizes query latency and avoids unnecessary data scans.
     - `WS /ws` - WebSocket cho real-time updates (optional).
 
 6. **Caching Strategy**.
-
     - Redis cache for frequent queries.
     - **5-minute TTL** for metrics data.
     - **1-hour TTL** for cost data.
@@ -547,7 +544,6 @@ This design minimizes query latency and avoids unnecessary data scans.
     - Cache invalidation on data refresh.
 
 7. **Security Measures**
-
     - **HTTPS** only with Let's Encrypt.
     - **IAM role**s with least privilege.
     - **Security groups** restrictive rules.

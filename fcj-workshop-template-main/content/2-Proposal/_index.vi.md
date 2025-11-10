@@ -440,9 +440,9 @@ Tách thành 4 tables chuyên biệt thay vì 2 tables tổng hợp vì:
     - On-demand billing phù hợp với variable workload.
 
 **Trade-offs:**
-- Chi phí cao hơn ~$2-3/tháng so với 2 tables.
-- Complexity cao hơn khi deploy và maintain.
-- Nhưng: Better performance, cleaner architecture, easier to scale.
+   - Chi phí cao hơn ~$2-3/tháng so với 2 tables.
+   - Complexity cao hơn khi deploy và maintain.
+   - Nhưng: Better performance, cleaner architecture, easier to scale.
 
 ### 4. Triển khai kỹ thuật
 
@@ -510,7 +510,6 @@ Tách thành 4 tables chuyên biệt thay vì 2 tables tổng hợp vì:
     - `WS /ws` - WebSocket cho real-time updates (optional).
 
 6. **Caching Strategy**
-
     - Redis cache cho frequent queries.
     - 5-minute TTL cho metrics data.
     - 1-hour TTL cho cost data.
@@ -519,7 +518,6 @@ Tách thành 4 tables chuyên biệt thay vì 2 tables tổng hợp vì:
     - Cache invalidation on data refresh.
 
 7. **Security Measures**
-
     - HTTPS only với Let's Encrypt.
     - IAM roles với least privilege.
     - Security groups restrictive rules.

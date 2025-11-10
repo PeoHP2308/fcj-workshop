@@ -9,6 +9,7 @@ pre: " <b> 1.4. </b> "
 ### Mục tiêu tuần 4:
 
 * Tạo được tài khoản AWS
+
 * Thao tác những module của AWS
 
 ### Các công việc cần triển khai trong tuần này:
@@ -24,26 +25,40 @@ pre: " <b> 1.4. </b> "
 ### Kết quả đạt được tuần 4:
 
 * **Thứ 2 (29/09/2025):**
+
     - Đã tạo tài khoản **AWS Free Tier** thành công.
+  
     - Hoàn tất nhận **200$ credit free**.
 
 * **Thứ 3 (30/09/2025):**
+
     - Khởi tạo và thao tác với **EC2 Instance**.
+  
     - Làm quen với **Billing & Cost Management**.
 
 * **Thứ 4 (01/10/2025):**
+
     - Thực hành chi tiết hơn với **EC2**.
-    - Hiểu và sử dụng các tính năng trong **Billing and Cost Management**.
+  
+    - Hiểu và sử dụng các tính năng trong **Billing and Cost Management**
+  
     - Cài đặt và cấu hình **AWS CLI** để quản lý tài nguyên cơ bản.
 
 * **Thứ 5 (02/10/2025):**
+
     - Tìm hiểu **AWS Private Certificate Authority**.
+  
     - Làm quen với cách **quản lý Database** trong AWS.
+  
     - Dịch 3 bài blog được giao.
 
 * **Thứ 6 (03/10/2025):**
+
     - Tìm hiểu và thực hành với **AWS Lambda** và **Amazon Bedrock**.
+  
     - Thử nghiệm triển khai dịch vụ **serverless**.
+  
     - Thực hành các thao tác cơ bản trên **Console & CLI**. 
+  
     - Push thành công thư mục lên **Github**.
 

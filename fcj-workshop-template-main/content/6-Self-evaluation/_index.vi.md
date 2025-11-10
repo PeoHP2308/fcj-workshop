@@ -7,7 +7,8 @@ pre: " <b> 6. </b> "
 ---
 
 Trong suốt thời gian thực tập tại **AWS** từ **tháng 09/2025** đến **tháng 12/2025**, tôi đã có cơ hội học hỏi, 
-rèn luyện và áp dụng kiến thức đã được trang bị tại trường vào môi trường làm việc thực tế.  
+rèn luyện và áp dụng kiến thức đã được trang bị tại trường vào môi trường làm việc thực tế.
+
 Tôi đã tham gia **[mô tả ngắn gọn dự án hoặc công việc chính]**, qua đó cải thiện kỹ năng 
 **[liệt kê kỹ năng: lập trình, phân tích, viết báo cáo, giao tiếp…]**.  
 
@@ -35,5 +36,7 @@ Về tác phong, tôi luôn cố gắng hoàn thành tốt nhiệm vụ, tuân t
 ### Cần cải thiện
 
 * Nâng cao tính kỹ luật,khả năng tiếp thu kiến thức mới và chú ý trong lúc làm project.
+
 * Cải thiện trong cách tư duy giải quyết vấn đề.
+
 * Học cách giao tiếp tốt hơn trong giao tiếp hằng ngày và trong công việc, xử lý tình huống.

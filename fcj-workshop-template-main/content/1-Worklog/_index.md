@@ -24,9 +24,9 @@ Typically, and as a standard, a worklog is carried out over about 3 months (thro
 
 **Week 8:** [Comprehensive review and taking the Midterm exam](1.8-week8/)
 
-**Week 9:** [Làm công việc I...](1.9-week9/)
+**Week 9:** [Exploring the project structure and related services](1.9-week9/)
 
-**Week 10:** [Làm công việc L...](1.10-week10/)
+**Week 10:** [Reviewing and analyzing the project’s workflow](1.10-week10/)
 
 **Week 11:** [Làm công việc M...](1.11-week11/)
 

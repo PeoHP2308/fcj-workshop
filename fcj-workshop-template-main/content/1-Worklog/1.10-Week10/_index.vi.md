@@ -8,47 +8,49 @@ pre: " <b> 1.10. </b> "
 
 ### Mục tiêu tuần 10:
 
-* Kết nối, làm quen với các thành viên trong First Cloud Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+* Ôn tập lại cấu trúc và các dịch vụ trong project.
+
+* Hiểu rõ luồng hoạt động và mối liên kết giữa các thành phần hệ thống.
 
 ### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| Thứ | Công việc                                                | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+| --- |----------------------------------------------------------|--------------|-----------------|----------------|
+| 2   | - Lên văn phòng học tập. <br> - Ôn lại cấu trúc project. | 10/11/2025   | 10/11/2025      |                | 
+| 3   | - Xem chi tiết các dịch vụ đã dùng.                      | 11/11/2025   | 11/11/2025      |                |
+| 4   | - Tìm hiểu luồng hoạt động tổng thể.                     | 12/11/2025   | 12/11/2025      |                |
+| 5   | - Kiểm tra mối liên kết giữa các dịch vụ.                | 13/11/2025   | 13/11/2025      |                |
+| 6   | - Tổng kết, ghi chú phần còn chưa rõ.                    | 14/11/2025   | 14/11/2025      |                |
 
 ### Kết quả đạt được tuần 10:
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+* **Thứ Hai (10/11/2025):**
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
+    - Lên văn phòng học tập đúng kế hoạch.
 
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
+    - Ôn lại cấu trúc tổng thể của project, nắm rõ các thành phần chính và cách tổ chức thư mục.
 
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
+* **Thứ Ba (11/11/2025):**
 
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
+    - Xem chi tiết các dịch vụ đang được sử dụng trong project.
 
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
+    - Ghi chú lại vai trò của từng dịch vụ để thuận tiện cho việc phân tích và mở rộng sau này.
 
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
+* **Thứ Tư (12/11/2025):**
+
+    - Tìm hiểu luồng hoạt động tổng thể của hệ thống.
+
+    - Hiểu được cách các module giao tiếp và xử lý dữ liệu trong quá trình vận hành. 
+
+* **Thứ Năm (13/11/2025):**
+
+    - Kiểm tra mối liên kết giữa các dịch vụ.
+
+    - Xác định được các điểm phụ thuộc và phần có thể tối ưu hóa trong luồng kết nối. 
+
+* **Thứ Sáu (14/11/2025):**
+
+    - Tổng kết lại toàn bộ nội dung đã tìm hiểu trong tuần.
+
+    - Ghi chú những phần còn chưa rõ để làm rõ hơn trong tuần tới.  
 
 

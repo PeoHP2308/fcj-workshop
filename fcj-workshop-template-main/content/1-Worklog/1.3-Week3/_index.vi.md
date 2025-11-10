@@ -23,29 +23,45 @@ pre: " <b> 1.3. </b> "
 ### Kết quả đạt được tuần 3:
 
 * **Thứ 2 (22/09/2025):** 
+
    - Học các khái niệm cơ bản về AWS qua video trên Youtube.
+  
    - Hiểu được tổng quan các dịch vụ chính.
   
 * **Thứ 3 (23/09/2025):** 
+
    - **Second random AWS blog** translation attempt.
   
 * **Thứ 4 (24/09/2025):**
-  - Tìm hiểu **Compute VM on AWS**.
-  - Tìm hiểu **nhóm dịch vụ Compute** trên AWS, bao gồm:
-    + **Amazon EC2**.
-    + **Amazon Lightsail**.
+
+   - Tìm hiểu **Compute VM on AWS**.
+  
+   - Tìm hiểu **nhóm dịch vụ Compute** trên AWS, bao gồm:
+  
+     + **Amazon EC2**.
+     
+     + **Amazon Lightsail**.
     
 * **Thứ 5 (25/09/2025):** 
+
    - Hiểu rõ hơn về EC2 cơ bản.
+  
    - Cách chọn loại instance phù hợp.
+  
      + **Amazon EFS/FSX**.
+     
      + **AWS Application Migration Service (MGN)**.
+     
 →  Đồng thời nắm được các loại **instance type** của EC2.
 
 * **Thứ 6 (26/09/2025):** 
+
    - Thực hành thành công:
+  
      + Tạo **EC2 instance**.
+     
      + Tạo **database** trên AWS.
+     
      + Làm quen với thao tác trên AWS Management Console.
 
 

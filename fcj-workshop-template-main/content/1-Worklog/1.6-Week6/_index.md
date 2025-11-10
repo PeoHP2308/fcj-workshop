@@ -9,6 +9,7 @@ pre: " <b> 1.6. </b> "
 ### Week 6 Objectives:
 
 * Continue watching AWS service tutorials on YouTube.
+
 * Prepare knowledge for the midterm exam.
 
 ### Tasks to be carried out this week:
@@ -23,27 +24,41 @@ pre: " <b> 1.6. </b> "
 ### Week 6 Achievements
 
 * **Monday (13/10/2025):**
+
     - Watched **Module 5 – Shared Responsibility Model**.
+  
     - Studied **Amazon Identity and Access Management (IAM)** to understand user and role permissions.
 
 * **Tuesday (14/10/2025):**
+
     - Continued learning about **IAM**.
+  
     - Studied **Amazon Cognito** for authentication and user identity management.
+  
     - Learned **AWS Organizations** to manage multiple AWS accounts efficiently.
 
 * **Wednesday (15/10/2025):**
+
     - Studied **AWS Identity Center** for centralized access management.
+  
     - Explored **Amazon Key Management Service (KMS)** for key creation, encryption, and security management.
+  
     - Learned about **AWS Security Hub**, a tool for continuous security monitoring.
 
 * **Thursday (16/10/2025):**
+
     - Studied at the office and practiced using AWS services.
+  
     - Watch **Module 6**.
+  
     - Carefully checked translated AWS blogs for accuracy.
 
 * **Friday (17/10/2025):**
+
     - Continued with **Module 6 labs** for hands-on learning.
+  
     - Reviewed **Modules 1–6** thoroughly to prepare for the upcoming **midterm exam**.
+  
     - Optimized the project’s code.
 
 

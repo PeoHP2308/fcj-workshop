@@ -8,48 +8,37 @@ pre: " <b> 1.9. </b> "
 
 ### Week 9 Objectives:
 
-* Connect and get acquainted with members of First Cloud Journey.
-* Understand basic AWS services, how to use the console & CLI.
+* Review the structure of the project.
 
 ### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| Day | Task                                              | Start Date | Completion Date | Reference Material |
+| --- |---------------------------------------------------|------------|-----------------|--------------------|
+| 2   | - Read the project documentation.                 | 03/11/2025 | 03/11/2025      |                    |
+| 3   | - Review the project diagram.                     | 04/11/2025 | 04/11/2025      |                    |
+| 4   | - Identify the services required by the project.  | 05/11/2025 | 05/11/2025      |                    |
+| 5   | - Determine how many services need to be applied. | 06/11/2025 | 06/11/2025      |                    |
+| 6   | - Review the overall structure of the project.    | 07/11/2025 | 07/11/2025      |                    |
 
 
 ### Week 9 Achievements:
 
-* Understood what AWS is and mastered the basic service groups:
-    * Compute
-    * Storage
-    * Networking
-    * Database
-    * ...
+* **Monday (03/11/2025):**
 
-* Successfully created and configured an AWS Free Tier account.
+    - Read through the project documentation to understand its purpose and scope.
 
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
+* **Tuesday (04/11/2025):**
 
-* Installed and configured AWS CLI on the computer, including:
-    * Access Key
-    * Secret Key
-    * Default Region
-    * ...
+    - Reviewed the project diagram to visualize the system architecture.
 
-* Used AWS CLI to perform basic operations such as:
+* **Wednesday (05/11/2025):**
 
-    * Check account & configuration information
-    * Retrieve the list of regions
-    * View EC2 service
-    * Create and manage key pairs
-    * Check information about running services
-    * ...
+    - Examined which services are required for the project implementation.
 
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+* **Thursday (06/11/2025):**
 
+    - Determined the total number of services needed and how they integrate with the system.
+
+* **Friday (07/11/2025):**
+
+    - Reviewed the overall structure of the project to consolidate understanding.
 

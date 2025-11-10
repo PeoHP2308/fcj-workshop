@@ -22,16 +22,21 @@ pre: " <b> 1.8. </b> "
 ### Kết quả đạt được tuần 8:
 
 * **Thứ Hai (27/10/2025):**
+
     - Ôn tập lại **Module 1–2**.
 
 * **Thứ Ba (28/10/2025):**
+
     - Ôn tập lại **Module 3–4**.
 
 * **Thứ Tư (29/10/2025):**
+
     - Ôn tập lại **Module 5–6**.
 
 * **Thứ Năm (30/10/2025):**
+
     - Tổng hợp toàn bộ kiến thức từ **Module 1–6**.
 
 * **Thứ Sáu (31/10/2025):**
-    - **Thi giữa kỳ tại văn phòng**.
+
+    - Thi giữa kỳ tại văn phòng.

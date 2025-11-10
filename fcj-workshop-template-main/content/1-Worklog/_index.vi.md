@@ -24,9 +24,9 @@ Thông thường và cũng là tiêu chuẩn, một worklog được thực hi�
 
 **Tuần 8:** [Ôn tập tổng hợp và tham gia thi giữa kỳ](1.8-week8/)
 
-**Tuần 9:** [Làm công việc I...](1.9-week9/)
+**Tuần 9:** [Tìm hiểu cấu trúc và các dịch vụ trong project](1.9-week9/)
 
-**Tuần 10:** [Làm công việc L...](1.10-week10/)
+**Tuần 10:** [Ôn tập, phân tích luồng hoạt động của project](1.10-week10/)
 
 **Tuần 11:** [Làm công việc M...](1.11-week11/)
 

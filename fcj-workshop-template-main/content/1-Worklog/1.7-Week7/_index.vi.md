@@ -9,6 +9,7 @@ pre: " <b> 1.7. </b> "
 ### Mục tiêu tuần 7:
 
 * Xem các module lab.
+
 * Xem bài cho midterm.
 
 ### Các công việc cần triển khai trong tuần này:
@@ -23,24 +24,36 @@ pre: " <b> 1.7. </b> "
 ## Thành Tựu Tuần 7
 
 * **Thứ Hai (20/10/2025):**
+
     - Xem lại Labs Module 1 để củng cố các khái niệm thực tế về AWS.
+  
     - Ôn tập nội dung thi giữa kỳ.
 
 * **Thứ Ba (21/10/2025):**
-    - Xem lại Module 1 và **Labs  1.
+
+    - Xem lại Module 1 và Labs  1.
+  
     - Đạt được hiểu biết sâu sắc hơn về các kiến thức cơ bản của AWS, bao gồm cơ sở hạ tầng toàn cầu và mô hình shared responsibility.
 
 * **Thứ Tư (22/10/2025):**
+
     - Xem lại Module 2 và Labs 2.
+  
     - Thực hành các bài tập liên quan đến **VPC**, **subnets**, và các phiên bản **EC2 (instances)**.
 
 * **Thứ Năm (23/10/2025):**
+
     - Lên Văn phòng học tập.
+  
     - Ôn tập Module 3 & 4 và Labs 3 & 4.
+  
     - Củng cố sự hiểu biết về các khái niệm **S3**, **EBS**, và **Disaster Recovery**.
 
 * **Thứ Sáu (24/10/2025):**
+
     - Lên Văn phòng học tập.
+  
     - Xem lại Module 5,6 và Labs 5,6.
+  
     - Tổng hợp kiến thức từ Module 1 đến 6 để chuẩn bị cho bài thi giữa kỳ.
 

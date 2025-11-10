@@ -9,6 +9,7 @@ pre: " <b> 1.7. </b> "
 ### Week 7 Objectives:
 
 * Review **AWS lab modules**.
+
 * Study materials for the **midterm exam**.
 
 ### Tasks to be carried out this week:
@@ -23,23 +24,35 @@ pre: " <b> 1.7. </b> "
 ### Week 7 Achievements
 
 * **Monday (20/10/2025):**
+
     - Reviewed **Lab Module 1** to reinforce practical AWS concepts.
+  
     - Review **midterm** exam content.
 
 * **Tuesday (21/10/2025):**
+
     - Completed review of **Module 1 and Lab 1**.
+  
     - Understanding of **AWS basics, including global infrastructure and shared responsibility**.
 
 * **Wednesday (22/10/2025):**
+
     - Reviewed **Module 2 and Lab 2**.
+  
     - Practiced hands-on exercises related to **VPC**, **subnets**, and **EC2 instances**.
 
 * **Thursday (23/10/2025):**
+
     - Go to the office for studying.
+  
     - Reviewed **Modules 3 & 4** and its **labs**.
+  
     - Strengthened understanding of **S3**, **EBS**, and **Disaster Recovery** concepts.
 
 * **Friday (24/10/2025):**
+
     - Go to the office for studying.
+  
     - Reviewed **Module 5 & 6** and its **labs**.
+  
     - Consolidated knowledge across **Modules 1–6** in preparation for **the midterm exam**.
