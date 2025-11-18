@@ -3,7 +3,7 @@ title: "Event 3"
 date: "2025-10-06"
 weight: 4
 chapter: false
-pre: " <b> 4.1. </b> "
+pre: " <b> 4.3. </b> "
 ---
 
 # EVENT REPORT: FOCUS ON AWS BEDROCK AGENT AND AGENTIC WORKFLOW

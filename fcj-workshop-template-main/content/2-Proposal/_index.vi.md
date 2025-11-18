@@ -32,9 +32,13 @@ phân tích dữ liệu.
 Nhiều doanh nghiệp và cá nhân sử dụng AWS đang gặp phải các thách thức:
 
   1. **Chi phí không kiểm soát**: Thiếu công cụ giám sát chi phí tập trung dẫn đến hoá đơn AWS bất ngờ tăng cao.
+
   2. **Bảo mật thiếu visibility**: Không có dashboard tổng hợp cho security findings.
+
   3. **Metrics phân tán**: Phải chuyển đổi giữa nhiều console AWS khác nhau.
+
   4. **Thiếu historical data**: CloudWatch chỉ giữ metrics 15 ngày (free tier).
+
   5. **Không có alerting tùy chỉnh**: Khó setup alerts phức tạp.
 
 **Giải pháp:**
@@ -44,30 +48,35 @@ Cloud Health Dashboard cung cấp một nền tảng tập trung với các tín
 - **Centralized monitoring**: Dashboard duy nhất cho **CloudWatch, Cost Explorer, Security Hub**.
 
 - **Data persistence với DynamoDB**:
+
     + 4 bảng chuyên biệt: **CloudHealthMetrics, CloudHealthCosts, SecurityFindings, Recommendations**.
     + **TTL tự động** để xóa dữ liệu cũ (30 ngày cho metrics, 365 ngày cho costs, 90 ngày cho security, 180 ngày cho recommendations).
     + **On-demand pricing** để tiết kiệm chi phí.
     + **Optimized query patterns** với **GSI** cho từng loại data.
 
 - **Cost analysis**:
+
     + Historical cost trends.
     + Service breakdown.
     + AWS Cost Explorer recommendations integration.
     + Budget alerts.
 
 - **Security monitoring**:
+
     + Security Hub findings aggregation.
     + GuardDuty threat detection display.
     + Compliance status tracking.
     + Severity-based filtering.
 
 - **Intelligent recommendations**:
+
     + Cost optimization suggestions.
     + Performance improvements.
     + Security enhancements.
     + Impact-based prioritization.
 
 - **Performance**:
+
     + Redis caching để giảm **AWS API calls**.
     + Pre-collected data trong **DynamoDB**.
     + WebSocket cho real-time updates.
@@ -75,18 +84,21 @@ Cloud Health Dashboard cung cấp một nền tảng tập trung với các tín
 **Lợi ích và ROI:**
 
 1. **Tiết kiệm chi phí**:
+
     - Visibility vào unutilized resources.
     - AWS native recommendations (Cost Explorer, Trusted Advisor).
     - Chi phí nền tảng chỉ $12-18/tháng.
     - Potential savings: 15-25% bằng cách identify waste.
 
 2. **Tăng visibility**:
+
     - Single dashboard thay vì 5+ AWS consoles.
     - Historical data retention.
     - Custom alerts.
     - Real-time notifications.
 
 3. **Cải thiện productivity**:
+
     - Giảm thời gian monitoring từ 30 phút/ngày xuống 5 phút/ngày.
     - Automated data collection.
     - Proactive alerts.
@@ -108,12 +120,14 @@ components, trong khi DynamoDB lưu trữ historical data với 4 tables chuyên
 **Dịch vụ AWS sử dụng:**
 
 1. **Amazon EC2** (Compute):
+
     - t3.micro instance (750h/month Free Tier).
     - Single public subnet (no NAT Gateway needed).
     - Components: Nginx, FastAPI, Redis, React, CloudWatch Agent.
     - Security: Restrictive security groups, Systems Manager Session Manager.
 
 2. **Amazon DynamoDB** (Storage):
+
     - 4 bảng chuyên biệt: Metrics, Costs, Security, Recommendations.
     - On-demand pricing mode.
     - TTL enabled cho tự động cleanup.
@@ -121,27 +135,32 @@ components, trong khi DynamoDB lưu trữ historical data với 4 tables chuyên
     - Point-in-time recovery for backups.
 
 3. **Amazon CloudWatch**:
+
     - Metrics collection từ EC2, RDS, S3, Lambda, etc.
     - Custom metrics cho application monitoring.
     - Logs aggregation.
     - Alarms và notifications.
 
 4. **AWS Cost Explorer**:
+
     - Cost và usage data via API.
     - Rightsizing recommendations (AWS native).
     - Cost forecast (AWS native).
     - Service breakdown.
 
 5. **AWS Security Hub**:
+
     - Security findings aggregation.
     - Compliance checking.
     - Integration với GuardDuty.
 
 6. **Amazon GuardDuty** (Optional):
+
     - Threat detection.
     - Anomaly monitoring.
 
 7. **Amazon S3** (Backup):
+
     - DynamoDB backup exports.
     - CloudWatch logs archive.
 
@@ -150,16 +169,19 @@ components, trong khi DynamoDB lưu trữ historical data với 4 tables chuyên
 EC2 instance được đặt trong public subnet với các biện pháp bảo mật:
 
 1. **Security Group Configuration:**
+
     - Inbound: Port 80, 443 từ 0.0.0.0/0.
     - Inbound: Port 22 chỉ từ trusted IPs (hoặc disable).
     - Outbound: Unrestricted (cho AWS API calls).
 
 2. **Access Management:**
+
     - AWS Systems Manager Session Manager thay cho SSH.
     - IAM roles với least privilege principle.
     - No hardcoded credentials trong code.
 
 3. **Monitoring & Logging:**
+
     - VPC Flow Logs enabled.
     - CloudWatch alarms cho security events.
     - GuardDuty threat detection.
@@ -167,6 +189,7 @@ EC2 instance được đặt trong public subnet với các biện pháp bảo m
 **Architecture Decision:**
 
 Private subnet architecture được cân nhắc nhưng không implement vì:
+
    - Tăng chi phí 100% ($33/tháng cho NAT Gateway hoặc $14/tháng cho VPC Endpoints).
    - Không phù hợp với learning/portfolio project scope.
    - Public subnet + security best practices đủ cho use case này.
@@ -178,6 +201,7 @@ với NAT Gateway hoặc VPC Endpoints.
 **Components trong EC2 Instance:**
 
 1. **Nginx (Port 80/443)**
+
     - Reverse proxy và web server.
     - Serve React static files.
     - Proxy API requests tới FastAPI.
@@ -185,6 +209,7 @@ với NAT Gateway hoặc VPC Endpoints.
     - Gzip compression.
 
 2. **FastAPI (Port 8000)**
+
     - RESTful API backend.
     - AWS SDK integration (boto3).
     - Business logic processing.
@@ -192,6 +217,7 @@ với NAT Gateway hoặc VPC Endpoints.
     - Background task scheduling.
 
 3. **Redis (Port 6379)**
+
     - Cache AWS API responses.
     - Cache DynamoDB query results.
     - Session storage.
@@ -199,6 +225,7 @@ với NAT Gateway hoặc VPC Endpoints.
     - Typical cache hit rate: 60-80%.
 
 4. **React Frontend**
+
     - Single Page Application (SPA).
     - Dashboard visualization.
     - API client.
@@ -206,6 +233,7 @@ với NAT Gateway hoặc VPC Endpoints.
     - Responsive design.
 
 5. **CloudWatch Agent**
+
     - EC2 metrics collection.
     - Application logs shipping.
     - Custom metrics publishing.
@@ -419,27 +447,32 @@ Sử dụng 4 tables chuyên biệt để tối ưu performance và separation o
 Tách thành 4 tables chuyên biệt thay vì 2 tables tổng hợp vì:
 
 1. **Query Performance**: Mỗi table optimize cho access pattern riêng.
+
     - Metrics: Time-series queries với high write throughput.
     - Costs: Aggregation queries theo service và date range.
     - Security: Severity-based filtering và real-time monitoring.
     - Recommendations: Impact-based sorting và status tracking.
 
 2. **Separation of Concerns**:
+
     - Rõ ràng về data ownership và lifecycle.
     - TTL policies khác nhau cho từng loại data.
     - Dễ maintain và troubleshoot.
 
 3. **Scalability**:
+
     - Độc lập scale từng table khi cần.
     - Không bị hot partition khi một loại data tăng đột biến.
     - GSI optimize cho query patterns cụ thể.
 
 4. **Cost Management**:
+
     - Monitor và optimize cost theo từng table.
     - Flexible TTL cho từng use case.
     - On-demand billing phù hợp với variable workload.
 
 **Trade-offs:**
+
    - Chi phí cao hơn ~$2-3/tháng so với 2 tables.
    - Complexity cao hơn khi deploy và maintain.
    - Nhưng: Better performance, cleaner architecture, easier to scale.
@@ -449,6 +482,7 @@ Tách thành 4 tables chuyên biệt thay vì 2 tables tổng hợp vì:
 **Stack công nghệ:**
 
 **Backend:**
+
    - Python 3.9+ với FastAPI framework.
    - boto3 cho AWS SDK.
    - Redis cho caching.
@@ -456,6 +490,7 @@ Tách thành 4 tables chuyên biệt thay vì 2 tables tổng hợp vì:
    - asyncio cho async operations.
 
 **Frontend:**
+
    - React 18 với Vite.
    - TanStack Query (React Query) cho data fetching.
    - Recharts cho data visualization.
@@ -463,10 +498,12 @@ Tách thành 4 tables chuyên biệt thay vì 2 tables tổng hợp vì:
    - Axios cho HTTP client.
 
 **Database:**
+
    - DynamoDB làm primary database (4 tables).
    - Redis cho caching (in-memory).
 
 **DevOps:**
+
    - Nginx làm reverse proxy.
    - Systemd cho service management.
    - CloudWatch Agent cho monitoring.
@@ -475,18 +512,21 @@ Tách thành 4 tables chuyên biệt thay vì 2 tables tổng hợp vì:
 **Core Features Implementation:**
 
 1. **Metrics Collection Service**
+
     - Background job chạy mỗi 5 phút.
     - Collect metrics từ CloudWatch API.
     - Store vào CloudHealthMetrics table.
     - Cache trong Redis (5 minute TTL).
 
 2. **Cost Analysis Service**
+
     - Daily job collect cost data từ Cost Explorer API.
     - Store historical data trong CloudHealthCosts table.
     - Generate charts và trends.
     - Display AWS native recommendations.
 
 3. **Security Monitoring**
+
     - Poll Security Hub và GuardDuty findings.
     - Store trong SecurityFindings table.
     - Display active findings với severity filtering.
@@ -494,6 +534,7 @@ Tách thành 4 tables chuyên biệt thay vì 2 tables tổng hợp vì:
     - Read-only integration.
 
 4. **Recommendations Engine**
+
     - Analyze metrics, costs, và security data.
     - Generate actionable recommendations.
     - Store trong Recommendations table.
@@ -510,6 +551,7 @@ Tách thành 4 tables chuyên biệt thay vì 2 tables tổng hợp vì:
     - `WS /ws` - WebSocket cho real-time updates (optional).
 
 6. **Caching Strategy**
+
     - Redis cache cho frequent queries.
     - 5-minute TTL cho metrics data.
     - 1-hour TTL cho cost data.
@@ -518,6 +560,7 @@ Tách thành 4 tables chuyên biệt thay vì 2 tables tổng hợp vì:
     - Cache invalidation on data refresh.
 
 7. **Security Measures**
+
     - HTTPS only với Let's Encrypt.
     - IAM roles với least privilege.
     - Security groups restrictive rules.
@@ -654,12 +697,14 @@ Post-deployment: Maintenance & Enhancements.
 **DynamoDB Cost Breakdown (4 tables):**
 
 - **Lưu trữ**: ~5GB total = $1.25/tháng.
+
     + CloudHealthMetrics: 2GB ($0.50).
     + CloudHealthCosts: 1GB ($0.25).
     + SecurityFindings: 1GB ($0.25).
     + Recommendations: 1GB ($0.25).
 
 - **Writes**: ~800K requests/tháng = $1.00/tháng.
+
     + Metrics: 500K writes ($0.625).
     + Costs: 100K writes ($0.125).
     + Security: 100K writes ($0.125).
@@ -669,7 +714,9 @@ Post-deployment: Maintenance & Enhancements.
     + Distributed across 4 tables.
 
 - **GSI**: Included in on-demand pricing.
+
 - **Backup**: Free (Point-in-time recovery).
+
 - **Tổng DynamoDB**: $4-7/tháng.
 
 **Note:** Chi phí có thể tăng nếu:
@@ -708,6 +755,7 @@ Post-deployment: Maintenance & Enhancements.
 **Chiến lược giảm thiểu:**
 
 1. **Chi phí**:
+
     - AWS Budget alerts tại $15, $20.
     - Daily cost monitoring trong Cost Explorer.
     - DynamoDB on-demand (không bị surprise bills).
@@ -716,6 +764,7 @@ Post-deployment: Maintenance & Enhancements.
     - Kill switch để disable data collection nếu vượt budget.
 
 2. **EC2 Availability**:
+
     - CloudWatch alarms cho health checks.
     - Systemd auto-restart services.
     - Health check endpoint.
@@ -723,6 +772,7 @@ Post-deployment: Maintenance & Enhancements.
     - Target: 98-99% uptime (realistic cho single instance).
 
 3. **Scope Creep**:
+
     - Strict MVP definition.
     - Feature freeze sau week 8.
     - "Nice to have" list cho Phase 2.
@@ -731,6 +781,7 @@ Post-deployment: Maintenance & Enhancements.
     - Document 4-table design clearly.
 
 4. **Technical Complexity**:
+
     - Start với simplest solution.
     - Extensive use of AWS documentation.
     - Code review process.
@@ -739,6 +790,7 @@ Post-deployment: Maintenance & Enhancements.
     - Mentor consultation when stuck.
 
 5. **API Rate Limits**:
+
     - Implement exponential backoff.
     - Cache aggressively với Redis.
     - Monitor API usage.
@@ -746,12 +798,14 @@ Post-deployment: Maintenance & Enhancements.
     - Batch operations when possible.
 
 6. **DynamoDB Hot Partitions**:
+
     - Proper partition key design.
     - Write sharding cho high-traffic tables.
     - Monitor CloudWatch metrics cho throttling.
     - Use GSI efficiently.
 
 7. **Team Coordination**:
+
     - Daily standups (15 minutes).
     - Clear task assignments.
     - Git workflow (feature branches, PRs).
@@ -776,12 +830,14 @@ Post-deployment: Maintenance & Enhancements.
 **Technical Deliverables:**
 
 1. **Working Dashboard:**
+
     - 4 main pages: Metrics, Costs, Security, Recommendations.
     - Real data từ AWS services.
     - Responsive design.
     - Basic authentication.
 
 2. **Data Collection System:**
+
     - Background jobs collecting metrics mỗi 5 phút.
     - Cost data updated daily.
     - Security findings updated hourly.
@@ -789,6 +845,7 @@ Post-deployment: Maintenance & Enhancements.
     - Data stored in 4 specialized DynamoDB tables.
 
 3. **Performance:**
+
     - Cached response time: < 300ms (60-80% requests).
     - Uncached response time: < 2 seconds.
     - DynamoDB query time: 10-25ms (typical).
@@ -796,6 +853,7 @@ Post-deployment: Maintenance & Enhancements.
     - Target uptime: 98-99% (single instance).
 
 4. **Cost Analysis:**
+
     - Historical cost trends.
     - Service breakdown charts.
     - AWS Cost Explorer recommendations display.
@@ -803,6 +861,7 @@ Post-deployment: Maintenance & Enhancements.
     - Cost forecasting.
 
 5. **Security Visibility:**
+
     - Security Hub findings dashboard.
     - GuardDuty threat detection.
     - Severity-based filtering using GSI.
@@ -810,6 +869,7 @@ Post-deployment: Maintenance & Enhancements.
     - Compliance status overview.
 
 6. **Recommendations System:**
+
     - Cost optimization suggestions.
     - Performance improvement recommendations.
     - Security enhancement suggestions.
@@ -819,6 +879,7 @@ Post-deployment: Maintenance & Enhancements.
 **Learning Outcomes:**
 
 1. **AWS Services:**
+
     - Hands-on experience với EC2, DynamoDB (advanced), CloudWatch.
     - Cost Explorer API integration.
     - Security Hub và GuardDuty understanding.
@@ -827,6 +888,7 @@ Post-deployment: Maintenance & Enhancements.
     - DynamoDB data modeling best practices.
 
 2. **Full-Stack Development:**
+
     - FastAPI backend development.
     - React frontend development.
     - RESTful API design.
@@ -835,6 +897,7 @@ Post-deployment: Maintenance & Enhancements.
     - Caching strategies.
 
 3. **DevOps:**
+
     - Linux server administration.
     - Nginx configuration.
     - Service management với systemd.
@@ -843,6 +906,7 @@ Post-deployment: Maintenance & Enhancements.
     - Database backup strategies.
 
 4. **Best Practices:**
+
     - Security-first design.
     - Cost optimization.
     - Code organization.

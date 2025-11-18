@@ -1,9 +1,9 @@
 ---
-title: "Event 2"
+title: "Event 5"
 date: "2025-10-06"
 weight: 4
 chapter: false
-pre: " <b> 4.2. </b> "
+pre: " <b> 4.5. </b> "
 ---
 # EVENT REPORT: AI/ML/GenAI on AWS
 

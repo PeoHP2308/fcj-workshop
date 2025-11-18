@@ -13,13 +13,13 @@ pre: " <b> 1.10. </b> "
 * Hiểu rõ luồng hoạt động và mối liên kết giữa các thành phần hệ thống.
 
 ### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
-| --- |----------------------------------------------------------|--------------|-----------------|----------------|
-| 2   | - Lên văn phòng học tập. <br> - Ôn lại cấu trúc project. | 10/11/2025   | 10/11/2025      |                | 
-| 3   | - Xem chi tiết các dịch vụ đã dùng.                      | 11/11/2025   | 11/11/2025      |                |
-| 4   | - Tìm hiểu luồng hoạt động tổng thể.                     | 12/11/2025   | 12/11/2025      |                |
-| 5   | - Kiểm tra mối liên kết giữa các dịch vụ.                | 13/11/2025   | 13/11/2025      |                |
-| 6   | - Tổng kết, ghi chú phần còn chưa rõ.                    | 14/11/2025   | 14/11/2025      |                |
+| Thứ | Công việc                                                                                                               | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+| --- |-------------------------------------------------------------------------------------------------------------------------|--------------|-----------------|----------------|
+| 2   | - Lên văn phòng học tập. <br> - Ôn lại cấu trúc project.                                                                | 10/11/2025   | 10/11/2025      |                | 
+| 3   | - Xem chi tiết các dịch vụ đã dùng.                                                                                     | 11/11/2025   | 11/11/2025      |                |
+| 4   | - Tìm hiểu luồng hoạt động tổng thể.                                                                                    | 12/11/2025   | 12/11/2025      |                |
+| 5   | - Kiểm tra mối liên kết giữa các dịch vụ.                                                                               | 13/11/2025   | 13/11/2025      |                |
+| 6   | - Tổng kết, ghi chú phần còn chưa rõ. <br> - Lên văn phòng dự sự kiện AWS Cloud Mastery Series #1 : AI/ML/GenAI on AWS. | 14/11/2025   | 14/11/2025      |                |
 
 ### Kết quả đạt được tuần 10:
 
@@ -52,5 +52,7 @@ pre: " <b> 1.10. </b> "
     - Tổng kết lại toàn bộ nội dung đã tìm hiểu trong tuần.
 
     - Ghi chú những phần còn chưa rõ để làm rõ hơn trong tuần tới.  
+  
+    - Lên văn phòng dự sự kiện AWS Cloud Mastery Series #1 : AI/ML/GenAI on AWS.
 
 

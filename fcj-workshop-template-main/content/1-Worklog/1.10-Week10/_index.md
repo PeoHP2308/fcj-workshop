@@ -13,13 +13,13 @@ pre: " <b> 1.10. </b> "
 * Understand basic AWS services, how to use the console & CLI.
 
 ### Tasks to be carried out this week:
-| Day | Task                                                         | Start Date | Completion Date | Reference Material |
-| --- |--------------------------------------------------------------|------------|-----------------|--------------------|
-| 2   | - Study at the office. <br> - Review the project structure.  | 10/11/2025 | 10/11/2025      |                    |
-| 3   | - Examine the details of the services used in the project.   | 11/11/2025 | 11/11/2025      |                    |
-| 4   | - Analyze the overall system workflow.                       | 12/11/2025 | 12/11/2025      |                    |
-| 5   | - Check the relationships and dependencies between services. | 13/11/2025 | 13/11/2025      |                    |
-| 6   | - Summarize the week’s findings and note unclear points.     | 14/11/2025 | 14/11/2025      |                    |
+| Day | Task                                                                                                                                              | Start Date | Completion Date | Reference Material |
+| --- |---------------------------------------------------------------------------------------------------------------------------------------------------|------------|-----------------|--------------------|
+| 2   | - Study at the office. <br> - Review the project structure.                                                                                       | 10/11/2025 | 10/11/2025      |                    |
+| 3   | - Examine the details of the services used in the project.                                                                                        | 11/11/2025 | 11/11/2025      |                    |
+| 4   | - Analyze the overall system workflow.                                                                                                            | 12/11/2025 | 12/11/2025      |                    |
+| 5   | - Check the relationships and dependencies between services.                                                                                      | 13/11/2025 | 13/11/2025      |                    |
+| 6   | - Summarize the week’s findings and note unclear points. <br> Attending the AWS Cloud Mastery Series #1: AI/ML/GenAI on AWS event at the office.  | 14/11/2025 | 14/11/2025      |                    |
 
 
 ### Week 10 Achievements:
@@ -54,4 +54,4 @@ pre: " <b> 1.10. </b> "
 
     - Noted unclear areas to clarify in the upcoming week.
 
-
+    - Attending the AWS Cloud Mastery Series #1: AI/ML/GenAI on AWS event at the office.
