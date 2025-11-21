@@ -85,8 +85,8 @@ The event covered the entire DevOps lifecycle, from culture, CI/CD process, infr
 3.  **Implement Observability:** Integrate **CloudWatch Logs** and experiment with **AWS X-Ray** to trace function calls (API calls) within the project to apply monitoring principles from the start.
 ## Event Photos.
 
-![](/images/4-Events/Event1.1.jpg)  
-![](/images/4-Events/Event1.2.jpg)  
-![](/images/4-Events/Event1.3.jpg)  
-![](/images/4-Events/Event1.4.jpg)
+![](/images/4-Events/Event4.1.jpg)
+![](/images/4-Events/Event4.2.jpg)
+![](/images/4-Events/Event4.3.jpg)
+![](/images/4-Events/Event4.4.jpg)
 

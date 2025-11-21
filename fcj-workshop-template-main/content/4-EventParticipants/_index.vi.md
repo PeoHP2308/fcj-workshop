@@ -58,3 +58,13 @@ hay và bổ ích, cùng với đó là nhứng món quà và những khoảnh k
 &emsp;**Địa điểm:** Tầng 26, tòa nhà Bitexco, số 02 đường Hải Triều, phường Sài Gòn, thành phố Hồ Chí Minh
 
 &emsp;**Vai trò trong sự kiện:** Người tham dự 
+
+### [Event 6](4.6-Event6/)
+
+&emsp;**Tên sự kiện:** AWS for SAP Using Generative AI : SAP ABAP capabilities and Amazon Q Developer
+
+&emsp;**Thời gian:** 13:00 PM - 17:00 PM ngày 20/11/2025
+
+&emsp;**Địa điểm:** Tầng 26, tòa nhà Bitexco, số 02 đường Hải Triều, phường Sài Gòn, thành phố Hồ Chí Minh
+
+&emsp;**Vai trò trong sự kiện:** Người tham dự

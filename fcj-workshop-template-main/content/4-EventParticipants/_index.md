@@ -60,3 +60,13 @@ and useful knowledge, along with gifts and wonderful moments.
 &emsp;**Location:** 26th Floor, Bitexco Tower, 02 Hai Trieu Street, Saigon Ward, Ho Chi Minh City
 
 &emsp;**Role:** Attendee 
+
+### [Event 6](4.6-Event6/)
+
+&emsp;**Event Name:** AWS for SAP Using Generative AI : SAP ABAP capabilities and Amazon Q Developer
+
+&emsp;**Time:** 13:00 PM – 5:00 PM ; Thursday, November 20, 2025
+
+&emsp;**Location:** 26th Floor, Bitexco Tower, 02 Hai Trieu Street, Saigon Ward, Ho Chi Minh City
+
+&emsp;**Role:** Attendee 

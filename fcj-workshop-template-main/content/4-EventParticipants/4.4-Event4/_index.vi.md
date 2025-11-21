@@ -86,8 +86,8 @@ Sự kiện đã bao quát toàn bộ vòng đời DevOps, từ văn hóa, quy t
 
 ## Một số hình ảnh khi tham gia sự kiện.
 
-![](/images/4-Events/Event1.1.jpg)
-![](/images/4-Events/Event1.2.jpg)
-![](/images/4-Events/Event1.3.jpg)
-![](/images/4-Events/Event1.4.jpg)
+![](/images/4-Events/Event4.1.jpg)
+![](/images/4-Events/Event4.2.jpg)
+![](/images/4-Events/Event4.3.jpg)
+![](/images/4-Events/Event4.4.jpg)
 
